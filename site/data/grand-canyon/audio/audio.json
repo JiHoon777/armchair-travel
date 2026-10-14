@@ -1,0 +1,85 @@
+{
+ "ambient": {
+  "file": "ambient.mp3",
+  "duration_s": 180.0,
+  "loop": true,
+  "lufs": -23.0,
+  "true_peak_dbfs": -4.2,
+  "sample_rate": 44100,
+  "samples": 7938000,
+  "bitrate_kbps": 128,
+  "loop_hint": "decode with Web Audio and loop the AudioBuffer; the seam is crossfaded. If buffer.duration is more than ~10 ms longer than duration_s (the decoder ignored the gapless header), set loopStart = mp3_gapless.priming_samples / sample_rate (seconds) and loopEnd = loopStart + duration_s.",
+  "mp3_gapless": {
+   "frames": 6892,
+   "priming_samples": 1105,
+   "padding_samples": 479
+  },
+  "layers_ko": [
+   "바람(바탕)",
+   "먼 강물(낮게)",
+   "협곡굴뚝새 노래 3번",
+   "큰까마귀 울음 2번"
+  ],
+  "events_s": [
+   {
+    "t": 22.0,
+    "what": "canyon wren"
+   },
+   {
+    "t": 51.0,
+    "what": "common raven"
+   },
+   {
+    "t": 88.0,
+    "what": "canyon wren"
+   },
+   {
+    "t": 119.0,
+    "what": "common raven"
+   },
+   {
+    "t": 147.0,
+    "what": "canyon wren"
+   }
+  ],
+  "credit": {
+   "title": "그랜드캐니언 가장자리를 떠올린 소리 (여러 곳의 녹음을 섞음)",
+   "author": "National Park Service (J. Job; Grand Canyon NP), craigsmith (Freesound)",
+   "license": "Public domain (NPS) + CC0 1.0",
+   "url": "https://www.nps.gov/romo/learn/photosmultimedia/soundlibrary.htm",
+   "attribution": "Sounds: National Park Service (public domain); canyon wren by craigsmith, Freesound #479615 (CC0)",
+   "sources": [
+    {
+     "title": "Wind Soundscape from Gem Lake (Rocky Mountain National Park Sound Library)",
+     "author": "National Park Service / J. Job (2016-05-25)",
+     "license": "Public domain (NPS: 'The recordings found here are in the public domain')",
+     "url": "https://www.nps.gov/romo/learn/photosmultimedia/sounds-ambient-soundscapes.htm",
+     "attribution": "National Park Service (Rocky Mountain NP Sound Library, J. Job)"
+    },
+    {
+     "title": "Grand Canyon Natural Sound: Bass Rapid",
+     "author": "National Park Service, Grand Canyon National Park",
+     "license": "Public domain (NPS media credited to NPS without a copyright symbol)",
+     "url": "https://www.nps.gov/media/video/view.htm?id=8B2C055B-6036-417E-9233-123283EF8163",
+     "attribution": "National Park Service, Grand Canyon National Park"
+    },
+    {
+     "title": "Common Raven (call), Moraine Park Campground (Rocky Mountain National Park Sound Library)",
+     "author": "National Park Service / J. Job (2015-06-24)",
+     "license": "Public domain (NPS: 'The recordings found here are in the public domain')",
+     "url": "https://www.nps.gov/romo/learn/photosmultimedia/sounds-commonraven.htm",
+     "attribution": "National Park Service (Rocky Mountain NP Sound Library, J. Job)"
+    },
+    {
+     "title": "R30-39-Canyon Wren Sings.wav",
+     "author": "craigsmith (Freesound)",
+     "license": "CC0 1.0",
+     "url": "https://freesound.org/people/craigsmith/sounds/479615/",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "attribution": "craigsmith, Freesound #479615 (CC0)"
+    }
+   ],
+   "modified_ko": "바람과 큰까마귀는 로키산맥 국립공원, 강물은 그랜드캐니언 배스 급류, 협곡굴뚝새는 Freesound 녹음입니다. 3분 반복 구간으로 섞었습니다."
+  }
+ }
+}

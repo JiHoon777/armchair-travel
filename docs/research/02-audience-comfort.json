@@ -1,0 +1,322 @@
+[
+  {
+    "id": "panorama-1793",
+    "kind": "history",
+    "title_ko": "1793년 런던 파노라마 상설관",
+    "evidence_ko": "1787년 Barker 특허, 1793년 레스터 스퀘어 원형 건물에 360° 그림. 약 70년 운영 뒤 1863년 폐관.",
+    "source_url": "https://en.wikipedia.org/wiki/Panorama",
+    "implication_ko": "둘러싸는 넓은 시야가 그곳에 선 느낌을 만든다. 첫 장면은 넓게 연다."
+  },
+  {
+    "id": "stereo-travel-system",
+    "kind": "history",
+    "title_ko": "입체경 여행 세트 = 그림 + 해설 + 지도",
+    "evidence_ko": "Underwood & Underwood 1901년 연 약 30만 장. 카드 상자, 해설서, 촬영 지점 지도를 묶어 팔았다(이 URL은 나라별 상자만 적었고, 해설서·지도는 Smithsonian 안내의 검색 요약). 카탈로그: travel not for the body, but for the mind.",
+    "source_url": "https://omeka.lib.jmu.edu/389/exhibits/show/madelaine-stanley/collection/stereograph_publishers",
+    "implication_ko": "장면, 해설, 지도 세 가지를 한 묶음으로 설계한다."
+  },
+  {
+    "id": "hales-tours-decline",
+    "kind": "history",
+    "title_ko": "Hale's Tours의 흥망",
+    "evidence_ko": "1905년 캔자스시티 첫선, 1906~1911년 미국·캐나다 약 500곳. 새 필름 부족, 드문 교체, 좁은 곳에서 흔들리는 불편으로 쇠퇴.",
+    "source_url": "https://en.wikipedia.org/wiki/Hale%27s_Tours_of_the_World",
+    "implication_ko": "콘텐츠를 꾸준히 갱신하고, 몸이 불편한 움직임은 처음부터 뺀다."
+  },
+  {
+    "id": "vr-presence-intention",
+    "kind": "motivation",
+    "title_ko": "가상 체험은 방문 의향을 높인다",
+    "evidence_ko": "Tussyadiah 외 2018, 홍콩 202명·영국 724명. 거기 있는 느낌이 클수록 즐거움과 장소 호감이 커지고, 호감이 방문 의향을 높였다.",
+    "source_url": "https://research.polyu.edu.hk/en/publications/virtual-reality-presence-and-attitude-change-empirical-evidence-f/",
+    "implication_ko": "대체 여행보다 미리 보기로 자리 잡는다. 실제 방문 정보는 덤으로 붙인다."
+  },
+  {
+    "id": "virtual-sentiment-fades",
+    "kind": "motivation",
+    "title_ko": "팬데믹 대용 감정은 식었다",
+    "evidence_ko": "Zhang 외 2022: 가상 여행 감정은 대부분 긍정이지만 세기가 시간이 갈수록 약해지고 보완 가치도 줄었다(검색 요약). 대체·자극 연구 결과는 엇갈린다.",
+    "source_url": "https://doi.org/10.1016/j.tourman.2021.104429",
+    "implication_ko": "못 가니까 본다가 아니라 쉬기·배우기·미리 보기·추억 동기에 기댄다."
+  },
+  {
+    "id": "older-adults-care",
+    "kind": "audience",
+    "title_ko": "요양 시설 노인과 추억",
+    "evidence_ko": "Fiocco 외 2021: 18명(7명 중도 탈락), VR 헤드셋 360° 영상, 주 3회 6주, 대조군 없는 예비 연구. 회기 직후 불안·피로 감소, 참여와 삶의 질 상승. 참가자는 6~10분 영상이 짧다고 했다(원문 확인). 영국 요양원 2023: 더 갈 수 없는 곳을 다시 보고 회상(검색 요약).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8136674/",
+    "implication_ko": "큰 글씨, 단순 조작, 느린 카메라, 보호자가 틀어 줄 수 있는 모드, 장소 검색으로 가 본 곳 찾기."
+  },
+  {
+    "id": "disability-access",
+    "kind": "audience",
+    "title_ko": "이동 장애인",
+    "evidence_ko": "2023 Leisure Studies(데이터 없는 개념 논문): 장애인이 가상 관광을 가장 많이 쓸 '수도 있는' 집단이라고 전제했다. 2026 연구: 실제 여행의 다감각 경험을 다 대신하진 못한다(검색 요약).",
+    "source_url": "https://doras.dcu.ie/33013/",
+    "implication_ko": "접근성 기준을 처음부터 지키고, 소리로 감각의 빈자리를 줄인다."
+  },
+  {
+    "id": "pre-trip-video",
+    "kind": "audience",
+    "title_ko": "여행 전 미리 보기",
+    "evidence_ko": "Google·Ipsos 2013~2014: 여행자 약 3분의 2가 여행을 생각하거나 목적지를 고를 때 온라인 영상을 본다(검색 요약, 오래된 자료).",
+    "source_url": "https://www.phocuswire.com/How-video-influences-travel-decisions",
+    "implication_ko": "장소마다 좋은 계절, 가는 길 같은 짧은 실용 정보를 덧붙인다."
+  },
+  {
+    "id": "windowswap-calm",
+    "kind": "audience",
+    "title_ko": "그냥 쉬고 싶은 사람",
+    "evidence_ko": "WindowSwap 2020: 제출 약 6,000편 중 130편만 게시(검색 요약). 사이트 제목 the calmest place on the internet(2026-10-13 확인).",
+    "source_url": "https://www.window-swap.com/",
+    "implication_ko": "고요함 자체가 상품이다. 화면을 비우고 조용하게 둔다."
+  },
+  {
+    "id": "ulrich-window-1984",
+    "kind": "restoration",
+    "title_ko": "창밖 나무와 수술 회복",
+    "evidence_ko": "Ulrich 1984, 23쌍: 입원 7.96일 vs 8.70일, 부정적 간호 기록 1.13건 vs 3.96건, 2~5일째 강한 진통제 적음. 후향 연구, 비교 대상은 벽돌 벽.",
+    "source_url": "https://www.wrrc.arizona.edu/sites/default/files/ulrich-view%20through%20a%20window.pdf",
+    "implication_ko": "자연을 보는 효과는 40년 된 근거가 있다. 다만 효과를 과장하지 않는다."
+  },
+  {
+    "id": "simulated-nature-meta",
+    "kind": "restoration",
+    "title_ko": "모의 자연 메타분석: 화면의 효과는 작다",
+    "evidence_ko": "Li 외 2023, 26편(28연구): 긍정 정서 +0.40, 스트레스 −0.38, 불안 −0.72. 긍정 정서는 모니터·TV(낮은 몰입) 0.27, 앉아서 머리만 돌려 보는 HMD(중간 몰입) 0.86, HMD+몸 추적으로 걸어 다님(높은 몰입) 0.24, 무리마다 4편. 노출은 주로 5분·15분, 1회 노출 길이는 유의한 조절 변인이 아니었다(11편). 모든 연구가 비뚤림 위험 중간~높음.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9869155/",
+    "implication_ko": "치유가 아니라 잠깐 쉬기로 말한다. 화면은 효과가 작은 쪽이다. 헤드셋을 미루는 것은 범위 결정이지 근거가 받치는 결정이 아니다."
+  },
+  {
+    "id": "real-beats-virtual",
+    "kind": "restoration",
+    "title_ko": "실제 자연이 가상보다 낫다",
+    "evidence_ko": "Browning 외 2020 메타분석 6편: 긍정 정서는 실제 자연에서만 올랐다(g=0.87). 부정 정서 차이는 작고 유의하지 않음(g=−0.28).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7554239/",
+    "implication_ko": "실제 여행을 대신한다고 홍보하지 않는다."
+  },
+  {
+    "id": "interactive-cgvr",
+    "kind": "restoration",
+    "title_ko": "헤드셋에서 직접 움직이면 기분이 더 올랐다",
+    "evidence_ko": "Yeo 외 2020, 96명, 5분: TV·360° VR·상호작용 CG 모두 지루함과 부정 정서 감소. 상호작용 CG만 긍정 정서가 TV와 360° VR보다 더 올랐고, 실재감과 자연 연결감이 매개했다. 두 VR 모두 헤드셋이었고 CG는 손 컨트롤러로 움직였다. 360° VR은 TV와 비슷했다. 평면 화면 상호작용은 시험하지 않았다.",
+    "source_url": "https://doi.org/10.1016/j.jenvp.2020.101500",
+    "implication_ko": "틀어 두기 위에 손대면 둘러보기를 얹는다. 평면 화면에서도 효과가 나는지는 따로 확인해야 한다(해석)."
+  },
+  {
+    "id": "plasma-window",
+    "kind": "restoration",
+    "title_ko": "실시간 HD 창은 빈 벽보다 낫지 않았다",
+    "evidence_ko": "Kahn 외 2008, 90명: 심박 회복에서 유리창은 빈 벽보다 나았고, 같은 풍경의 실시간 HDTV 창은 빈 벽보다 낫지 않았다.",
+    "source_url": "https://natureandhealth.uw.edu/?p=6739",
+    "implication_ko": "화질 경쟁보다 소리, 상호작용, 이야기로 거기 있는 느낌을 만든다."
+  },
+  {
+    "id": "natural-sound",
+    "kind": "restoration",
+    "title_ko": "자연 소리만으로도 효과가 있다",
+    "evidence_ko": "Buxton 외 2021, 36편 중 18편 메타: 스트레스·짜증 g=−0.60, 건강·긍정 정서 g=1.63(95% CI 0.09~3.16, 한 연구가 크게 끌어올림). 61%가 실험실·병원 연구. 물은 긍정, 새는 스트레스 완화(원문 확인, 새소리는 2편뿐). Annerstedt 2013: 소리 없는 가상 숲은 대조군과 같음(초록 확인).",
+    "source_url": "https://doi.org/10.1073/pnas.2013097118",
+    "implication_ko": "장면마다 물·새·바람 소리를 기본으로 단다. 무음은 예외로 둔다."
+  },
+  {
+    "id": "srt-replication-2026",
+    "kind": "restoration",
+    "title_ko": "2026 다기관 재현은 부분 확인",
+    "evidence_ko": "Van den Berg 외 2026, 10개 팀 959명: 심리 회복은 자연 영상이 컸고, 생리는 부교감 쪽만 맞았다. 큰 물소리의 시냇물 영상은 결과가 달랐다.",
+    "source_url": "https://research.vu.nl/en/publications/psychophysiological-recovery-from-viewing-nature-and-urban-settin/",
+    "implication_ko": "물소리는 작게 둔다. 효과를 단정하지 않는다."
+  },
+  {
+    "id": "bbc-awe-2017",
+    "kind": "restoration",
+    "title_ko": "자연 다큐는 경외감과 기쁨을 올린다",
+    "evidence_ko": "BBC Earth·UC Berkeley 2017, 6개국 7,500명 이상: Planet Earth II 클립이 경외·호기심·기쁨을 올리고 분노·스트레스·피로를 낮췄다. 자기보고 온라인 조사이고, 기사에 의뢰 주체와 동료 심사 여부는 없다.",
+    "source_url": "https://news.berkeley.edu/2017/03/16/nature-videos/",
+    "implication_ko": "대협곡·빙하 같은 경외의 순간을 장면의 정점으로 쓴다."
+  },
+  {
+    "id": "slow-tv-reach",
+    "kind": "lean_back",
+    "title_ko": "편집 없는 7시간을 124만 명이 봤다",
+    "evidence_ko": "NRK 베르겐 철도 2009: 평균 17만 6천 명, 일부라도 본 사람 124만 6천 명(인구 약 20%). Hellum: it gives the viewer a possibility to take back some of the control.",
+    "source_url": "https://en.wikipedia.org/wiki/Slow_television",
+    "implication_ko": "끊기지 않는 긴 여정 한 편을 기본 콘텐츠로 둔다."
+  },
+  {
+    "id": "youtube-ambience",
+    "kind": "lean_back",
+    "title_ko": "배경으로 틀어 두는 영상",
+    "evidence_ko": "study with me 제목 영상 2023년 5.2억 뷰. 앰비언스 채널은 끝없는 스트림과 긴 재생, 반복 영상을 우선하고 Soothing Relaxation은 누적 48억 뷰(2025-12-05).",
+    "source_url": "https://blog.youtube/culture-and-trends/ambient-music/",
+    "implication_ko": "작업 중 두 번째 화면이나 거실 TV에서도 거슬리지 않게 만든다."
+  },
+  {
+    "id": "apple-aerials-measured",
+    "kind": "lean_back",
+    "title_ko": "Apple TV 에어리얼은 한 편 약 5분",
+    "evidence_ko": "자체 측정 114편(풍경 41·도시 30·우주 22·수중 21): 길이 중앙값 298초(풍경 384초), 최소 60초·최대 906초. 4K SDR 파일 중앙값 349 MB, 8.3 Mbps. 인코딩은 약 8.2·12.4 Mbps 두 단계이고 풍경·수중 중앙값은 12.35 Mbps(시간당 약 5.6 GB). 2022년 목록(2026-10-13 재측정으로 같은 값 확인).",
+    "source_url": "https://sylvan.apple.com/Aerials/resources-15.tar",
+    "implication_ko": "장면은 3~6분. 장소 이름은 탭하면 보이고, 새 장면은 정기적으로 더한다."
+  },
+  {
+    "id": "sickness-speed-rotation",
+    "kind": "camera",
+    "title_ko": "회전과 속도가 멀미를 키운다",
+    "evidence_ko": "Hu 외 1989, 60명(한 사람이 한 속도만 봄): 시야를 둘러싼 회전 드럼 초당 60°까지 증상 증가. So 외 2001, 중국 남성 96명, 몰입형 가상 환경 30분: 전진 속도 3→10 m/s에서 메스꺼움 증가, 그 위로는 비슷.",
+    "source_url": "https://ntrs.nasa.gov/citations/19890051217",
+    "implication_ko": "자동 카메라 회전은 느리게 둔다(출발값 초당 10° 이하, 해석)."
+  },
+  {
+    "id": "flat-screen-sickness",
+    "kind": "camera",
+    "title_ko": "평면 화면도 멀미가 난다",
+    "evidence_ko": "Stoffregen 외 2008, 대학생 40명: 시판 콘솔 게임 최대 50분에 멀미 42~56%. 화면 거리를 바꿔도 차이 없음.",
+    "source_url": "https://doi.org/10.1518/001872008X250755",
+    "implication_ko": "데스크톱·모바일도 사람 대상 멀미 테스트를 한다."
+  },
+  {
+    "id": "comfort-guidelines",
+    "kind": "camera",
+    "title_ko": "등속, 수평선, 짧은 가속",
+    "evidence_ko": "Meta 2025-12-17: 가속은 짧고 드물게, 걷기·달리기 속도, 비네트. Google 터널링(2019년에 멈춘 보관 문서): 일정한 속도, 수평선 유지, 회전 때 시야를 좁게, TV는 방이 고정 배경이 된다.",
+    "source_url": "https://developers.google.com/vr/elements/tunneling",
+    "implication_ko": "카메라 경로 생성기에 속도·가속·롤 상한을 상수로 둔다."
+  },
+  {
+    "id": "doc-aerial-conventions",
+    "kind": "camera",
+    "title_ko": "다큐·에어리얼의 촬영 관습",
+    "evidence_ko": "설정 숏으로 시작, 자이로 안정화 항공(rock-steady), 골든 아워(붉고 부드러운 빛, 긴 그림자), Earth Studio 5종 궤적(줌 투·점 대 점·궤도·나선·날아가서 궤도).",
+    "source_url": "https://earth.google.com/studio/docs/the-basics/quick-starts/",
+    "implication_ko": "장면은 넓은 설정 숏, 천천히 다가가기, 궤도 순서로 짠다. 시간대는 해 뜰 녘·해 질 녘을 우선한다."
+  },
+  {
+    "id": "lanseon-small-scale",
+    "kind": "korea",
+    "title_ko": "랜선 라이브 투어는 작았다",
+    "evidence_ko": "경북 2021-08: 유료 437명(37개국), 무료 라이브 누적 2,746뷰. 마이리얼트립 2020-11 바르셀로나 상품 후기 64개(약 5주).",
+    "source_url": "https://kbmaeil.com/article/202108090313490",
+    "implication_ko": "실시간 가이드 형식은 따라 하지 않는다."
+  },
+  {
+    "id": "lanseon-temporary",
+    "kind": "korea",
+    "title_ko": "일시적 해소로 인식된 랜선여행",
+    "evidence_ko": "경향 2021-07 MZ 방담 5명: 기사는 모두 부정적이었다고 요약(본문에서 분명한 부정은 2명, 1명은 보완 관계로 봄). 랜선여행이 대면 여행을 대체할 수는 없다. 2025-04: 엔데믹 이후 인기가 빠르게 식었고, 남은 역할은 여정을 설계하는 프롤로그.",
+    "source_url": "https://www.khan.co.kr/article/202107212034005",
+    "implication_ko": "랜선여행 대신 다른 이름을 쓰고, 쉬는 창과 미리 보기로 소개한다."
+  },
+  {
+    "id": "korean-formats",
+    "kind": "korea",
+    "title_ko": "한국은 사람 목소리가 있는 여행 영상을 본다",
+    "evidence_ko": "걸어서 세계속으로(2005~) 6~9%대, 태계일주 최고 6.1%, 톡파원 25시 3.4%(2025-03-31)(검색 요약). 블링 2023-04: 빠니보틀 161만, 곽튜브 143만.",
+    "source_url": "https://vling.net/post/223060126977",
+    "implication_ko": "담담한 해설 글과 선택형 음성을 붙이고, 크리에이터 예능과는 경쟁하지 않는다."
+  },
+  {
+    "id": "korean-destinations",
+    "kind": "korea",
+    "title_ko": "한국인 관심 자연의 신호",
+    "evidence_ko": "한국인 대상 자연 경관 설문은 못 찾음. 스카이스캐너 2024: 달랏·오키나와·삿포로. 몽골 패키지 +392%(2023)·+73.2%(2024). 세계 버킷리스트 1위 오로라(Skyhook 2024). 모두 검색 요약.",
+    "source_url": "https://www.hankyung.com/article/202502207488g",
+    "implication_ko": "오로라, 몽골 초원의 밤하늘, 홋카이도 설경을 첫 장소 후보로 트랙 03과 맞춰 본다."
+  },
+  {
+    "id": "rule-first-view-3s",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 1. 3초 안에 첫 풍경",
+    "evidence_ko": "3초 넘으면 모바일 방문의 53%가 떠날 가능성(Google 2016-09, 모바일 사이트 3,700개의 2016-03 자료, 관찰 통계). 1→3초 이탈 +32%(2017, 검색 요약). 10초 넘으면 주의 이탈(NN/g, 검색 요약).",
+    "source_url": "https://blog.google/products/admanager/the-need-for-mobile-speed/",
+    "implication_ko": "첫 프레임은 가벼운 정지 이미지로 1초 안에, 움직임은 3초 안에. 고해상도 지형은 뒤에서 채운다."
+  },
+  {
+    "id": "rule-lean-back-default",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 2. 기본은 틀어 두기, 둘러보기는 손대면",
+    "evidence_ko": "슬로 TV 124만 명, 통제권을 돌려준다는 제작자 말. 배경 시청 영상 5.2억 뷰. 헤드셋 속 상호작용 CG가 긍정 정서를 TV보다 더 올림(Yeo 2020, 평면 화면은 미검증).",
+    "source_url": "https://www.npr.org/transcripts/490624719",
+    "implication_ko": "들어오면 자동 비행. 끌거나 터치하면 자유 시점, 손을 떼면 잠시 뒤 자동 경로로 부드럽게 돌아간다."
+  },
+  {
+    "id": "rule-scene-length",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 3. 한 장면 3~6분, 한 번에 5~15분",
+    "evidence_ko": "Apple 에어리얼 중앙값 298초, 풍경 384초(자체 측정). 회복 연구의 노출은 주로 5분·15분, 1회 노출 길이는 유의한 조절 변인이 아니었다(Li 2023, 11편). 요양 시설 노인은 6~10분 영상이 짧다고 했다(Fiocco 2021).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9869155/",
+    "implication_ko": "장소 하나에 장면 3~5개. 끝나면 다음 장소로 조용히 이어진다."
+  },
+  {
+    "id": "rule-camera-steady",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 4. 카메라는 등속·수평·느린 회전",
+    "evidence_ko": "초당 60°까지 멀미 증가(Hu 1989), 3→10 m/s 멀미 증가(So 2001), 일정한 속도와 수평선 유지(Google), 걷기·달리기 속도(Meta).",
+    "source_url": "https://developers.google.com/vr/elements/tunneling",
+    "implication_ko": "롤 0°, 요 회전 출발값 초당 10° 이하(해석), 땅 가까이에선 걷기~달리기 속도. 시청 테스트로 다듬는다."
+  },
+  {
+    "id": "rule-soft-transitions",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 5. 가속과 전환은 짧고 드물게",
+    "evidence_ko": "Meta: Keep acceleration events brief and infrequent. 평면 화면 콘솔 게임 멀미 42~56%. Hale's Tours는 흔들림 불편으로 쇠퇴.",
+    "source_url": "https://developers.meta.com/horizon/design/locomotion-best-practices/",
+    "implication_ko": "출발·정지 1~2초 이징, 장소 사이는 컷 대신 짧은 페이드(해석). 흔들림 효과는 넣지 않는다."
+  },
+  {
+    "id": "rule-sound-after-click",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 6. 소리는 첫 클릭 뒤, 자연음은 작게",
+    "evidence_ko": "Chrome은 무음 자동 재생만 늘 허용, Safari는 소리 있는 자동 재생을 기본 차단. 자연음 g=−0.60(스트레스). 무음 가상 숲 효과 없음. 큰 물소리 반례(2026).",
+    "source_url": "https://developer.chrome.com/blog/autoplay",
+    "implication_ko": "들어가기 버튼 한 번에 소리와 전체 화면을 켠다. 물·새·바람 소리를 기본, 큰 폭포·파도는 볼륨을 낮춘다."
+  },
+  {
+    "id": "rule-idle-hide-ui",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 7. UI는 가만히 두면 숨고 건드리면 바로",
+    "evidence_ko": "Apple TV 에어리얼: 누르면 장소 이름, 좌우로 밀면 다음 장소. 전체 화면 컨트롤은 쉽게 다시 꺼낼 수 있어야 한다(Apple HIG, 검색 요약).",
+    "source_url": "https://support.apple.com/en-us/106002",
+    "implication_ko": "몇 초(출발값 3초, 해석) 입력이 없으면 메뉴와 글을 숨긴다. 장소 이름은 탭, 다음 장소는 좌우 스와이프."
+  },
+  {
+    "id": "rule-pause-reduced-motion",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 8. 멈춤과 동작 줄이기를 지킨다",
+    "evidence_ko": "WCAG 2.2.2(A): 저절로 5초 넘게 움직이고 다른 내용과 함께 보이는 것은 멈출 수 있어야 한다. prefers-reduced-motion으로 기기 설정을 읽는다. 미국 40세 이상 35.4% 전정 이상(균형 검사 기준이라 화면 멀미 민감도와 다름, 초록 확인).",
+    "source_url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+    "implication_ko": "언제나 닿는 멈춤 버튼과 스페이스 키. 동작 줄이기면 비행 대신 정지 장면과 느린 디졸브."
+  },
+  {
+    "id": "rule-readable-text",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 9. 설명은 읽히게, 낭독기가 읽게",
+    "evidence_ko": "WCAG 1.4.3(AA): 대비 4.5:1, 배경 이미지 위 대비 부족은 실패. 캔버스 내용은 보조 기술에 드러나지 않는다(MDN). WCAG 1.2.2(A): 자막.",
+    "source_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "implication_ko": "풍경 위 글은 반투명 바탕을 깔고, 글은 캔버스 밖 HTML로 둔다. 해설 음성에는 자막을 단다."
+  },
+  {
+    "id": "rule-save-data",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 10. 데이터를 아낀다",
+    "evidence_ko": "Apple 에어리얼 4K는 시간당 약 3.7 GB(전체 중앙값 8.3 Mbps), 풍경만은 약 5.6 GB(12.35 Mbps)(자체 측정). Netflix 4K 시간당 최대 7 GB. saveData는 지원이 제한적(Chromium).",
+    "source_url": "https://help.netflix.com/en/node/87",
+    "implication_ko": "기본 화질은 중간, 4K와 고해상 지형은 선택. 데이터 절약이 켜져 있으면 정지 장면 위주로."
+  },
+  {
+    "id": "rule-wake-lock",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 11. 틀어 두기 중에만 화면을 깨워 둔다",
+    "evidence_ko": "Screen Wake Lock API는 화면 꺼짐·어두워짐을 막고 2025년 3월부터 주요 브라우저 공통. HTTPS 필요, 페이지가 숨겨지면 자동 해제.",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Screen_Wake_Lock_API",
+    "implication_ko": "자동 재생 중에만 요청하고 멈추면 놓는다. 탭에 돌아오면 다시 요청한다."
+  },
+  {
+    "id": "rule-refresh-scenes",
+    "kind": "comfort_rule",
+    "title_ko": "규칙 12. 새 장면을 꾸준히 더한다",
+    "evidence_ko": "Hale's Tours는 새 필름 부족으로 시들었다. 가상 여행 감정은 시간이 갈수록 약해졌다(검색 요약). Apple은 tvOS 13·15 등 업데이트마다 에어리얼을 더했다.",
+    "source_url": "https://www.apple.com/newsroom/2019/06/tvos-13-powers-the-most-personal-cinematic-experience-ever/",
+    "implication_ko": "정기적으로 장소를 더하고, 새로 들어온 곳을 첫 화면에 둔다."
+  }
+]

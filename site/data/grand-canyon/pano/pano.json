@@ -1,0 +1,43 @@
+{
+ "file": "pano_4k.jpg",
+ "file_mobile": "pano_2k.jpg",
+ "width": 4096,
+ "height": 2048,
+ "projection": "equirectangular",
+ "yaw_convention": "yaw_deg = x / width * 360 from the left edge; heading = (yaw_deg - north_yaw_deg) mod 360, clockwise from above",
+ "initial_yaw_deg": 300.0,
+ "auto_arc_deg": [
+  162,
+  378
+ ],
+ "auto_arc_note": "Photo yaws (from the left edge, past 360 wraps) where the canyon fills the view below the horizon: x 0.45-1.0 and 0.0-0.05 of the 2k image. The automatic turn keeps the view centre inside this arc minus half the screen width; dragging still turns all the way round.",
+ "initial_heading_deg": 349.5,
+ "north_yaw_deg": 310.5,
+ "north_method": "DEM skyline match (west-wall end 310.7, North Rim profile 311.6) + sun azimuth at capture time (308.4); about ±1.5 deg",
+ "horizon_leveled": {
+  "tilt_deg": 2.03,
+  "was_high_at_yaw_deg": 175.6,
+  "method": "photo skyline vs DEM skyline, sinusoid fit"
+ },
+ "location": {
+  "name_ko": "그랜저 포인트",
+  "name_en": "Grandeur Point",
+  "lat": 36.06464,
+  "lon": -112.12202,
+  "elev_m": 2147,
+  "source": "USGS GNIS 5229 (summit point; the camera stood on the rim edge within ~50 m)"
+ },
+ "taken": "2018-08-18",
+ "taken_local_time": "15:03 MST",
+ "camera": "RICOH THETA S",
+ "people_visible": true,
+ "credit": {
+  "title": "Grandeur Point - Grand Canyon National Park - R0010513",
+  "author": "Grand Canyon NPS (NPS/M. Quinn)",
+  "license": "CC BY 2.0 (on Flickr); also public domain in the U.S. as an NPS work (PD-USGov-NPS on Commons)",
+  "url": "https://commons.wikimedia.org/wiki/File:Grandeur_Point_-_Grand_Canyon_National_Park_-_R0010513_(29201417827).jpg",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://www.flickr.com/photos/grand_canyon_nps/29201417827/",
+  "attribution": "Grandeur Point, Grand Canyon National Park — Grand Canyon NPS (NPS/M. Quinn), CC BY 2.0"
+ }
+}

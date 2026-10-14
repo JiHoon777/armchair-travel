@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>지금 거기 시제품</title>
+<meta name="description" content="집에서 세계의 자연 경관을 보는 시제품. 지구본에서 그랜드캐니언으로 내려가 천천히 날고, 이야기를 겹겹이 펼칩니다.">
+<meta name="theme-color" content="#0B1026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&amp;family=Gowun+Batang:wght@700&amp;family=Gowun+Dodum&amp;display=swap" media="print" id="gfonts">
+<link rel="stylesheet" href="css/app.css">
+<script>
+  // Collect errors into the page so headless checks (--dump-dom) and testers can read them.
+  (function () {
+    var log = [];
+    window.__armchairErrors = log;
+    function put(kind, msg) {
+      log.push(kind + ': ' + msg);
+      var el = document.getElementById('errlog');
+      if (el) { el.textContent = log.join('\n'); el.setAttribute('data-count', String(log.length)); }
+    }
+    window.addEventListener('error', function (e) {
+      put('error', (e.message || (e.target && (e.target.src || e.target.href)) || 'unknown') + (e.filename ? ' @ ' + e.filename + ':' + e.lineno : ''));
+    }, true);
+    window.addEventListener('unhandledrejection', function (e) {
+      var r = e.reason; put('rejection', (r && (r.stack || r.message)) || String(r));
+    });
+    // the font stylesheet starts as media=print so it never blocks the first frame
+    var gf = document.getElementById('gfonts');
+    if (gf) { if (gf.sheet) gf.media = 'all'; else gf.addEventListener('load', function () { gf.media = 'all'; }); }
+    var ce = console.error;
+    console.error = function () { put('console.error', Array.prototype.map.call(arguments, String).join(' ')); return ce.apply(console, arguments); };
+    // If the 3D code cannot load (three.js from jsDelivr blocked, offline) or nothing has drawn after
+    // a while, say so in the boot screen with a retry button instead of a dot that pulses forever.
+    var bootMsg = function (text) {
+      if (window.__armchairBooted) return;
+      var b = document.getElementById('boot');
+      if (!b || b.getAttribute('data-msg') === text) return;
+      b.setAttribute('data-msg', text);
+      b.removeAttribute('aria-hidden');
+      b.setAttribute('role', 'alert');
+      b.innerHTML = '';
+      var p = document.createElement('p'); p.className = 'boot-msg'; p.textContent = text;
+      var r = document.createElement('button'); r.type = 'button'; r.className = 'btn btn-primary'; r.textContent = '다시 시도';
+      r.addEventListener('click', function () { location.reload(); });
+      b.appendChild(p); b.appendChild(r);
+    };
+    window.addEventListener('error', function (e) {
+      var t = e.target;
+      if (t && t.tagName === 'SCRIPT' && t.type === 'module') bootMsg('3D 화면에 필요한 파일을 받지 못했습니다. 인터넷 연결을 확인하고 다시 시도해 주세요.');
+      else if (e.filename && /three\.module\.js|\/js\/main\.js/.test(e.filename) && !window.__armchairBooted) bootMsg('3D 화면을 여는 중에 문제가 생겼습니다. 다시 시도해 주세요.');
+    }, true);
+    setTimeout(function () { bootMsg('아직 불러오는 중입니다. 연결이 느리거나 막혀 있을 수 있습니다.'); }, 12000);
+  })();
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  }
+}
+</script>
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" crossorigin>
+</head>
+<body class="is-home">
+<canvas id="gl" aria-label="그랜드캐니언 풍경" role="img"></canvas>
+<div id="fade" class="fade" aria-hidden="true"></div>
+<div id="boot" class="boot" aria-hidden="true"><span class="boot-dot"></span></div>
+
+<main id="home" class="home">
+  <header class="brand">
+    <h1 class="brand-title">지금 거기</h1>
+    <p class="brand-sub">집에서 보는 세계의 자연 <span class="brand-tag">가제 · 시제품</span></p>
+  </header>
+  <div id="pins" class="pins" role="group" aria-label="지구본 위 장소"></div>
+  <section class="panel" aria-labelledby="sunlist-h">
+    <div id="ready-place" class="ready-place" role="group" aria-label="지금 볼 수 있는 곳"></div>
+    <div class="panel-head">
+      <h2 id="sunlist-h">지금 해 뜨는 곳</h2>
+      <p class="panel-sub" id="sunlist-sub">곧 들어올 곳 가운데, 해 뜰 때가 가까운 곳</p>
+    </div>
+    <ol id="sunlist" class="sunlist" aria-labelledby="sunlist-h"></ol>
+    <div class="home-actions">
+      <button id="btn-play" class="btn btn-primary" type="button" aria-describedby="play-sub"><span class="btn-main">그냥 틀어 두기 <span aria-hidden="true">▶</span></span><span id="play-sub" class="btn-sub">소리는 작게 납니다</span></button>
+      <button id="btn-enter" class="btn btn-ghost" type="button">들어가기 · 전체 화면</button>
+    </div>
+    <p class="home-note">지금은 그랜드캐니언만 볼 수 있습니다. 한 곳에 약 12분입니다.</p>
+    <p class="home-note-short">그랜드캐니언 한 곳 · 약 12분</p>
+  </section>
+  <footer class="home-foot">
+    <button id="btn-credits-home" class="link" type="button">출처와 크레딧</button>
+  </footer>
+</main>
+
+<section id="hud" class="hud" hidden aria-label="재생 화면">
+  <div class="hud-top">
+    <div class="chip chip-place"><span id="place-name">그랜드캐니언</span><span class="sep" aria-hidden="true">·</span><span id="place-region">미국 애리조나</span></div>
+    <div class="chip chip-time" id="chip-time"><span class="sun-dot" id="sun-dot" aria-hidden="true"></span><span id="time-text">--:--</span></div>
+  </div>
+  <div class="hud-bottom">
+    <div id="caption" class="caption">
+      <p id="caption-text" class="caption-text" aria-live="polite"></p>
+      <p class="caption-foot"><span id="caption-sub" class="caption-sub"></span><button id="caption-more" class="caption-more" type="button" aria-label="이야기 카드 열기">이야기 <span aria-hidden="true">›</span></button></p>
+    </div>
+    <div class="hud-row">
+      <ol id="dots" class="dots" aria-label="장면"></ol>
+      <div class="controls">
+        <button id="btn-pause" class="icon-btn" type="button" aria-label="멈춤" title="멈춤 (스페이스)">
+          <svg class="ic ic-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="3.6" height="14" rx="1"/><rect x="13.9" y="5" width="3.6" height="14" rx="1"/></svg>
+          <svg class="ic ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>
+        </button>
+        <button id="btn-sound" class="icon-btn" type="button" aria-label="소리 켜기" title="소리 (M)">
+          <svg class="ic ic-sound-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z"/><path class="stroke" d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.8 7.8 0 0 1 0 11"/></svg>
+          <svg class="ic ic-sound-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z"/><path class="stroke" d="M15.5 9.5l5 5M20.5 9.5l-5 5"/></svg>
+        </button>
+        <button id="btn-story" class="icon-btn" type="button" aria-label="이야기 카드 열기" title="이야기 (I)">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle class="stroke" cx="12" cy="12" r="8.5"/><rect x="11" y="10.5" width="2" height="6.5" rx="1"/><circle cx="12" cy="7.6" r="1.25"/></svg>
+        </button>
+        <button id="btn-next" class="icon-btn" type="button" aria-label="다음 장면" title="다음 장면 (→)">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6v12l8.5-6z"/><rect x="15.5" y="6" width="2.6" height="12" rx="1"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <p id="loading" class="loading" hidden>지형을 불러오는 중…</p>
+</section>
+
+<!-- notices stack at the top centre (left of the story sheet when it is open): never on top of each other -->
+<div id="notices" class="notices">
+  <div id="toast" class="toast" hidden role="status" aria-live="polite">
+    <p id="toast-text" class="toast-text"></p>
+    <div class="toast-actions">
+      <button id="toast-action" class="btn btn-small btn-light" type="button" hidden></button>
+      <button id="toast-close" class="icon-btn" type="button" aria-label="알림 닫기">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path class="stroke" d="M7 7l10 10M17 7L7 17"/></svg>
+      </button>
+    </div>
+  </div>
+  <p id="narr-label" class="narr-label" hidden>기기 음성 · 시험용</p>
+  <p id="look-hint" class="look-hint" hidden>손을 떼면 4초 뒤 다시 흐릅니다</p>
+</div>
+
+<aside id="cards" class="sheet" hidden aria-labelledby="card-title">
+  <div class="strata" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="sheet-head">
+    <p class="sheet-kicker" id="card-kicker">그랜드캐니언 · 카드 1/3</p>
+    <div class="sheet-head-btns">
+      <button id="sheet-play" class="icon-btn icon-btn-paper" type="button" aria-label="멈춤" title="멈춤 / 다시 재생 (스페이스)">
+        <svg class="ic ic-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="3.6" height="14" rx="1"/><rect x="13.9" y="5" width="3.6" height="14" rx="1"/></svg>
+        <svg class="ic ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>
+      </button>
+      <button id="cards-close" class="icon-btn icon-btn-paper" type="button" aria-label="이야기 카드 닫기">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path class="stroke" d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="sheet-scroll">
+    <article class="card">
+      <h2 id="card-title" class="card-title"></h2>
+      <p id="card-body" class="card-body"></p>
+      <p id="card-refs" class="card-refs"></p>
+    </article>
+    <div class="card-nav">
+      <button id="card-prev" class="btn btn-small" type="button">← 이전</button>
+      <span id="card-count" class="card-count">1 / 3</span>
+      <button id="card-next" class="btn btn-small" type="button">다음 →</button>
+    </div>
+    <div class="sheet-actions">
+      <button id="btn-listen" class="btn btn-primary" type="button">▶ 90초 듣기</button>
+      <button id="btn-deep" class="btn btn-outline" type="button">깊이 읽기</button>
+    </div>
+    <p id="sheet-narr" class="sheet-narr" hidden aria-hidden="true"></p>
+    <figure id="thennow" class="thennow" hidden>
+      <!-- side by side (stacked on phones): the two photos were not taken from the same spot,
+           so they are not wiped over each other -->
+      <div class="tn-pair">
+        <div class="tn-cell"><img id="tn-then" class="tn-img" alt=""><span id="tn-label-then" class="tn-label"></span></div>
+        <div class="tn-cell"><img id="tn-now" class="tn-img" alt=""><span id="tn-label-now" class="tn-label"></span></div>
+      </div>
+      <figcaption id="tn-caption" class="tn-caption"></figcaption>
+    </figure>
+    <p class="sheet-foot"><span id="sheet-credit"></span> <button id="btn-credits" class="link link-paper" type="button">출처와 크레딧</button></p>
+    <p class="sheet-foot"><button id="btn-home" class="link link-paper" type="button">지구본으로 돌아가기</button></p>
+  </div>
+</aside>
+
+<div id="deep" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="deep-title">
+  <div class="modal-box">
+    <header class="modal-head">
+      <h2 id="deep-title">깊이 읽기</h2>
+      <button id="deep-close" class="icon-btn icon-btn-paper" type="button" aria-label="깊이 읽기 닫기">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path class="stroke" d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+      </button>
+    </header>
+    <div id="deep-body" class="modal-body"></div>
+  </div>
+</div>
+
+<div id="credits" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="credits-title">
+  <div class="modal-box">
+    <header class="modal-head">
+      <h2 id="credits-title">출처와 크레딧</h2>
+      <button id="credits-close" class="icon-btn icon-btn-paper" type="button" aria-label="크레딧 닫기">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path class="stroke" d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg>
+      </button>
+    </header>
+    <div id="credits-body" class="modal-body"></div>
+  </div>
+</div>
+
+<pre id="errlog" hidden data-count="0"></pre>
+<noscript><p class="noscript">이 페이지는 자바스크립트와 WebGL이 필요합니다.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

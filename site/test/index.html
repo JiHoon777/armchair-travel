@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지금 거기 시험</title>
+<style>
+  :root { color-scheme: dark; --bg: #0B1026; --fg: #F3EEE6; --ok: #8FD694; --bad: #FF8A7A; --dim: #C9C3D6; }
+  html, body { background: var(--bg); color: var(--fg); }
+  body { margin: 0; padding: 24px 16px; font: 15px/1.6 system-ui, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0 0 4px; }
+  p { color: var(--dim); margin: 0 0 16px; }
+  ol { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  .ok { color: var(--ok); }
+  .bad { color: var(--bad); }
+  code { font-size: 0.9em; color: var(--dim); word-break: break-word; }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<main>
+  <h1>지금 거기 · 브라우저 시험</h1>
+  <p>해 계산, 지형 PNG 디코딩(정확히 같은 값이 나오는지), 실제 지형 점검점, 장면 사이 카메라 연속성을 봅니다. 결과는 아래 목록과 &lt;html data-result&gt;에 적힙니다.</p>
+  <ol id="out"></ol>
+</main>
+<script type="module">
+  import { selfTest } from '../js/sun.js';
+  import { decodeTerrariumBlob } from '../js/terrain.js';
+  import { makePathContext, pose } from '../js/paths.js';
+  import { sampleGrid } from '../js/util.js';
+
+  const out = document.getElementById('out');
+  let fails = 0;
+  function report(ok, name, detail = '') {
+    if (!ok) fails++;
+    const li = document.createElement('li');
+    li.innerHTML = `<b class="${ok ? 'ok' : 'bad'}">${ok ? '통과' : '실패'}</b> ${name} <code></code>`;
+    li.querySelector('code').textContent = detail;
+    out.appendChild(li);
+  }
+  async function run(name, fn) {
+    try { const d = await fn(); report(true, name, d || ''); }
+    catch (e) { report(false, name, e && e.message ? e.message : String(e)); }
+  }
+
+  await run('해 뜨고 지는 시각 (그랜드캐니언 2026-10-13, NOAA·astral ±3분)', () => {
+    const r = selfTest();
+    if (!r.ok) throw new Error(JSON.stringify(r));
+    return `해 뜸 ${r.sunrise}, 해 짐 ${r.sunset}, 시민 박명 끝 ${r.civilDusk}`;
+  });
+
+  await run('Terrarium PNG 디코딩이 비트 단위로 같은가', async () => {
+    const n = 64;
+    const cv = document.createElement('canvas');
+    cv.width = n; cv.height = n;
+    const c2 = cv.getContext('2d');
+    const img = c2.createImageData(n, n);
+    const want = new Float64Array(n * n);
+    for (let i = 0; i < n * n; i++) {
+      // heights from -420 m to 8848 m with 1/256 m steps
+      const h = -420 + Math.round(((i * 7919) % 2374400) / 256 * 1) + ((i * 37) % 256) / 256;
+      const v = h + 32768;
+      const r = Math.floor(v / 256), g = Math.floor(v) % 256, b = Math.round((v - Math.floor(v)) * 256);
+      img.data[i * 4] = r; img.data[i * 4 + 1] = g; img.data[i * 4 + 2] = b; img.data[i * 4 + 3] = 255;
+      want[i] = r * 256 + g + b / 256 - 32768;
+    }
+    c2.putImageData(img, 0, 0);
+    const blob = await new Promise((res) => cv.toBlob(res, 'image/png'));
+    const dem = await decodeTerrariumBlob(blob);
+    let maxErr = 0;
+    for (let i = 0; i < n * n; i++) maxErr = Math.max(maxErr, Math.abs(dem.grid[i] - want[i]));
+    if (maxErr > 1e-6) throw new Error(`최대 오차 ${maxErr} m`);
+    return `${n}×${n} 화소, 최대 오차 ${maxErr} m`;
+  });
+
+  await run('실제 지형 점검점 (meta.json checks, ±1 m)', async () => {
+    const base = '../data/grand-canyon/terrain/';
+    const res = await fetch(base + 'meta.json');
+    if (!res.ok) return '지형 데이터가 아직 없어 건너뜀';
+    const meta = await res.json();
+    const blob = await (await fetch(base + meta.core.dem.file)).blob();
+    const dem = await decodeTerrariumBlob(blob);
+    const o = meta.origin;
+    const parts = [];
+    for (const c of meta.checks || []) {
+      const x = (c.lon - o.lon) * 111320 * Math.cos(o.lat * Math.PI / 180);
+      const z = -(c.lat - o.lat) * 110574;
+      const h = sampleGrid(dem.grid, dem.n, meta.core.size_m, x, z);
+      if (!(Math.abs(h - c.elev_m) <= 1)) throw new Error(`${c.name}: meta ${c.elev_m}, 디코딩 ${h.toFixed(2)}`);
+      parts.push(`${c.name} ${h.toFixed(1)} m`);
+    }
+    return `${dem.n}px, ${parts.join(', ')}`;
+  });
+
+  await run('장면 사이 카메라가 끊기지 않는가 (내려가기→크게 보기→다가가기)', () => {
+    const ctx = makePathContext({});
+    const a = pose('descend', ctx.dur.descend, ctx, {}), b = pose('wide', 0, ctx, {});
+    const c = pose('wide', ctx.dur.wide, ctx, {}), d = pose('approach', 0, ctx, {});
+    const gap1 = Math.hypot(a.x - b.x, a.y - b.y, a.z - b.z), gap2 = Math.hypot(c.x - d.x, c.y - d.y, c.z - d.z);
+    if (gap1 > 1 || gap2 > 1) throw new Error(`위치 차이 ${gap1.toFixed(2)} m, ${gap2.toFixed(2)} m`);
+    return `위치 차이 ${gap1.toFixed(3)} m, ${gap2.toFixed(3)} m`;
+  });
+
+  document.documentElement.dataset.result = fails ? 'fail' : 'pass';
+  const p = document.createElement('p');
+  p.className = fails ? 'bad' : 'ok';
+  p.textContent = fails ? `${fails}개 실패` : '모두 통과';
+  document.querySelector('main').appendChild(p);
+</script>
+</body>
+</html>

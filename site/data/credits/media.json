@@ -1,0 +1,109 @@
+[
+ {
+  "what_ko": "지구본 낮 텍스처 (2004년 10월 합성)",
+  "title": "Blue Marble: Next Generation with Topography and Bathymetry, October 2004",
+  "author": "NASA Earth Observatory (Reto Stöckli)",
+  "license": "Public domain (U.S. Government work, NASA)",
+  "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+  "attribution": "NASA Earth Observatory, Blue Marble: Next Generation (Reto Stöckli)",
+  "notes": "NASA imagery is generally not subject to copyright in the United States; credit NASA and do not imply NASA endorsement.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "지구본 밤 불빛 텍스처 (2016년)",
+  "title": "Earth at Night / Black Marble 2016, color, 3 km",
+  "author": "NASA Earth Observatory (Joshua Stevens), Suomi NPP VIIRS data (Miguel Román, NASA GSFC)",
+  "license": "Public domain (U.S. Government work, NASA)",
+  "url": "https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/",
+  "attribution": "NASA Earth Observatory, Black Marble 2016 (Joshua Stevens; Suomi NPP VIIRS data, Miguel Román, NASA GSFC)",
+  "notes": "NASA imagery is generally not subject to copyright in the United States; credit NASA and do not imply NASA endorsement.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "지구본 확대 패치 (미국 남서부, 500 m, 2004년 10월 합성)",
+  "title": "Blue Marble: Next Generation with Topography and Bathymetry, October 2004 — 500 m tile A1 (180W-90W, 90N-0N)",
+  "author": "NASA Earth Observatory (Reto Stöckli)",
+  "license": "Public domain (U.S. Government work, NASA)",
+  "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.A1.jpg",
+  "attribution": "NASA Earth Observatory, Blue Marble: Next Generation (Reto Stöckli)",
+  "notes": "NASA imagery is generally not subject to copyright in the United States; credit NASA and do not imply NASA endorsement.",
+  "modified_ko": "북위 30.7~41.5°, 서경 105.4~118.8° 부분을 잘라 2400·1200 px 너비로 줄였습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "그 자리에 서기: 그랜저 포인트 360 사진 (2018-08-18)",
+  "title": "Grandeur Point - Grand Canyon National Park - R0010513",
+  "author": "Grand Canyon NPS (NPS/M. Quinn)",
+  "license": "CC BY 2.0 (on Flickr); also public domain in the U.S. as an NPS work (PD-USGov-NPS on Commons)",
+  "url": "https://commons.wikimedia.org/wiki/File:Grandeur_Point_-_Grand_Canyon_National_Park_-_R0010513_(29201417827).jpg",
+  "attribution": "Grandeur Point, Grand Canyon National Park — Grand Canyon NPS (NPS/M. Quinn), CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://www.flickr.com/photos/grand_canyon_nps/29201417827/",
+  "modified_ko": "4096×2048, 2048×1024로 줄이고 카메라 기울기(약 2°)를 바로잡았습니다. 렌즈에 비친 붉은 빛 한 점을 지웠습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "소리: 바람 (바탕)",
+  "title": "Wind Soundscape from Gem Lake (Rocky Mountain National Park Sound Library)",
+  "author": "National Park Service / J. Job (2016-05-25)",
+  "license": "Public domain (NPS: 'The recordings found here are in the public domain')",
+  "url": "https://www.nps.gov/romo/learn/photosmultimedia/sounds-ambient-soundscapes.htm",
+  "attribution": "National Park Service (Rocky Mountain NP Sound Library, J. Job)",
+  "modified_ko": "그랜드캐니언이 아닌 로키산맥 국립공원 녹음입니다. 저음을 덜고 3분 반복 구간으로 다듬었습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "소리: 먼 강물 (콜로라도강 배스 급류)",
+  "title": "Grand Canyon Natural Sound: Bass Rapid",
+  "author": "National Park Service, Grand Canyon National Park",
+  "license": "Public domain (NPS media credited to NPS without a copyright symbol)",
+  "url": "https://www.nps.gov/media/video/view.htm?id=8B2C055B-6036-417E-9233-123283EF8163",
+  "attribution": "National Park Service, Grand Canyon National Park",
+  "modified_ko": "높은 소리를 걸러 멀리서 들리는 강물처럼 낮게 깔았습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "소리: 큰까마귀",
+  "title": "Common Raven (call), Moraine Park Campground (Rocky Mountain National Park Sound Library)",
+  "author": "National Park Service / J. Job (2015-06-24)",
+  "license": "Public domain (NPS: 'The recordings found here are in the public domain')",
+  "url": "https://www.nps.gov/romo/learn/photosmultimedia/sounds-commonraven.htm",
+  "attribution": "National Park Service (Rocky Mountain NP Sound Library, J. Job)",
+  "modified_ko": "그랜드캐니언이 아닌 로키산맥 국립공원 녹음입니다. 울음 두 토막을 잘라 작은 메아리를 더했습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "소리: 협곡굴뚝새 노래",
+  "title": "R30-39-Canyon Wren Sings.wav",
+  "author": "craigsmith (Freesound)",
+  "license": "CC0 1.0",
+  "url": "https://freesound.org/people/craigsmith/sounds/479615/",
+  "attribution": "craigsmith, Freesound #479615 (CC0)",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "modified_ko": "앞쪽 녹음 안내 음성을 잘라 내고 노래 두 소절만 썼습니다. 협곡 메아리를 더했습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "그때와 지금: 그때 사진 (1900~1930년)",
+  "title": "Panorama from Hotel Point west of Bright Angel Trail, looking northeast, Grand Canyon, 1900-1930 (CHS-3269)",
+  "author": "C. C. Pierce (1861–1946); California Historical Society Collection, USC Libraries",
+  "license": "Public domain (PD-US; photographer died 1946)",
+  "url": "https://commons.wikimedia.org/wiki/File:Panorama_from_Hotel_Point_west_of_Bright_Angel_Trail,_looking_northeast,_Grand_Canyon,_1900-1930_(CHS-3269).jpg",
+  "attribution": "C. C. Pierce, California Historical Society Collection at the University of Southern California",
+  "source_url": "http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/13652",
+  "modified_ko": "유리 원판 가장자리를 잘라 4:3으로 맞추고 밝기를 고르게 했습니다.",
+  "accessed": "2026-10-13"
+ },
+ {
+  "what_ko": "그때와 지금: 지금 사진 (2011년)",
+  "title": "Grand Canyon Nat. Park: Panorama with El Tovar Hotel 5975",
+  "author": "Grand Canyon National Park (NPS photo by Michael Quinn)",
+  "license": "CC BY 2.0 (on Flickr); also public domain in the U.S. as an NPS work",
+  "url": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Nat._Park_Panorama_with_El_Tovar_Hotel_5975_(7974172042).jpg",
+  "attribution": "Grand Canyon National Park, NPS photo by Michael Quinn, CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://www.flickr.com/photos/grand_canyon_nps/7974172042/",
+  "modified_ko": "파노라마에서 브라이트 에인절 협곡 쪽을 4:3으로 잘라 냈습니다.",
+  "accessed": "2026-10-13"
+ }
+]

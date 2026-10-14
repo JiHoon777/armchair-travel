@@ -1,0 +1,46 @@
+{
+ "day": {
+  "file": "day_4k.jpg",
+  "mobile": "day_2k.jpg",
+  "month": "2004-10"
+ },
+ "night": {
+  "file": "night_4k.jpg",
+  "mobile": "night_2k.jpg",
+  "year": 2016
+ },
+ "projection": "equirectangular",
+ "lon_left_deg": -180,
+ "lat_top_deg": 90,
+ "credit": [
+  {
+   "title": "Blue Marble: Next Generation with Topography and Bathymetry, October 2004",
+   "author": "NASA Earth Observatory (Reto Stöckli)",
+   "license": "Public domain (U.S. Government work, NASA)",
+   "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+   "attribution": "NASA Earth Observatory, Blue Marble: Next Generation (Reto Stöckli)",
+   "notes": "NASA imagery is generally not subject to copyright in the United States; credit NASA and do not imply NASA endorsement."
+  },
+  {
+   "title": "Earth at Night / Black Marble 2016, color, 3 km",
+   "author": "NASA Earth Observatory (Joshua Stevens), Suomi NPP VIIRS data (Miguel Román, NASA GSFC)",
+   "license": "Public domain (U.S. Government work, NASA)",
+   "url": "https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/",
+   "attribution": "NASA Earth Observatory, Black Marble 2016 (Joshua Stevens; Suomi NPP VIIRS data, Miguel Román, NASA GSFC)",
+   "notes": "NASA imagery is generally not subject to copyright in the United States; credit NASA and do not imply NASA endorsement."
+  }
+ ],
+ "region": {
+  "file": "region_sw_2k.jpg",
+  "mobile": "region_sw_1k.jpg",
+  "width": 2400,
+  "height": 1946,
+  "lon_left_deg": -118.779167,
+  "lon_right_deg": -105.4375,
+  "lat_top_deg": 41.470833,
+  "lat_bottom_deg": 30.654167,
+  "projection": "equirectangular (plate carree), row 0 = north",
+  "note": "Same Blue Marble NG October 2004 product as the day globe, cut from the 500 m tile A1; shown during the descend between about 5,000 km and the 100 km aerial patch.",
+  "source_url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.A1.jpg"
+ }
+}

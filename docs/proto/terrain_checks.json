@@ -1,0 +1,429 @@
+{
+ "frame": {
+  "lat0": 36.115,
+  "lon0": -112.105,
+  "kx_m_per_deg": 89928.25954467789,
+  "kz_m_per_deg": 110574.0
+ },
+ "lidar_compare": {
+  "core_minus_lidar1m_m": {
+   "n": 41,
+   "median": 0.4,
+   "mean": 4.0,
+   "rms": 17.0,
+   "abs_p90": 22.1,
+   "abs_max": 88.6
+  },
+  "ned_z14_minus_lidar1m_m": {
+   "n": 41,
+   "median": 0.5,
+   "mean": 3.7,
+   "rms": 16.8,
+   "abs_p90": 21.5,
+   "abs_max": 90.0
+  },
+  "core_minus_3dep_13arcsec_m": {
+   "n": 19,
+   "median": -0.8,
+   "mean": -2.1,
+   "rms": 6.1,
+   "abs_p90": 6.1,
+   "abs_max": 24.5
+  },
+  "pinnacle": {
+   "lat": 36.16903,
+   "lon": -112.07638,
+   "ref_m": 1580.7,
+   "ref_is_1m_lidar": true,
+   "source_despiked_m": 1686.6,
+   "core_m": 1663.4
+  }
+ },
+ "checks": [
+  {
+   "name": "Mather Point",
+   "lat": 36.06167,
+   "lon": -112.10806,
+   "x_m": -275.2,
+   "z_m": 5896.9,
+   "core_m": 2169.8,
+   "outer_m": 2079.9,
+   "source_z14_m": 2171.6,
+   "relief_3x3_m": [
+    2161.5,
+    2172.4
+   ],
+   "expected_m": 2170.0,
+   "epqs_3dep": {
+    "value_m": 2164.55,
+    "resolution_m": 1,
+    "acquired": "5/1/2019"
+   }
+  },
+  {
+   "name": "Yavapai Point",
+   "lat": 36.0659,
+   "lon": -112.1176,
+   "x_m": -1133.1,
+   "z_m": 5429.2,
+   "core_m": 2149.6,
+   "outer_m": 2059.4,
+   "source_z14_m": 2149.3,
+   "relief_3x3_m": [
+    2148.7,
+    2150.9
+   ],
+   "expected_m": null,
+   "epqs_3dep": {
+    "value_m": 2155.1,
+    "resolution_m": 1,
+    "acquired": "5/1/2019"
+   }
+  },
+  {
+   "name": "Hopi Point",
+   "lat": 36.07452,
+   "lon": -112.15489,
+   "x_m": -4486.5,
+   "z_m": 4476.0,
+   "core_m": 2137.0,
+   "outer_m": 2017.8,
+   "source_z14_m": 2140.0,
+   "relief_3x3_m": [
+    2116.5,
+    2148.4
+   ],
+   "expected_m": null,
+   "epqs_3dep": {
+    "value_m": 2141.32,
+    "resolution_m": 1,
+    "acquired": "5/1/2019"
+   }
+  },
+  {
+   "name": "Phantom Ranch",
+   "lat": 36.1055,
+   "lon": -112.0947,
+   "x_m": 926.3,
+   "z_m": 1050.5,
+   "core_m": 775.1,
+   "outer_m": 823.4,
+   "source_z14_m": 775.0,
+   "relief_3x3_m": [
+    773.9,
+    776.9
+   ],
+   "expected_m": 750.0,
+   "epqs_3dep": {
+    "value_m": 776.33,
+    "resolution_m": 1,
+    "acquired": "5/1/2019"
+   }
+  },
+  {
+   "name": "Bright Angel Point",
+   "lat": 36.1997,
+   "lon": -112.0526,
+   "x_m": 4712.2,
+   "z_m": -9365.6,
+   "core_m": 2513.2,
+   "outer_m": 2490.7,
+   "source_z14_m": 2513.3,
+   "relief_3x3_m": [
+    2511.6,
+    2514.8
+   ],
+   "expected_m": 2480.0,
+   "epqs_3dep": {
+    "value_m": 2511.91,
+    "resolution_m": 1,
+    "acquired": "5/1/2019"
+   }
+  }
+ ],
+ "river_near_phantom_ranch": {
+  "elev_m": 733.9,
+  "lat": 36.10004,
+  "lon": -112.10051,
+  "x_m": 403.6,
+  "z_m": 1653.6
+ },
+ "align_core_tex_vs_dem": {
+  "sun_az": 195,
+  "sun_alt": 30,
+  "dy": -0.5,
+  "dx": 0.09,
+  "r_best": 0.72,
+  "r_zero": 0.72,
+  "dx_m": 1.2,
+  "dy_m": -6.5,
+  "cell_m": 13.020833333333334
+ },
+ "align_outer_tex_vs_core_tex": {
+  "dy": 0.02,
+  "dx": 0.05,
+  "r_best": 0.994,
+  "r_zero": 0.994,
+  "dx_m": 2.4,
+  "dy_m": 1.0,
+  "cell_m": 48.828125
+ },
+ "outer_vs_core_rgb_mean": {
+  "outer": [
+   110.6,
+   106.9,
+   106.4
+  ],
+  "core": [
+   110.69999694824219,
+   106.80000305175781,
+   106.4000015258789
+  ]
+ },
+ "align_outer_tex_vs_outer_dem": {
+  "dy": -0.23,
+  "dx": 0.05,
+  "r_best": 0.446,
+  "r_zero": 0.446,
+  "dx_m": 9.8,
+  "dy_m": -44.9,
+  "cell_m": 195.3125
+ },
+ "outer_minus_core_dem_m": {
+  "mean": 0.01,
+  "rms": 36.37,
+  "p01": -104.0,
+  "p99": 90.8
+ },
+ "seam_outer_minus_core_on_core_border_m": {
+  "mean": 0.6,
+  "rms": 32.96,
+  "min": -162.4,
+  "max": 150.8
+ },
+ "build": {
+  "generated": "2026-10-13 18:42:48 +0900",
+  "dem": {
+   "core_dem": {
+    "zoom": 14,
+    "source_window_px": [
+     2605,
+     2623
+    ],
+    "prefilter_sigma_px": [
+     0.679,
+     0.686
+    ],
+    "spacing_m": 13.020833333333334,
+    "src_spacing_m": [
+     7.719,
+     7.667
+    ],
+    "source_min_m": 712.01,
+    "source_max_m": 2542.05,
+    "source_spikes": {
+     "count_gt_thr": 1,
+     "thr_m": 40.0,
+     "max_peak_above_neighbours_m": 48.66,
+     "max_pit_below_neighbours_m": 17.99
+    },
+    "source_seams": {
+     "x_ratio": 0.94,
+     "y_ratio": 0.966
+    },
+    "despiked": [
+     {
+      "lat": 36.169026,
+      "lon": -112.076383,
+      "old_m": 1782.61,
+      "new_m": 1687.07
+     }
+    ],
+    "source_spikes_after": {
+     "count_gt_thr": 0,
+     "thr_m": 40.0,
+     "max_peak_above_neighbours_m": 24.46,
+     "max_pit_below_neighbours_m": 17.99
+    },
+    "out_min_m": 712.58,
+    "out_max_m": 2540.16,
+    "out_spikes": {
+     "count_gt_thr": 0,
+     "thr_m": 40.0,
+     "max_peak_above_neighbours_m": 9.07,
+     "max_pit_below_neighbours_m": 7.77
+    },
+    "roundtrip_max_err_m": 0.0019531246070982888,
+    "png_chunks": [
+     "IDAT",
+     "IEND",
+     "IHDR"
+    ],
+    "ihdr": {
+     "w": 1537,
+     "h": 1537,
+     "bit_depth": 8,
+     "color_type": 2
+    },
+    "bytes": 4597908
+   },
+   "outer_dem": {
+    "zoom": 12,
+    "source_window_px": [
+     3267,
+     3289
+    ],
+    "prefilter_sigma_px": [
+     3.123,
+     3.145
+    ],
+    "spacing_m": 195.3125,
+    "src_spacing_m": [
+     30.874,
+     30.668
+    ],
+    "source_min_m": 564.96,
+    "source_max_m": 2806.9,
+    "source_spikes": {
+     "count_gt_thr": 0,
+     "thr_m": 40.0,
+     "max_peak_above_neighbours_m": 27.91,
+     "max_pit_below_neighbours_m": 22.31
+    },
+    "source_seams": {
+     "x_ratio": 0.992,
+     "y_ratio": 1.002
+    },
+    "despiked": [],
+    "source_spikes_after": {
+     "count_gt_thr": 0,
+     "thr_m": 40.0,
+     "max_peak_above_neighbours_m": 27.91,
+     "max_pit_below_neighbours_m": 22.31
+    },
+    "out_min_m": 603.75,
+    "out_max_m": 2802.06,
+    "out_spikes": {
+     "count_gt_thr": 11,
+     "thr_m": 40.0,
+     "max_peak_above_neighbours_m": 63.69,
+     "max_pit_below_neighbours_m": 34.64
+    },
+    "roundtrip_max_err_m": 0.001953118322262526,
+    "png_chunks": [
+     "IDAT",
+     "IEND",
+     "IHDR"
+    ],
+    "ihdr": {
+     "w": 513,
+     "h": 513,
+     "bit_depth": 8,
+     "color_type": 2
+    },
+    "bytes": 564555
+   }
+  },
+  "tex": {
+   "core": {
+    "zoom": 16,
+    "texel_m": 3.2552083333333335,
+    "src_spacing_m": [
+     1.93,
+     1.917
+    ],
+    "prefilter_sigma_px": [
+     0.679,
+     0.686
+    ]
+   },
+   "outer": {
+    "zoom": 12,
+    "texel_m": 48.828125,
+    "src_spacing_m": [
+     30.874,
+     30.668
+    ],
+    "prefilter_sigma_px": [
+     0.613,
+     0.619
+    ],
+    "color_match": [
+     {
+      "gain": 1.0235,
+      "offset": -3.65,
+      "outer_mean": 111.6,
+      "core_mean": 110.5,
+      "outer_std": 48.0,
+      "core_std": 49.1
+     },
+     {
+      "gain": 1.0111,
+      "offset": -2.24,
+      "outer_mean": 107.7,
+      "core_mean": 106.7,
+      "outer_std": 42.9,
+      "core_std": 43.4
+     },
+     {
+      "gain": 0.9878,
+      "offset": 0.27,
+      "outer_mean": 107.3,
+      "core_mean": 106.3,
+      "outer_std": 36.4,
+      "core_std": 36.0
+     }
+    ],
+    "mean_abs_rgb_diff_before": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "usgs_transparent_px": 0,
+  "usgs_flat_tiles": [],
+  "sizes": {
+   "core_dem.png": 4597908,
+   "core_tex_0_0.jpg": 1129067,
+   "core_tex_0_1.jpg": 1248481,
+   "core_tex_0_2.jpg": 1111748,
+   "core_tex_1_0.jpg": 950385,
+   "core_tex_1_1.jpg": 950984,
+   "core_tex_1_2.jpg": 933961,
+   "core_tex_2_0.jpg": 1143462,
+   "core_tex_2_1.jpg": 1090840,
+   "core_tex_2_2.jpg": 908785,
+   "core_texm_0_0.jpg": 325386,
+   "core_texm_0_1.jpg": 349886,
+   "core_texm_0_2.jpg": 320797,
+   "core_texm_1_0.jpg": 287698,
+   "core_texm_1_1.jpg": 289785,
+   "core_texm_1_2.jpg": 279550,
+   "core_texm_2_0.jpg": 307836,
+   "core_texm_2_1.jpg": 301807,
+   "core_texm_2_2.jpg": 272209,
+   "meta.json": 1758,
+   "outer_dem.png": 564555,
+   "outer_tex.jpg": 874326,
+   "outer_texm.jpg": 265920
+  },
+  "total_bytes": 18505376,
+  "dem_sources": {
+   "ned13/imgn36w112_13.tif": [
+    12
+   ],
+   "ned13/imgn36w113_13.tif": [
+    12
+   ],
+   "ned13/imgn37w112_13.tif": [
+    12,
+    14
+   ],
+   "ned13/imgn37w113_13.tif": [
+    12,
+    14
+   ]
+  }
+ }
+}

@@ -1,0 +1,17 @@
+# downloads and caches (rebuild with tools/fetch_*.py)
+tools/cache/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+
+# full screenshot sets and Google Earth comparison captures stay local
+docs/proto/shots/
+docs/proto/google_earth/
+
+# secrets (Google Maps key for the photoreal mode goes here, never committed)
+site/config.local.js
+.env*
+
+# Vercel CLI link
+.vercel/

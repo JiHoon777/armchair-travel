@@ -1,0 +1,991 @@
+{
+ "id": "grand-canyon",
+ "name_ko": "그랜드캐니언",
+ "name_en": "Grand Canyon",
+ "region_ko": "미국 애리조나",
+ "tz": "America/Phoenix",
+ "lat": 36.06165,
+ "lon": -112.107946,
+ "latlon_note": "Mather Point, the first viewpoint (USGS GNIS 7771).",
+ "names": [
+  {
+   "lang": "hop",
+   "text": "Ongtupqa",
+   "note_ko": "호피 사람들이 이 협곡을 부르는 이름입니다.",
+   "fact_ids": [
+    "f42"
+   ],
+   "reading_ko": "옹툽카"
+  },
+  {
+   "lang": "en",
+   "text": "Grand Canyon",
+   "note_ko": "공식 이름입니다. 국립공원 이름은 Grand Canyon National Park입니다.",
+   "fact_ids": [
+    "f59"
+   ]
+  },
+  {
+   "lang": "ko",
+   "text": "그랜드캐니언",
+   "note_ko": "한국어 표기입니다."
+  }
+ ],
+ "camera": {
+  "wide_focus": {
+   "lat": 36.120303,
+   "lon": -112.120107,
+   "label_ko": "케옵스 피라미드",
+   "note": "Cheops Pyramid, a butte in the middle of the canyon just north of the Colorado River, about 7.6 km NNE of Grand Canyon Village and 1.5 km WNW of the frame origin. Orbit around it to keep both rims and the river in view.",
+   "coord_source": "s27 USGS GNIS 2788 Cheops Pyramid (Summit)"
+  },
+  "approach_target": {
+   "lat": 36.098594,
+   "lon": -112.092946,
+   "label_ko": "팬텀 랜치 앞 콜로라도강",
+   "note": "Mouth of Bright Angel Creek on the Colorado River (GNIS primary point of the stream), just south of Phantom Ranch. The Inner Gorge walls here are Vishnu Basement Rocks, dark schist about 1.75 billion years old (s5, s24). River elevation at Phantom Ranch 2,400 ft / 720 m (s1).",
+   "coord_source": "s27 USGS GNIS 1962 Bright Angel Creek (Stream, primary point = mouth)"
+  },
+  "stand": {
+   "name_ko": "그랜저 포인트",
+   "lat": 36.06463,
+   "lon": -112.122004,
+   "note": "Grandeur Point on the South Rim, 0.5 mi west of Yavapai Point along the Rim Trail; looks into Bright Angel Canyon and down on the Bright Angel Trail switchbacks (s19). The 360 photo carries its own coordinates in pano/pano.json.",
+   "coord_source": "s27 USGS GNIS 5229 Grandeur Point (Summit)"
+  },
+  "daylapse_from": {
+   "lat": 36.07449,
+   "lon": -112.15495,
+   "label_ko": "호피 포인트",
+   "note": "Hopi Point on Hermit Road, South Rim; sunrise and sunset viewpoint with five views of the Colorado River (s20). Ground here is about 2,141 m in the terrain DEM.",
+   "coord_source": "s27 USGS GNIS 5933 Hopi Point (Cliff) at 36.076094,-112.154614, snapped about 180 m south onto the rim with the terrain core DEM: the GNIS point itself lies over the canyon slope (DEM ground about 1,900 m)",
+   "look_at": {
+    "lat": 36.131094,
+    "lon": -112.087113,
+    "label_ko": "존슨 포인트",
+    "note": "Johnson Point, 8.7 km from the Hopi Point camera at a bearing of about 44 degrees (north-east), across the river among the buttes below the North Rim.",
+    "coord_source": "s27 USGS GNIS 6477 Johnson Point (Cliff)"
+   }
+  }
+ },
+ "scenes": [
+  {
+   "id": "descend",
+   "title_ko": "내려가기",
+   "dur_s": 30,
+   "caption_ko": "하늘 높이에서 애리조나 북부로 내려갑니다. 아래 협곡은 콜로라도강을 따라 446 km 이어집니다.",
+   "fact_ids": [
+    "f5",
+    "f4",
+    "f2"
+   ]
+  },
+  {
+   "id": "wide",
+   "title_ko": "크게 보기",
+   "dur_s": 180,
+   "caption_ko": "북쪽 가장자리가 남쪽보다 약 300 m 높습니다. 그랜드캐니언 빌리지 앞 협곡 폭은 16 km입니다.",
+   "fact_ids": [
+    "f6",
+    "f3"
+   ]
+  },
+  {
+   "id": "approach",
+   "title_ko": "다가가기",
+   "dur_s": 180,
+   "caption_ko": "강가의 어두운 비슈누 편암은 약 17억 5천만 년 전에 생겼습니다. 협곡 안 강폭은 평균 90 m입니다.",
+   "fact_ids": [
+    "f16",
+    "f15",
+    "f12",
+    "f9"
+   ]
+  },
+  {
+   "id": "stand",
+   "title_ko": "그 자리에 서기",
+   "dur_s": 180,
+   "caption_ko": "발밑 바위는 2억 7천만 년 전 바다 밑에서 생겼습니다. 아래로 브라이트 에인절 트레일이 보입니다.",
+   "fact_ids": [
+    "f19",
+    "f17",
+    "f18",
+    "f72"
+   ]
+  },
+  {
+   "id": "daylapse",
+   "title_ko": "하루 빨리 감기",
+   "dur_s": 180,
+   "caption_ko": "이곳의 오늘 하루를 3분에 돌립니다. 해가 뜨고 질 때 바위 색이 바뀌는 것을 지켜보세요.",
+   "fact_ids": [
+    "f71"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title_ko": "협곡이 생긴 순서",
+   "body_ko": "맨 아래 바위 가운데 가장 오래된 것은 약 18억 4천만 년 전에 굳었습니다. 그 위에 얕은 바다와 사막 모래언덕이 남긴 지층이 쌓였습니다. 맨 위 카이밥층은 약 2억 7천만 년 전 바다 밑에서 생겼습니다. 맨 아래 바위와 그 위 지층이 맞닿은 면에는 약 12억 년의 기록이 비어 있습니다. 이 틈을 ‘대부정합’이라고 부릅니다. 7천만~3천만 년 전에는 땅이 통째로 솟아 높은 고원이 됐습니다. 콜로라도강은 500만~600만 년 전부터 이 고원을 깎아 내려갔습니다. 바위보다 협곡이 훨씬 젊습니다.",
+   "fact_ids": [
+    "f10",
+    "f11",
+    "f15",
+    "f22",
+    "f23",
+    "f17",
+    "f18",
+    "f27",
+    "f28",
+    "f30",
+    "f31",
+    "f32",
+    "f33"
+   ]
+  },
+  {
+   "title_ko": "이곳의 사람들",
+   "body_ko": "이곳에서 나온 가장 오래된 사람의 유물은 1만 2천 년 가까이 됐습니다. 지금도 11개 부족이 이 땅과 이어져 있습니다. 하바수파이, 왈라파이, 호피, 디네(나바호), 주니, 야바파이-아파치, 그리고 파이우트 다섯 부족입니다. 하바수파이 사람들은 지금도 협곡 안 마을에 삽니다. 1540년 호피 사람들이 안내한 스페인 군인들이 유럽인으로는 처음 이 협곡을 기록했습니다. 1869년에는 존 웨슬리 파월 일행이 배로 협곡을 지난 첫 기록을 남겼습니다. 1908년 국가기념물, 1919년 국립공원, 1979년 세계유산이 됐습니다.",
+   "fact_ids": [
+    "f35",
+    "f36",
+    "f37",
+    "f38",
+    "f41",
+    "f48",
+    "f50",
+    "f51",
+    "f54",
+    "f57",
+    "f59",
+    "f61"
+   ]
+  },
+  {
+   "title_ko": "크기와 지금",
+   "body_ko": "협곡은 강을 따라 446 km 이어지고, 넓은 곳은 폭이 29 km입니다. 가장 깊은 곳은 가장자리에서 강까지 1,829 m입니다. 그래도 세계에서 가장 깊은 협곡은 아닙니다. 2025년에는 443만 명이 찾았습니다. 가장자리에서는 세 가지를 찾아보면 좋습니다. 가장자리 조금 아래의 황갈색 코코니노 사암 절벽, 중간의 붉은 레드월 석회암 절벽, 맨 아래 어두운 안쪽 협곡입니다. 마더 포인트에서는 바닥의 팬텀 랜치와 강 일부도 보입니다. 걷거나 노새를 타고 바닥까지 다녀오는 데는 이틀이 걸립니다.",
+   "fact_ids": [
+    "f2",
+    "f3",
+    "f1",
+    "f7",
+    "f63",
+    "f25",
+    "f24",
+    "f15",
+    "f70",
+    "f8"
+   ]
+  }
+ ],
+ "narration_ko": [
+  "이곳은 미국 애리조나 북부의 그랜드캐니언입니다.",
+  "콜로라도강이 446킬로미터에 걸쳐 깎아 낸 협곡입니다.",
+  "넓은 곳은 폭이 29킬로미터입니다.",
+  "가장 깊은 곳은 1,800미터가 넘습니다.",
+  "벽의 바위는 아래로 갈수록 오래됐습니다.",
+  "맨 아래 어두운 바위는 17억 년도 더 됐습니다.",
+  "대륙이 부딪칠 때 땅속 깊은 곳에서 생긴 바위입니다.",
+  "그 위 지층과의 사이에는 약 12억 년이 비어 있습니다.",
+  "지질학자들은 이 틈을 대부정합이라고 부릅니다.",
+  "맨 위 가장자리 바위는 2억 7천만 년 전 바다 밑에서 생겼습니다.",
+  "그래서 바다 생물의 화석이 들어 있습니다.",
+  "이 일대는 먼저 높은 고원으로 솟아올랐습니다.",
+  "콜로라도강은 500만 년에서 600만 년 전부터 고원을 깎았습니다.",
+  "바위에 비하면 협곡은 아주 젊은 셈입니다.",
+  "사람들은 1만 2천 년 가까이 이 협곡과 함께 살아왔습니다.",
+  "지금도 열한 개 부족이 이곳을 고향이자 성스러운 곳으로 여깁니다.",
+  "국립공원이 된 1919년에는 한 해 4만 4천여 명이 찾았습니다.",
+  "요즘은 해마다 4백만 명이 넘게 찾아옵니다.",
+  "해가 기울면 바위 색이 조금씩 달라집니다.",
+  "그 변화를 천천히 지켜보셔도 좋습니다."
+ ],
+ "narration_fact_ids": [
+  "f5",
+  "f4",
+  "f2",
+  "f3",
+  "f1",
+  "f76",
+  "f12",
+  "f13",
+  "f15",
+  "f27",
+  "f28",
+  "f19",
+  "f17",
+  "f18",
+  "f21",
+  "f30",
+  "f32",
+  "f31",
+  "f33",
+  "f35",
+  "f36",
+  "f39",
+  "f40",
+  "f59",
+  "f64",
+  "f63",
+  "f71"
+ ],
+ "deep_ko": [
+  {
+   "h": "바위는 늙고, 협곡은 젊습니다",
+   "p": [
+    "그랜드캐니언의 벽은 아래로 갈수록 오래된 바위입니다. 맨 아래 비슈누 기반암은 대륙이 부딪칠 때 땅속 깊은 곳에서 만들어진 화성암과 변성암입니다. 일부는 약 20 km 깊이까지 묻히며 변했습니다. 그 가운데 가장 오래된 엘브스 캐즘 편마암은 약 18억 4천만 년 전에 굳었습니다. 비슈누 편암은 약 17억 5천만 년 전에 생겼습니다.",
+    "그 위에는 얕은 바다와 해안 평야, 사막 모래언덕이 남긴 지층이 쌓였습니다. 아래쪽 타피츠 사암은 약 5억 800만 년 전, 중간의 레드월 석회암은 약 3억 4천만 년 전, 맨 위 카이밥층은 약 2억 7천만 년 전 것입니다. 타피츠 사암 같은 지층이 비슈누 기반암 바로 위에 놓인 면에는 약 12억 년의 기록이 비어 있습니다. 탐험가 존 웨슬리 파월이 처음 ‘대부정합’이라고 부른 면입니다. 이 벽에는 남은 시간보다 빠진 시간이 더 많습니다.",
+    "7천만~3천만 년 전에는 판의 움직임으로 이 일대가 통째로 솟아 콜로라도고원이 됐습니다. 그래서 바다 밑에서 생긴 카이밥 석회암이 지금은 해발 9,000피트(약 2,740 m)까지 올라가 있습니다. 2014년 한 연구는 콜로라도강이 더 오래된 옛 협곡들을 이어 붙이며 500만~600만 년 전부터 지금의 협곡을 깎았다고 결론지었습니다. 협곡의 역사는 지금도 활발히 연구되고 논쟁이 이어지는 주제입니다."
+   ],
+   "fact_ids": [
+    "f76",
+    "f13",
+    "f14",
+    "f10",
+    "f11",
+    "f12",
+    "f22",
+    "f23",
+    "f26",
+    "f24",
+    "f17",
+    "f27",
+    "f28",
+    "f29",
+    "f30",
+    "f18",
+    "f20",
+    "f31",
+    "f34"
+   ]
+  },
+  {
+   "h": "먼저 살던 사람들, 지금 사는 사람들",
+   "p": [
+    "이곳에서 나온 가장 오래된 사람의 유물은 1만 2천 년 가까이 됐습니다. 미국 국립공원관리청(NPS)은 이 땅과 이어진 부족을 11개로 꼽습니다. 하바수파이, 호피, 왈라파이, 디네(나바호), 주니, 야바파이-아파치, 그리고 카이밥·라스베이거스·모아파·유타·산후안 남부의 파이우트 부족입니다. NPS는 몇몇 부족 이름 앞에 그 부족의 말로 된 이름을 함께 적습니다. 하바수파이는 Havasu'baaja, 나바호는 Diné, 주니는 A:shiwi입니다. 하바수파이 사람들은 지금도 협곡 안 마을에 삽니다. 호피 사람들은 이 협곡을 Ongtupqa(옹툽카)라고 부릅니다.",
+    "「전해지는 이야기」 왈라파이, 호피, 주니에게 이 협곡은 기원 이야기의 무대입니다. 호피 사람들은 콜로라도강과 리틀콜로라도강이 만나는 곳 근처의 시파푸니에서 자신들이 이 세상으로 나왔다고 전합니다.",
+    "국립공원이 자리 잡는 과정에는 아픈 역사도 있습니다. NPS 정책에 따라 하바수파이 사람들은 대대로 농사짓던 협곡 안 땅 Ha’a Gyoh에서 밀려났습니다. 1928년에는 마지막 주민이 강제로 쫓겨났습니다. 2022년 이곳 이름은 하바수파이 부족의 요청으로 Indian Garden에서 하바수파이 가든스로 바뀌었습니다."
+   ],
+   "fact_ids": [
+    "f35",
+    "f36",
+    "f37",
+    "f38",
+    "f41",
+    "f42",
+    "f43",
+    "f44",
+    "f46",
+    "f47",
+    "f45"
+   ]
+  },
+  {
+   "h": "기록에 남은 탐험",
+   "p": [
+    "1540년 프란시스코 바스케스 데 코로나도의 스페인 원정대가 협곡 동쪽의 호피 마을에 닿았습니다. 가르시아 로페스 데 카르데나스가 이끈 군인들이 호피 사람들의 안내로 협곡 가장자리에 섰습니다. 유럽인으로는 처음 이 협곡을 기록한 사람들입니다. NPS에 따르면 호피 지도자들은 반갑지 않은 손님을 강 위 가장 높은 곳으로 에둘러 데려가고, 쓸모 있는 정보는 주지 말라고 일렀습니다. 군인들은 강폭이 2 m도 안 된다고 어림했지만, 실제 강폭은 평균 90 m입니다.",
+    "1869년 5월 24일 존 웨슬리 파월은 배 네 척으로 와이오밍주 그린리버를 떠났습니다. 여름 석 달 동안 위쪽 협곡들을 지난 그의 일행은 기록에 남은 첫 뱃길로 그랜드캐니언을 지났습니다."
+   ],
+   "fact_ids": [
+    "f48",
+    "f49",
+    "f50",
+    "f51",
+    "f75",
+    "f52",
+    "f53",
+    "f9",
+    "f55",
+    "f56",
+    "f54"
+   ]
+  },
+  {
+   "h": "지키기로 한 땅, 그리고 지금",
+   "p": [
+    "1908년 1월 11일 시어도어 루스벨트 대통령은 이곳을 국가기념물로 지정하며 ‘미국에서 가장 크게 깎인 협곡’이라고 적었습니다. 1919년 2월 26일 의회가 국립공원으로 지정했고, 우드로 윌슨 대통령이 서명했습니다. 1979년에는 유네스코 세계유산이 됐습니다. 사우스림 마더 포인트의 이름은 국립공원관리청 초대 청장 스티븐 마더에게서 왔습니다.",
+    "요즘은 해마다 4백만 명 넘게 찾아오고, 2025년에는 443만 명이 왔습니다. 그해 7월 4일 노스림 근처에서 번개로 시작된 드래건 브라보 산불로 건물 114채가 불탔고, 그 가운데 98채가 역사 건물이었습니다. 강물은 1963년 완공된 글렌캐니언 댐이 조절해서 예전처럼 철마다 크게 불어나지 않습니다. 2019년에는 국제 밤하늘 공원으로 지정됐습니다."
+   ],
+   "fact_ids": [
+    "f57",
+    "f58",
+    "f59",
+    "f60",
+    "f61",
+    "f62",
+    "f63",
+    "f65",
+    "f66",
+    "f67",
+    "f68",
+    "f69"
+   ]
+  }
+ ],
+ "scale_ko": "그랜드캐니언에서 가장 깊은 곳은 가장자리에서 강까지 1,829 m입니다. 한라산(해발 1,950 m)을 통째로 옮겨 강가에 세워도 꼭대기만 가장자리 위로 조금 나옵니다.",
+ "scale_fact_ids": [
+  "f1",
+  "f74"
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "ko": "가장 깊은 곳은 가장자리에서 강까지 1,829 m(6,000피트)입니다. 1,800 m가 넘습니다.",
+   "source": "s2",
+   "quote": "At its deepest, it is 6000 vertical feet / 1829 m from rim to river."
+  },
+  {
+   "id": "f2",
+   "ko": "협곡은 콜로라도강을 따라 446 km(277마일) 이어집니다.",
+   "source": "s2",
+   "quote": "By that standard, Grand Canyon is 277 miles / 446 km long."
+  },
+  {
+   "id": "f3",
+   "ko": "폭은 그랜드캐니언 빌리지에서 16 km이고, 넓은 곳은 29 km에 이릅니다.",
+   "source": "s2",
+   "quote": "The width of the canyon at Grand Canyon Village is 10 miles / 16 km (rim to rim), though in places it is as much as 18 miles / 29 km wide."
+  },
+  {
+   "id": "f4",
+   "ko": "협곡 바닥에는 콜로라도강이 흐릅니다.",
+   "source": "s2",
+   "quote": "most people measure the canyon in river miles, along the course of the Colorado River at the bottom of the canyon"
+  },
+  {
+   "id": "f5",
+   "ko": "그랜드캐니언은 미국 애리조나 북부에 있습니다.",
+   "source": "s3",
+   "quote": "why it is found here in Northern Arizona"
+  },
+  {
+   "id": "f6",
+   "ko": "북쪽 노스림은 남쪽 사우스림보다 1,000피트(약 300 m) 높습니다.",
+   "source": "s2",
+   "quote": "The North Rim rises a thousand feet higher than the South Rim"
+  },
+  {
+   "id": "f7",
+   "ko": "세계에서 가장 깊은 협곡은 아닙니다. 멕시코의 바랑카 델 코브레와 아이다호의 헬스캐니언이 더 깊습니다.",
+   "source": "s2",
+   "quote": "It is not the deepest canyon in the world (both the Barranca del Cobre in northern Mexico and Hell's Canyon in Idaho are deeper, just to name two)"
+  },
+  {
+   "id": "f8",
+   "ko": "걷거나 노새를 타고 바닥까지 다녀오는 데 이틀이 걸립니다.",
+   "source": "s2",
+   "quote": "a trip to the bottom of the canyon and back (on foot or by mule) is a two-day journey"
+  },
+  {
+   "id": "f9",
+   "ko": "협곡 안 콜로라도강의 평균 폭은 90 m입니다.",
+   "source": "s1",
+   "quote": "Average Width: 300 feet (90 m)"
+  },
+  {
+   "id": "f10",
+   "ko": "엘브스 캐즘 암체는 약 18억 4천만 년 전(1,840 ± 1 Ma)에 굳었습니다. 1996년 논문은 이 바위를 미국 남서부에서 알려진 가장 오래된 바위라고 적었습니다.",
+   "source": "s9",
+   "quote": "the 1840 ± 1 Ma Elves Chasm pluton, the oldest known rock from the southwestern United States"
+  },
+  {
+   "id": "f11",
+   "ko": "그랜드캐니언에서 가장 오래된 바위는 비슈누 기반암에 속한 엘브스 캐즘 편마암으로, 약 18억 4천만 년 전 것입니다.",
+   "source": "s4",
+   "quote": "The oldest known rock in Grand Canyon, known as the Elves Chasm Gneiss, is located deep in the canyon's depths as part of the Vishnu Basement Rocks and clocks in at an ancient 1.84 billion years old."
+  },
+  {
+   "id": "f12",
+   "ko": "비슈누 편암은 약 17억 5천만 년 전(1,750 Ma)에 생겼습니다. 17억 년도 더 전입니다.",
+   "source": "s5",
+   "quote": "which consists of the 1,751 Ma Rama Schist and the 1,750 Ma Vishnu and Brahma schists"
+  },
+  {
+   "id": "f13",
+   "ko": "비슈누 기반암의 화성암과 변성암은 대륙이 부딪칠 때 땅속 깊은 곳에서 만들어졌습니다.",
+   "source": "s25",
+   "quote": "These igneous and metamorphic rocks formed deep in the crust during continental collisions that built this part of North America"
+  },
+  {
+   "id": "f14",
+   "ko": "이 바위들은 약 20 km 깊이까지 묻히며 변성됐습니다.",
+   "source": "s5",
+   "quote": "they were metamorphosed as they were buried up to 12-mile (20-km) depths during the Yavapai orogeny"
+  },
+  {
+   "id": "f15",
+   "ko": "비슈누 기반암의 편암은 어두운 색입니다.",
+   "source": "s5",
+   "quote": "Vishnu Basement Rocks include both metamorphic rocks of the Rama, Brahma, and Vishnu schists (dark in this photo)"
+  },
+  {
+   "id": "f16",
+   "ko": "팬텀 랜치 근처 안쪽 협곡에는 비슈누 기반암(주로 편암)이 드러나 있습니다.",
+   "source": "s24",
+   "quote": "On the opposite side of the Colorado River, crystalline Vishnu Basement Rocks (mostly schist in this view) are exposed in the Inner Gorge."
+  },
+  {
+   "id": "f17",
+   "ko": "맨 위 지층 카이밥층은 약 2억 7천만 년 전 것입니다.",
+   "source": "s3",
+   "quote": "Even the youngest rock layer, the Kaibab Formation, is 270 million years old"
+  },
+  {
+   "id": "f18",
+   "ko": "맨 위 카이밥 석회암은 바다 밑에서 생겼습니다.",
+   "source": "s3",
+   "quote": "The Kaibab Limestone, the uppermost layer of rock at Grand Canyon, was formed at the bottom of the ocean."
+  },
+  {
+   "id": "f19",
+   "ko": "카이밥층이 협곡의 가장자리를 이룹니다.",
+   "source": "s7",
+   "quote": "The Kaibab Formation forms the rim of Grand Canyon, and is the youngest Paleozoic rock in Grand Canyon."
+  },
+  {
+   "id": "f20",
+   "ko": "카이밥 석회암은 지금 콜로라도고원 꼭대기에서 해발 9,000피트(약 2,740 m)까지 올라가 있습니다.",
+   "source": "s3",
+   "quote": "Yet today, at the top of the Colorado Plateau, the Kaibab Limestone is found at elevations up to 9,000 feet."
+  },
+  {
+   "id": "f21",
+   "ko": "공원 화석 대부분은 바다 무척추동물 화석이고, 카이밥층에도 들어 있습니다.",
+   "source": "s25",
+   "quote": "The majority of the fossils in the park are Paleozoic marine invertebrate fossils including trilobites, brachiopods, bryozoans, sponges, corals, and crinoids in rock units such as the Bright Angel Formation, Muav Formation, Redwall Limestone, and Kaibab Formation."
+  },
+  {
+   "id": "f22",
+   "ko": "위쪽 지층들은 얕은 바다와 해안 평야에서 쌓였습니다.",
+   "source": "s7",
+   "quote": "Low coastal plain and shallow seas of the continental shelf along the proto-Pacific coast"
+  },
+  {
+   "id": "f23",
+   "ko": "코코니노 사암은 해안 사막의 모래언덕이 남긴 지층입니다.",
+   "source": "s7",
+   "quote": "Coconino Sandstone Desert sand dunefields along coast, similar to modern Arabian Desert"
+  },
+  {
+   "id": "f24",
+   "ko": "레드월 석회암은 협곡 중간에 붉은 절벽을 이루고, 약 3억 4천만 년 전에 쌓였습니다.",
+   "source": "s7",
+   "quote": "The Redwall Limestone forms distinct red cliffs about mid-level in the canyon. It was deposited 340 million years ago."
+  },
+  {
+   "id": "f25",
+   "ko": "가장자리에서 몇백 피트 아래에 황갈색 코코니노 사암 절벽이 있습니다.",
+   "source": "s19",
+   "quote": "Where the switchbacks of the Bright Angel Trail descend through the break in the shear cliff of tan Coconino Sandstone several hundred feet below the rim, one can clearly observe the offset along the Bright Angel Fault."
+  },
+  {
+   "id": "f26",
+   "ko": "타피츠 사암은 약 5억 800만~5억 700만 년 전에 쌓였습니다.",
+   "source": "s10",
+   "quote": "The Tapeats Sandstone is ca. 508–507 Ma"
+  },
+  {
+   "id": "f27",
+   "ko": "비슈누 기반암 위에 지층이 놓인 면(대부정합)에는 약 12억 년의 기록이 비어 있습니다.",
+   "source": "s6",
+   "quote": "There is approximately 1.2 billion years (or about 30 percent) of Earth history missing (e.g., not recorded) at this contact."
+  },
+  {
+   "id": "f28",
+   "ko": "‘대부정합(Great Unconformity)’은 존 웨슬리 파월이 처음 쓴 이름입니다.",
+   "source": "s6",
+   "quote": "Powell’s original term, the Great Unconformity, is used for the contact below the Tonto Group where the Layered Paleozoic Rocks overlie the Vishnu Basement Rocks"
+  },
+  {
+   "id": "f29",
+   "ko": "그랜드캐니언의 바위 기록에는 남은 시간보다 빠진 시간이 더 많습니다.",
+   "source": "s6",
+   "quote": "more time is missing in it than is preserved"
+  },
+  {
+   "id": "f30",
+   "ko": "7천만~3천만 년 전 판의 움직임으로 이 일대가 통째로 솟아 콜로라도고원이 됐습니다.",
+   "source": "s3",
+   "quote": "Then, between 70 and 30 million years ago, through the action of plate tectonics, the whole region was uplifted, resulting in the high and relatively flat Colorado Plateau."
+  },
+  {
+   "id": "f31",
+   "ko": "2014년 연구는 콜로라도강이 옛 협곡들을 이어 붙이며 500만~600만 년 전부터 그랜드캐니언을 깎았다고 결론지었습니다. 일부 구간은 더 오래됐습니다.",
+   "source": "s8",
+   "quote": "Thus, although parts of the canyon are old, we conclude that the integration of the Colorado River through older palaeocanyons carved the Grand Canyon, beginning 5–6 million years ago."
+  },
+  {
+   "id": "f32",
+   "ko": "콜로라도강은 500만~600만 년 동안 바위를 깎아 왔습니다.",
+   "source": "s3",
+   "quote": "The Colorado River has been carving away rock for the past five to six million years."
+  },
+  {
+   "id": "f33",
+   "ko": "협곡은 그 벽을 이루는 바위보다 훨씬 젊습니다.",
+   "source": "s3",
+   "quote": "The canyon is much younger than the rocks through which it winds."
+  },
+  {
+   "id": "f34",
+   "ko": "협곡과 강의 역사는 지금도 활발히 연구되고 논쟁이 이어집니다.",
+   "source": "s25",
+   "quote": "the full history and evolution of the Colorado River through Grand Canyon is highly complex and is the subject of active research and intense scientific debate"
+  },
+  {
+   "id": "f35",
+   "ko": "이곳에서 나온 가장 오래된 사람의 유물은 1만 2천 년 가까이 됐고, 그 뒤로 여러 문화가 이 땅에서 쉬지 않고 살아왔습니다.",
+   "source": "s1",
+   "quote": "The oldest human artifacts found date to the Paleoindian period and are nearly 12,000 years old. Since that time, various cultures have continually used and occupied lands that became the park."
+  },
+  {
+   "id": "f36",
+   "ko": "11개 부족이 지금 국립공원이 된 이 땅과 역사로 이어져 있습니다.",
+   "source": "s11",
+   "quote": "There are 11 Tribes that have historic connections to the lands and resources now found within Grand Canyon National Park."
+  },
+  {
+   "id": "f37",
+   "ko": "11개 부족 가운데 하바수파이(Havasu'baaja), 호피, 왈라파이(Hwal'bay), 카이밥 파이우트, 라스베이거스 파이우트, 모아파 파이우트, 디네(Diné, 나바호)입니다.",
+   "source": "s11",
+   "quote": "Havasu'baaja Havasupai Tribe – AZ Hopi Tribe – AZ Hwal'bay Hualapai Tribe – AZ Nungwu Kaibab Band of Paiute Indians – AZ Las Vegas Paiute Tribe – NV Moapa Band of Paiute Indians – NV Diné Navajo Nation – AZ"
+  },
+  {
+   "id": "f38",
+   "ko": "나머지는 유타 파이우트, 산후안 남부 파이우트, 주니(A:shiwi), 야바파이-아파치입니다.",
+   "source": "s11",
+   "quote": "Paiute Indian Tribe of Utah – UT San Juan Southern Paiute Tribe – AZ A:shiwi The Pueblo of Zuni – NM Yavap'e - Nṉéé Yavapai-Apache Nation – AZ"
+  },
+  {
+   "id": "f39",
+   "ko": "11개 부족 공동체는 아주 오래전부터 이곳을 고향이라 불러 왔습니다.",
+   "source": "s11",
+   "quote": "those who have called it home since time immemorial – Grand Canyon's 11 tribal communities"
+  },
+  {
+   "id": "f40",
+   "ko": "11개 부족 모두에게 그랜드캐니언은 성스러운 곳입니다.",
+   "source": "s22",
+   "quote": "For the Havasupai, Hualapai, and Yavapai-Apache Nation, along with the rest of the 11 Associated Tribes of the Grand Canyon, the Grand Canyon is a sacred place."
+  },
+  {
+   "id": "f41",
+   "ko": "하바수파이 사람들은 협곡 안에 남은 마지막 부족 마을에 삽니다.",
+   "source": "s12",
+   "quote": "The Havasupai live in the last remaining tribal village inside the canyon."
+  },
+  {
+   "id": "f42",
+   "ko": "호피 사람들은 그랜드캐니언을 Ongtupqa라고 부릅니다.",
+   "source": "s21",
+   "quote": "rise over Ongtupqa (Grand Canyon)"
+  },
+  {
+   "id": "f43",
+   "ko": "왈라파이, 호피, 주니에게 이 협곡은 기원 이야기의 무대입니다.",
+   "source": "s22",
+   "quote": "For the Hualapai, Hopi, and Zuni, it is the location of their origin stories."
+  },
+  {
+   "id": "f44",
+   "ko": "「전해지는 이야기」 콜로라도강과 리틀콜로라도강이 만나는 곳 근처의 시파푸니는 호피 사람들이 이 세상으로 나온 곳입니다.",
+   "source": "s22",
+   "quote": "It is the location of the Sipapuni, the spot from where the Hopi people emerged into this world."
+  },
+  {
+   "id": "f45",
+   "ko": "2022년 미국 지명위원회는 NPS가 하바수파이 부족을 대신해 낸 요청에 따라 Indian Garden을 하바수파이 가든스로 바꾸기로 했습니다.",
+   "source": "s23",
+   "quote": "(HAVASUPAI RESERVATION, and Grand Canyon National Park, Ariz. Nov. 21, 2022) -- The U.S. Board of Geographic Names voted unanimously (19-0) earlier this month in favor of the formal request submitted by the National Park Service on behalf of the Havasupai Tribe to change the name of Indian Garden (FID #6209) to Havasupai Gardens."
+  },
+  {
+   "id": "f46",
+   "ko": "NPS 정책으로 하바수파이 사람들은 Ha’a Gyoh에서 밀려났고, 1928년 마지막 주민이 강제로 쫓겨났습니다.",
+   "source": "s23",
+   "quote": "Originally called Ha’a Gyoh, the National Park Service (NPS) instituted policies that forced the Havasupai people from Ha’a Gyoh and in 1928, the last Havasupai resident, Captain Burro, was forcibly removed."
+  },
+  {
+   "id": "f47",
+   "ko": "하바수파이 부족원의 증언에 따르면, 한 하바수파이 가족은 대대로 농사짓던 Indian Garden 땅에서 밀려났습니다.",
+   "source": "s23",
+   "quote": "This man and his family were pushed out of Indian Garden, forced to leave the land they had farmed for generations"
+  },
+  {
+   "id": "f48",
+   "ko": "1540년 프란시스코 바스케스 데 코로나도의 스페인 원정대가 멕시코시티에서 북쪽으로 올라왔습니다.",
+   "source": "s13",
+   "quote": "In 1540, Francisco Vázquez de Coronado and his Spanish army traveled northward from Mexico City in search of the Seven Cities of Cíbola."
+  },
+  {
+   "id": "f49",
+   "ko": "원정대는 협곡 동쪽의 호피 마을(호피 메사)에 닿았습니다.",
+   "source": "s13",
+   "quote": "Coronado’s army arrived at the Hopi Mesas, east of Grand Canyon."
+  },
+  {
+   "id": "f50",
+   "ko": "유럽인으로는 가르시아 로페스 데 카르데나스가 이끈 군인들이 처음 그랜드캐니언을 봤습니다.",
+   "source": "s13",
+   "quote": "The first Europeans to see Grand Canyon were soldiers led by García López de Cárdenas."
+  },
+  {
+   "id": "f51",
+   "ko": "카르데나스 일행은 호피 사람들의 안내를 받았습니다.",
+   "source": "s13",
+   "quote": "Cárdenas, guided by the Hopi, led a small party of men to find a reported “great river.”"
+  },
+  {
+   "id": "f75",
+   "ko": "스무 날을 걸어 카르데나스 일행은 협곡 가장자리에 닿았습니다.",
+   "source": "s13",
+   "quote": "After a twenty-day journey, Cárdenas and his army arrived at the edge of Grand Canyon."
+  },
+  {
+   "id": "f52",
+   "ko": "호피 지도자들은 반갑지 않은 군인들을 강 위 가장 높은 곳으로 에둘러 데려가고 쓸모 있는 정보는 주지 말라고 일렀습니다.",
+   "source": "s13",
+   "quote": "The Hopi leaders advised their men to guide the unwelcome soldiers along an exaggerate path to the highest point above the river and to volunteer no information of value."
+  },
+  {
+   "id": "f53",
+   "ko": "스페인 군인들은 강폭이 6피트(약 1.8 m)를 넘지 않는다고, 곧 2 m도 안 된다고 어림했습니다.",
+   "source": "s13",
+   "quote": "The Spaniards estimated that the opposite rim was 8 to 10 miles away and that the Colorado River was no more than 6 feet across."
+  },
+  {
+   "id": "f54",
+   "ko": "1869년 존 웨슬리 파월이 기록에 남은 첫 그랜드캐니언 뱃길 탐사를 이끌었습니다.",
+   "source": "s25",
+   "quote": "Geologist and ethnologist John Wesley Powell led the first river trip through Grand Canyon, which was the “great unknown” at the time of his exploration in 1869."
+  },
+  {
+   "id": "f55",
+   "ko": "1869년 5월 24일 파월 탐사대는 배 네 척으로 와이오밍주 그린리버를 떠났습니다.",
+   "source": "s13",
+   "quote": "The expedition launched four boats from Green River, Wyoming in May 24, 1869."
+  },
+  {
+   "id": "f56",
+   "ko": "탐사대는 여름 석 달 동안 위쪽 협곡들을 지난 뒤 그랜드캐니언에 들어섰습니다.",
+   "source": "s13",
+   "quote": "After three summer months spent exploring the upper canyons of the Colorado River"
+  },
+  {
+   "id": "f57",
+   "ko": "1908년 1월 11일 시어도어 루스벨트 대통령이 그랜드캐니언을 국가기념물로 지정했습니다.",
+   "source": "s15",
+   "quote": "On January 11, 1908, Roosevelt officially recognized the significance of Grand Canyon by using this same order to proclaim it a national monument."
+  },
+  {
+   "id": "f58",
+   "ko": "지정 문서는 이곳을 ‘미국에서 가장 크게 깎인 협곡’이라고 적었습니다.",
+   "source": "s16",
+   "quote": "as “an object of unusual scientific interest, being the greatest eroded canyon within the United States” (Proc. No. 794)"
+  },
+  {
+   "id": "f59",
+   "ko": "1919년 2월 26일 의회 법으로 그랜드캐니언 국립공원이 지정됐습니다.",
+   "source": "s14",
+   "quote": "1919: Designated as Grand Canyon National Park by an act of Congress on February 26 (40 Stat 1175)."
+  },
+  {
+   "id": "f60",
+   "ko": "국립공원 법에는 우드로 윌슨 대통령이 서명했습니다.",
+   "source": "s16",
+   "quote": "The protected area achieved national park status in 1919 through an act of Congress signed by President Woodrow Wilson."
+  },
+  {
+   "id": "f61",
+   "ko": "1979년 유네스코 세계유산에 올랐습니다.",
+   "source": "s17",
+   "quote": "Date of Inscription: 1979"
+  },
+  {
+   "id": "f62",
+   "ko": "마더 포인트는 국립공원관리청 초대 청장 스티븐 마더의 이름을 땄습니다.",
+   "source": "s18",
+   "quote": "This viewpoint is named for Stephen Tyng Mather, the first director of the National Park Service."
+  },
+  {
+   "id": "f63",
+   "ko": "방문객은 2021~2025년 해마다 4백만 명이 넘었고(440만 명 이상), 2025년에는 443만 명(4,430,653명)이었습니다.",
+   "source": "s1",
+   "quote": "Total Visitation 2021: 4,550,921 2022: 4,732,101 2023: 4,733,705 2024: 4,919,163 2025: 4,430,653"
+  },
+  {
+   "id": "f64",
+   "ko": "1919년 방문객은 4만 4천여 명(44,173명)이었습니다.",
+   "source": "s2",
+   "quote": "a far cry from the annual visitation of 44,173 which the park received in 1919"
+  },
+  {
+   "id": "f65",
+   "ko": "2025년 7월 4일 노스림 개발 지역 서쪽(노스림 근처)에서 번개로 드래건 브라보 산불이 시작됐습니다.",
+   "source": "s14",
+   "quote": "The Dragon Bravo Fire (DBF) was a lightning caused fire that ignited on July 4, 2025 west of the North Rim Developed Area in Grand Canyon National Park (GRCA)."
+  },
+  {
+   "id": "f66",
+   "ko": "이 산불로 건물 114채가 불탔고, 그 가운데 98채가 역사 건물이었습니다.",
+   "source": "s14",
+   "quote": "The DBF destroyed 114 buildings, including 98 that were historic."
+  },
+  {
+   "id": "f67",
+   "ko": "글렌캐니언 댐은 1963년 완공됐습니다.",
+   "source": "s2",
+   "quote": "Glen Canyon Dam was completed in 1963."
+  },
+  {
+   "id": "f68",
+   "ko": "지금 콜로라도강의 물은 글렌캐니언 댐이 조절해서 철마다 크게 불어나지 않습니다.",
+   "source": "s3",
+   "quote": "Currently controlled by Glen Canyon Dam, the Colorado River through Grand Canyon no longer experiences dramatic changes in water volume throughout the year."
+  },
+  {
+   "id": "f69",
+   "ko": "2019년 국제 밤하늘 공원으로 지정됐습니다.",
+   "source": "s14",
+   "quote": "2019: Designated an International Dark Sky Park (IDSP) by the International Dark-Sky Association."
+  },
+  {
+   "id": "f70",
+   "ko": "마더 포인트에서는 바닥의 팬텀 랜치와 콜로라도강 일부가 보입니다.",
+   "source": "s18",
+   "quote": "Looking down into the canyon you can see a few small samples of the Colorado River, Phantom Ranch at the bottom of the canyon, and numerous trails crisscrossing the landscape."
+  },
+  {
+   "id": "f71",
+   "ko": "해가 뜨고 질 때 바위 색이 바뀝니다.",
+   "source": "s18",
+   "quote": "Be sure to get here early to enjoy the change in colors as the sun rises and sets."
+  },
+  {
+   "id": "f72",
+   "ko": "그랜저 포인트에서는 브라이트 에인절 트레일의 지그재그 길과 그 아래 3마일 쉼터가 내려다보입니다.",
+   "source": "s19",
+   "quote": "It also provides especially fantastic aerial views of the switchbacks on the upper and middle portions of Bright Angel Trail, as well as a view of 3-Mile Resthouse far below."
+  },
+  {
+   "id": "f73",
+   "ko": "호피 포인트에서는 콜로라도강이 다섯 군데에서 보입니다.",
+   "source": "s20",
+   "quote": "Hopi Point also offers five views of the Colorado River."
+  },
+  {
+   "id": "f74",
+   "ko": "한라산은 해발 1,950 m로 남한에서 가장 높은 화산입니다.",
+   "source": "s26",
+   "quote": "한라산은 해발 1,950m로 남한에서 가장 높은 화산이다."
+  },
+  {
+   "id": "f76",
+   "ko": "지층 누중의 법칙에 따라, 지층은 대체로 위에 있을수록 젊고 아래로 갈수록 오래됐습니다.",
+   "source": "s3",
+   "quote": "In geology, this is referred to as the principle of superposition, meaning rocks on the top are generally younger than rocks below them."
+  }
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Park Statistics — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/management/statistics.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s2",
+   "title": "Frequently Asked Questions — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/faqs.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s3",
+   "title": "Geology — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s4",
+   "title": "Grand Canyon's Rocks Are Incredibly Old (Trail of Time wayside)",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/places/000/grand-canyon-s-rocks-are-incredibly-old.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s5",
+   "title": "Vishnu Basement Rocks — Telling Time at Grand Canyon National Park",
+   "publisher": "U.S. National Park Service (Karlstrom, Crossey, Mathis, Bowman; from Natural Resource Report NPS/GRCA/NRR—2021/2246, doi:10.36967/nrr-2285173)",
+   "url": "https://www.nps.gov/articles/000/grcatime-vishnu-basement-rocks.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s6",
+   "title": "Missing Time at Grand Canyon National Park — Telling Time at Grand Canyon National Park",
+   "publisher": "U.S. National Park Service (Karlstrom, Crossey, Mathis, Bowman; from NRR—2021/2246)",
+   "url": "https://www.nps.gov/articles/000/grcatime-missing-time.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s7",
+   "title": "Layered Paleozoic Rocks — Telling Time at Grand Canyon National Park",
+   "publisher": "U.S. National Park Service (Karlstrom, Crossey, Mathis, Bowman; from NRR—2021/2246)",
+   "url": "https://www.nps.gov/articles/000/grcatime-layered-paleozoic-rock.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s8",
+   "title": "Karlstrom, K. E. et al. (2014) Formation of the Grand Canyon 5 to 6 million years ago through integration of older palaeocanyons. Nature Geoscience 7: 239–244",
+   "publisher": "Nature Geoscience (peer-reviewed)",
+   "url": "https://doi.org/10.1038/ngeo2065",
+   "accessed": "2026-10-13",
+   "via": "abstract read on nature.com/articles/ngeo2065"
+  },
+  {
+   "id": "s9",
+   "title": "Hawkins, D. P. et al. (1996) U-Pb geochronologic constraints on the Paleoproterozoic crustal evolution of the Upper Granite Gorge, Grand Canyon, Arizona. GSA Bulletin 108(9): 1167–1181",
+   "publisher": "Geological Society of America Bulletin (peer-reviewed)",
+   "url": "https://doi.org/10.1130/0016-7606(1996)108%3C1167:UPGCOT%3E2.3.CO;2",
+   "accessed": "2026-10-13",
+   "via": "abstract read via the OpenAlex API (https://api.openalex.org/works/doi:10.1130/0016-7606(1996)108%3C1167:UPGCOT%3E2.3.CO;2)"
+  },
+  {
+   "id": "s10",
+   "title": "Karlstrom, K. E. et al. (2020) Redefining the Tonto Group of Grand Canyon and recalibrating the Cambrian time scale. Geology 48(5): 425–430",
+   "publisher": "Geology (peer-reviewed)",
+   "url": "https://doi.org/10.1130/G46755.1",
+   "accessed": "2026-10-13",
+   "via": "abstract read on the NSF Public Access Repository, par.nsf.gov/biblio/10283415"
+  },
+  {
+   "id": "s11",
+   "title": "Associated Tribes — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/historyculture/associated-tribes.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s12",
+   "title": "People on the Landscape — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/education/human-history.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s13",
+   "title": "Explorers — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/historyculture/explorers.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s14",
+   "title": "Grand Canyon National Park 2025 Park Profile (PDF)",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/management/upload/2025-Park-Profile-508.pdf",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s15",
+   "title": "Roosevelt Point",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/places/000/roosevelt-point.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s16",
+   "title": "The Grand Canyon and the Antiquities Act",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/articles/000/grand-canyon-and-the-antiquities-act.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s17",
+   "title": "Grand Canyon National Park — World Heritage List no. 75",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/75/",
+   "accessed": "2026-10-13",
+   "via": "read via the Wayback Machine snapshot of 2026-10-08 (the site blocks scripts); used only for the inscription year"
+  },
+  {
+   "id": "s18",
+   "title": "Mather Point",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/places/000/mather-point.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s19",
+   "title": "Grandeur Point",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/places/000/grandeur-point.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s20",
+   "title": "Hopi Point",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/places/000/hopi-point.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s21",
+   "title": "Nimanmuya (Going Home Moon) — video description",
+   "publisher": "U.S. National Park Service, Grand Canyon National Park",
+   "url": "https://home.nps.gov/media/video/view.htm?id=BD046125-B19D-4F3A-8CA9-63D19072F2A3",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s22",
+   "title": "Sacred Canyon — Grand Canyon National Park",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/grca/learn/historyculture/sacred-canyon.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s23",
+   "title": "Indian Garden Now Officially Called Havasupai Gardens (news release, 2022-11-21)",
+   "publisher": "U.S. National Park Service and Havasupai Tribal Council",
+   "url": "https://www.nps.gov/grca/learn/news/indian-garden-officially-renamed-to-havasupai-gardens.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s24",
+   "title": "Phantom Ranch Tour — Greatest Angular Unconformity & Great Unconformity (image caption)",
+   "publisher": "U.S. Geological Survey",
+   "url": "https://www.usgs.gov/media/images/phantom-ranch-tour-greatest-angular-unconformity-great-unconformity",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s25",
+   "title": "NPS Geodiversity Atlas — Grand Canyon National Park, Arizona",
+   "publisher": "U.S. National Park Service",
+   "url": "https://www.nps.gov/articles/nps-geodiversity-atlas-grand-canyon-national-park-arizona.htm",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s26",
+   "title": "국가유산 검색 Open API — 한라산 천연보호구역",
+   "publisher": "국가유산청",
+   "url": "https://www.khs.go.kr/cha/SearchKindOpenapiDt.do?ccbaKdcd=16&ccbaAsno=0001820000000&ccbaCtcd=50",
+   "accessed": "2026-10-13"
+  },
+  {
+   "id": "s27",
+   "title": "GNIS Domestic Names — Arizona (text file of 2026-09-29)",
+   "publisher": "U.S. Geological Survey, Geographic Names Information System",
+   "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/DomesticNames/DomesticNames_AZ_Text.zip",
+   "accessed": "2026-10-13",
+   "via": "coordinates of the camera hints; public domain"
+  }
+ ],
+ "review": {
+  "status": "draft-verified",
+  "checked_on": "2026-10-13",
+  "checked_by": "content agent (quotes matched by tools/content_verify.py); independent re-check on sources downloaded again (tools/verify_content.py, tools/verify_coords.py, see docs/proto/content.md 검증)",
+  "next_due": "2027-10-13"
+ }
+}

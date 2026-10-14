@@ -1,0 +1,18 @@
+[
+ {
+  "what_ko": "그랜드캐니언 3D 지형의 높이(DEM)",
+  "title": "Terrain Tiles (Terrarium) — USGS 3DEP (NED) 1/3 arc-second, tiles n36w112, n36w113, n37w112, n37w113",
+  "author": "U.S. Geological Survey; tiles by Tilezen Joerd (Mapzen), hosted by AWS Open Data",
+  "license": "Public domain (U.S. Government work)",
+  "url": "https://registry.opendata.aws/terrain-tiles/",
+  "attribution": "United States 3DEP (formerly NED) and global GMTED2010 and SRTM terrain data courtesy of the U.S. Geological Survey."
+ },
+ {
+  "what_ko": "그랜드캐니언 3D 지형에 입힌 항공 사진",
+  "title": "USGS Imagery Only (The National Map) — NAIP orthoimagery 2017–2021",
+  "author": "USDA Farm Service Agency (NAIP); U.S. Geological Survey, The National Map",
+  "license": "Public domain (U.S. Government work)",
+  "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+  "attribution": "USDA, USGS The National Map: Orthoimagery"
+ }
+]

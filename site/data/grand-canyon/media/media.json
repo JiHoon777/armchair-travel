@@ -1,0 +1,44 @@
+{
+ "then": {
+  "file": "then.jpg",
+  "year": 1900,
+  "year_label_ko": "1900~1930년 무렵",
+  "year_range": [
+   1900,
+   1930
+  ],
+  "caption_ko": "1900~1930년 무렵, 브라이트 에인절 트레일 서쪽 가장자리에서 북동쪽을 찍은 유리 원판 사진입니다. 가운데로 브라이트 에인절 협곡이 지나갑니다.",
+  "alt_ko": "흑백 사진입니다. 층층이 깎인 봉우리와 골짜기가 멀리 북쪽 가장자리까지 이어집니다.",
+  "width": 1600,
+  "height": 1200,
+  "credit": {
+   "title": "Panorama from Hotel Point west of Bright Angel Trail, looking northeast, Grand Canyon, 1900-1930 (CHS-3269)",
+   "author": "C. C. Pierce (1861–1946); California Historical Society Collection, USC Libraries",
+   "license": "Public domain (PD-US; photographer died 1946)",
+   "url": "https://commons.wikimedia.org/wiki/File:Panorama_from_Hotel_Point_west_of_Bright_Angel_Trail,_looking_northeast,_Grand_Canyon,_1900-1930_(CHS-3269).jpg",
+   "source_url": "http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/13652",
+   "attribution": "C. C. Pierce, California Historical Society Collection at the University of Southern California"
+  }
+ },
+ "now": {
+  "file": "now.jpg",
+  "year": 2011,
+  "year_label_ko": "2011년",
+  "caption_ko": "2011년, 가까운 브라이트 에인절 로지 마당에서 같은 북동쪽을 본 모습입니다. 가운데 깊게 파인 골짜기가 브라이트 에인절 협곡입니다.",
+  "alt_ko": "컬러 사진입니다. 붉은 지층의 봉우리들 사이로 브라이트 에인절 협곡이 깊게 패어 있습니다.",
+  "width": 1600,
+  "height": 1200,
+  "credit": {
+   "title": "Grand Canyon Nat. Park: Panorama with El Tovar Hotel 5975",
+   "author": "Grand Canyon National Park (NPS photo by Michael Quinn)",
+   "license": "CC BY 2.0 (on Flickr); also public domain in the U.S. as an NPS work",
+   "url": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Nat._Park_Panorama_with_El_Tovar_Hotel_5975_(7974172042).jpg",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "source_url": "https://www.flickr.com/photos/grand_canyon_nps/7974172042/",
+   "attribution": "Grand Canyon National Park, NPS photo by Michael Quinn, CC BY 2.0"
+  }
+ },
+ "pair_note_ko": "두 사진은 수백 미터 떨어진 비슷한 자리에서 같은 쪽을 보고 찍었습니다. 겹쳐 맞춘 사진은 아닙니다.",
+ "pair_caption_ko": "1900~1930년 무렵과 2011년에 사우스림에서 북동쪽 브라이트 에인절 협곡 쪽을 본 사진입니다. 두 사진은 수백 m 떨어진 자리에서 찍었습니다.",
+ "credit_line_ko": "사진: C. C. Pierce(공공 영역) · NPS/M. Quinn(CC BY 2.0)"
+}

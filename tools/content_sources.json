@@ -1,0 +1,33 @@
+{
+  "_note": "CONTENT area: maps each source URL used in site/data/grand-canyon/place.json to the cached copy that content_verify.py reads. Files live in tools/cache/content/raw (downloaded 2026-10-13) and are converted to text by content_text.py.",
+  "sources": {
+    "https://www.nps.gov/grca/learn/management/statistics.htm": "nps_statistics",
+    "https://www.nps.gov/grca/faqs.htm": "nps_faqs",
+    "https://www.nps.gov/grca/learn/nature/grca-geology.htm": "nps_geology",
+    "https://www.nps.gov/places/000/grand-canyon-s-rocks-are-incredibly-old.htm": "nps_rocks_old",
+    "https://www.nps.gov/articles/000/grcatime-vishnu-basement-rocks.htm": "nps_grcatime_vishnu",
+    "https://www.nps.gov/articles/000/grcatime-missing-time.htm": "nps_grcatime_missing_time",
+    "https://www.nps.gov/articles/000/grcatime-layered-paleozoic-rock.htm": "nps_grcatime_paleozoic",
+    "https://doi.org/10.1038/ngeo2065": "nature_ngeo2065",
+    "https://doi.org/10.1130/0016-7606(1996)108%3C1167:UPGCOT%3E2.3.CO;2": "openalex_hawkins1996",
+    "https://doi.org/10.1130/G46755.1": "nsf_karlstrom2020",
+    "https://www.nps.gov/grca/learn/historyculture/associated-tribes.htm": "nps_associated_tribes",
+    "https://www.nps.gov/grca/learn/education/human-history.htm": "nps_human_history_edu",
+    "https://www.nps.gov/grca/learn/historyculture/explorers.htm": "nps_explorers",
+    "https://www.nps.gov/articles/nps-geodiversity-atlas-grand-canyon-national-park-arizona.htm": "nps_geodiversity_atlas",
+    "https://www.nps.gov/grca/learn/management/upload/2025-Park-Profile-508.pdf": "nps_park_profile_2025",
+    "https://www.nps.gov/places/000/roosevelt-point.htm": "nps_roosevelt_point",
+    "https://www.nps.gov/articles/000/grand-canyon-and-the-antiquities-act.htm": "nps_antiquities_act",
+    "https://whc.unesco.org/en/list/75/": "unesco_list_75_wayback",
+    "https://www.nps.gov/places/000/mather-point.htm": "nps_mather_point",
+    "https://www.nps.gov/places/000/grandeur-point.htm": "nps_grandeur_point",
+    "https://www.nps.gov/places/000/hopi-point.htm": "nps_hopi_point",
+    "https://www.nps.gov/grca/planyourvisit/basicinfo.htm": "nps_basicinfo",
+    "https://home.nps.gov/media/video/view.htm?id=BD046125-B19D-4F3A-8CA9-63D19072F2A3": "nps_video_ongtupqa",
+    "https://www.nps.gov/grca/learn/historyculture/sacred-canyon.htm": "nps_sacred_canyon",
+    "https://www.nps.gov/grca/learn/news/indian-garden-officially-renamed-to-havasupai-gardens.htm": "nps_havasupai_gardens",
+    "https://www.usgs.gov/media/images/phantom-ranch-tour-greatest-angular-unconformity-great-unconformity": "usgs_phantom_unconformity",
+    "https://www.khs.go.kr/cha/SearchKindOpenapiDt.do?ccbaKdcd=16&ccbaAsno=0001820000000&ccbaCtcd=50": "khs_hallasan_api",
+    "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/DomesticNames/DomesticNames_AZ_Text.zip": "gnis_az"
+  }
+}

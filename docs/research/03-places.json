@@ -1,0 +1,1876 @@
+[
+ {
+  "id": "grand-canyon",
+  "name_ko": "그랜드캐니언",
+  "name_en": "Grand Canyon",
+  "country_ko": "미국(애리조나)",
+  "continent": "north_america",
+  "biome": "canyon",
+  "lat": 36.3,
+  "lon": -112.75,
+  "tier": "launch",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 5,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "CNN 1997",
+   "UNESCO 자연",
+   "NPS 2025 4위(약 440만)",
+   "Instagram 2020 3위(검색 요약)",
+   "Tripadvisor 2026 미국 체험 2위"
+  ],
+  "why_ko": "깊이 1,857 m 단면에 20억 년 가까운 지층이 드러난다. 캐논·인기·데이터가 모두 최상위라 첫 화면 후보다.",
+  "geology_hook_ko": "길이 446 km, 너비 최대 29 km, 깊이 1,857 m. 콜로라도강이 약 500만~600만 년 전 자리를 잡고 고원이 솟는 동안 깎았다.",
+  "history_hook_ko": "푸에블로 사람들은 성지로 여겨 순례했다. 기록상 첫 유럽인은 1540년 스페인의 가르시아 로페스 데 카르데나스다.",
+  "viewpoints": [
+   {
+    "name": "Mather Point",
+    "lat": 36.06167,
+    "lon": -112.10806,
+    "kind": "ground",
+    "note_ko": "사우스림 방문자센터 옆 대표 일출 지점",
+    "coord_source": "Wikidata Q49469591"
+   },
+   {
+    "name": "Hopi Point",
+    "lat": 36.07452,
+    "lon": -112.15489,
+    "kind": "ground",
+    "note_ko": "서쪽이 트인 일몰 명소",
+    "coord_source": "OSM node 1915882342 (Nominatim)"
+   },
+   {
+    "name": "Desert View Watchtower",
+    "lat": 36.04389,
+    "lon": -111.82583,
+    "kind": "ground",
+    "note_ko": "동쪽 끝 망루, 강 굽이 조망",
+    "coord_source": "Wikidata Q2062022"
+   }
+  ],
+  "best_light_ko": "일출·일몰 전후 30분. 봄·가을. 눈 덮인 겨울 림.",
+  "data_notes_ko": "미국 USGS 3DEP 라이다(이용 조건 미확인)와 Copernicus 30 m. 사우스림 360 사진이 많다. Google 3D 사진측량 여부 미확인.",
+  "sensitivity_ko": "협곡 일부가 후알라파이·하바수파이 보호구역과 나바호 네이션에 걸쳐 있다. 부족 땅 장면은 부족 이름으로 설명한다.",
+  "korea_note_ko": "ko 위키 조회 11,094회(2025-10~2026-09), 한국/세계 관심 비율 1.0(평균)."
+ },
+ {
+  "id": "moraine-lake-banff",
+  "name_ko": "모레인 호수(캐나다 로키 밴프)",
+  "name_en": "Moraine Lake, Banff National Park",
+  "country_ko": "캐나다(앨버타)",
+  "continent": "north_america",
+  "biome": "lake_river",
+  "lat": 51.3225,
+  "lon": -116.18556,
+  "tier": "launch",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 3,
+   "data": 4,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연(캐나다 로키 산맥 공원군)",
+   "1969·1979 캐나다 20달러 지폐",
+   "로키산맥 ko 조회 1.4만"
+  ],
+  "why_ko": "빙하 가루가 만든 청록 호수와 텐 피크스 연봉. 한국인이 말하는 '캐나다 로키'를 한 장면으로 보여 준다.",
+  "geology_hook_ko": "해발 약 1,884 m 빙하호. 빙하가 갈아 낸 암석 가루가 물에 떠 파란빛만 되돌린다. 6월 중하순에야 물이 찬다.",
+  "history_hook_ko": "1969·1979년판 캐나다 20달러 지폐 뒷면에 실려 '20달러 뷰'로 불린다. 2023년부터 개인 차량 진입이 막혀 셔틀로 간다.",
+  "viewpoints": [
+   {
+    "name": "Rockpile 전망대",
+    "lat": 51.32786,
+    "lon": -116.18069,
+    "kind": "ground",
+    "note_ko": "호수 북단 바위 더미, '20달러 뷰' 자리",
+    "coord_source": "OSM node 348002838 (Overpass, tourism=viewpoint)"
+   },
+   {
+    "name": "Peyto Lake Viewpoint",
+    "lat": 51.71738,
+    "lon": -116.50741,
+    "kind": "ground",
+    "note_ko": "보우 서밋에서 늑대 머리 모양 호수를 내려다본다",
+    "coord_source": "OSM way 1319915136 (Nominatim)"
+   },
+   {
+    "name": "Lake Louise",
+    "lat": 51.41167,
+    "lon": -116.22806,
+    "kind": "ground",
+    "note_ko": "샤토 앞 호수, 빅토리아 빙하 정면(호수 대표점)",
+    "coord_source": "Wikidata Q1367398"
+   }
+  ],
+  "best_light_ko": "7~9월 해 뜰 무렵 연봉에 첫 빛. 물이 차는 6월 말 이후.",
+  "data_notes_ko": "캐나다 공개 DEM(라이선스 미확인)과 Copernicus 30 m. 360·Mapillary 사진이 많다. 호수 색은 셰이더로 만든다.",
+  "sensitivity_ko": "도로는 6~9월만 열린다. 원주민 지명 병기는 확인이 필요하다(미확인).",
+  "korea_note_ko": "모레인 호수 문서 ko 조회는 598회뿐이다. 장소 이름보다 '캐나다 로키'로 묶어 소개하는 편이 낫다."
+ },
+ {
+  "id": "yellowknife-aurora",
+  "name_ko": "옐로나이프 오로라",
+  "name_en": "Aurora over Yellowknife",
+  "country_ko": "캐나다(노스웨스트 준주)",
+  "continent": "north_america",
+  "biome": "sky",
+  "lat": 62.45361,
+  "lon": -114.37,
+  "tier": "launch",
+  "scores": {
+   "iconic": 4,
+   "drama": 4,
+   "story": 3,
+   "data": 3,
+   "calm": 5
+  },
+  "canon": [
+   "CNN 1997(오로라)",
+   "오로라 ko 조회 2.27만(관심 비율 1.3)"
+  ],
+  "why_ko": "CNN 목록의 유일한 '하늘'. 평평한 땅 위 오로라가 주인공이라 지형 부담이 적고, 실시간 예보로 하늘을 바꿀 수 있다.",
+  "geology_hook_ko": "북극권 남쪽 약 400 km, 그레이트슬레이브호 북안. 하늘을 가리는 높은 산이 없다.",
+  "history_hook_ko": "이름은 구리 칼을 쓰던 데네 부족 '옐로나이프'에서 왔다. 1934년 금이 발견되며 생겼고 1967년 준주 수도가 됐다.",
+  "viewpoints": [
+   {
+    "name": "Pilots Monument",
+    "lat": 62.4656,
+    "lon": -114.3482,
+    "kind": "ground",
+    "note_ko": "올드타운 바위 언덕, 사방이 트인 하늘",
+    "coord_source": "OSM node 636108290 (Nominatim)"
+   },
+   {
+    "name": "Prelude Lake",
+    "lat": 62.56611,
+    "lon": -113.90515,
+    "kind": "ground",
+    "note_ko": "잉그럼 트레일 호숫가, 도시 불빛이 없다",
+    "coord_source": "OSM relation 6801193 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "8월 말~4월 초 밤. 맑고 추운 겨울밤, 달 없는 날.",
+  "data_notes_ko": "지형은 Copernicus 30 m로 충분하다. 오로라는 셰이더로 만들고 우주기상 예보로 세기를 바꾼다(데이터 조건 미확인). 실제 밤하늘 360은 드물다.",
+  "sensitivity_ko": "옐로나이프 데네 퍼스트 네이션의 땅이다. 오로라 전설은 부족 출처를 밝히고 쓴다.",
+  "korea_note_ko": "옐로나이프 ko 조회 4,673회. 한국·일본 단체 오로라 관광지로 알려져 있다(수치 미확인)."
+ },
+ {
+  "id": "salar-de-uyuni",
+  "name_ko": "우유니 소금사막",
+  "name_en": "Salar de Uyuni",
+  "country_ko": "볼리비아(포토시)",
+  "continent": "south_america",
+  "biome": "salt_flat",
+  "lat": -20.133775,
+  "lon": -67.48913,
+  "tier": "launch",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "캐논 목록 밖",
+   "한국 TV: 태어난 김에 세계일주(2023, 페루·볼리비아)",
+   "ko 관심 비율 1.4"
+  ],
+  "why_ko": "세계 최대 소금평원. 비 온 뒤 하늘과 땅이 대칭이 되는 거울은 three.js 반사 셰이더로 가장 효과가 큰 장면이다. 캐논 목록엔 없다.",
+  "geology_hook_ko": "넓이 약 10,582 km², 해발 3,656 m. 홍적세 말 호수 7개가 말라 소금이 쌓였고, 전체 높이 차가 1 m 미만이라 위성 고도계 보정에 쓴다.",
+  "history_hook_ko": "아이마라 전설에서 산 투누파의 눈물과 젖이 섞여 소금밭이 됐다. 11월엔 플라밍고 세 종이 번식한다.",
+  "viewpoints": [
+   {
+    "name": "Isla Incahuasi",
+    "lat": -20.24278,
+    "lon": -67.62528,
+    "kind": "ground",
+    "note_ko": "선인장 섬 정상, 사방 흰 평원",
+    "coord_source": "Wikidata Q1438367"
+   },
+   {
+    "name": "Tunupa",
+    "lat": -19.83,
+    "lon": -67.64,
+    "kind": "ground",
+    "note_ko": "북쪽 화산 사면, 전설의 거인",
+    "coord_source": "Wikidata Q849364"
+   },
+   {
+    "name": "Monumento al Dakar",
+    "lat": -20.33004,
+    "lon": -67.04499,
+    "kind": "ground",
+    "note_ko": "콜차니 쪽 진입부, 우기 거울 투어 기점 부근",
+    "coord_source": "OSM node 4483160522 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "우기(12~3월, 1월 강수 최대)에 거울. 건기에는 육각 소금 무늬와 별하늘.",
+  "data_notes_ko": "평평해서 Copernicus 30 m로 충분하다. 거울·소금 무늬는 셰이더. 360 사진은 투어 동선에 몰려 있다.",
+  "sensitivity_ko": "리튬 개발 논쟁이 있다(세부 미확인). 아이마라 전설은 출처를 밝힌다. 고산 3,656 m.",
+  "korea_note_ko": "ko 조회 5,612회(관심 비율 1.4). 한국인 버킷리스트 단골이라는 설문 원자료는 못 찾았다."
+ },
+ {
+  "id": "jungfrau-aletsch",
+  "name_ko": "융프라우-알레치(스위스 알프스)",
+  "name_en": "Swiss Alps Jungfrau-Aletsch",
+  "country_ko": "스위스(베른·발레)",
+  "continent": "europe",
+  "biome": "glacier_ice",
+  "lat": 46.44222,
+  "lon": 8.07722,
+  "tier": "launch",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 4,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연 2001(알프스 첫 자연유산)",
+   "한국 TV: 꽃보다 할배(2013), 텐트 밖은 유럽(2022)",
+   "융프라우요흐 ko 관심 비율 2.1"
+  ],
+  "why_ko": "알프스 최대 빙하와 아이거 북벽. 공개 고해상도 지형으로 데이터가 가장 좋고 한국인 관심도 높다.",
+  "geology_hook_ko": "알레치 빙하는 길이 약 23 km(2014), 두께 최대 905 m. 1870년 이후 3.2 km, 1980년 이후 1.3 km 짧아졌다(2016 기준).",
+  "history_hook_ko": "1912년 융프라우 철도가 열려 해발 3,454 m 유럽 최고 기차역이 생겼다. 스핑크스 관측소(3,572 m)는 대기 감시 기지다.",
+  "viewpoints": [
+   {
+    "name": "Sphinx Observatory",
+    "lat": 46.5475,
+    "lon": 7.985,
+    "kind": "ground",
+    "note_ko": "3,572 m 전망대, 빙하 상류 조망",
+    "coord_source": "Wikidata Q671810"
+   },
+   {
+    "name": "Eggishorn",
+    "lat": 46.42722,
+    "lon": 8.09333,
+    "kind": "ground",
+    "note_ko": "빙하가 휘어 흐르는 고전 구도",
+    "coord_source": "Wikidata Q670237"
+   },
+   {
+    "name": "Kleine Scheidegg",
+    "lat": 46.58472,
+    "lon": 7.96139,
+    "kind": "ground",
+    "note_ko": "아이거 북벽 정면, 철도 환승역",
+    "coord_source": "Wikidata Q869540"
+   }
+  ],
+  "best_light_ko": "6~9월 맑은 오전. 겨울 설경. 오후 역광에 빙하 질감이 산다.",
+  "data_notes_ko": "스위스 국가 고해상도 지형(무료 공개, 상업 조건 미확인)과 Copernicus 30 m. 360 사진이 매우 많다.",
+  "sensitivity_ko": "빙하 후퇴는 연도와 출처를 붙여 사실대로 보여 준다.",
+  "korea_note_ko": "꽃보다 할배(2013) 체르마트·마터호른, 텐트 밖은 유럽(2022) 그린델발트 캠핑. 융프라우요흐 ko 조회 2,800회."
+ },
+ {
+  "id": "geirangerfjord",
+  "name_ko": "게이랑에르피오르",
+  "name_en": "Geirangerfjord",
+  "country_ko": "노르웨이(뫼레오그롬스달)",
+  "continent": "europe",
+  "biome": "coast_cliff_fjord",
+  "lat": 62.09444,
+  "lon": 7.08056,
+  "tier": "launch",
+  "scores": {
+   "iconic": 3,
+   "drama": 5,
+   "story": 4,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연 2005(서노르웨이 피오르)",
+   "한국 TV: 텐트 밖은 유럽 노르웨이 편(2023, 장소 미확인)",
+   "ko 관심 비율 1.5"
+  ],
+  "why_ko": "빙하가 판 좁은 바닷길, 수직 절벽, 마주 보는 폭포. 위에서 내려다보는 전망대가 여럿이라 '서서 보는 뷰'에 맞다.",
+  "geology_hook_ko": "길이 15 km 피오르. 서해안에서 가장 가파른 산들 사이라 사람이 살 땅이 거의 없다.",
+  "history_hook_ko": "절벽 위에 버려진 농가(스카예플로, 크니브스플로)가 남아 있다. 2026-01-01부터 1만 톤 미만 여객선은 무배출이어야 하고, 1만 톤 이상 크루즈선은 2032년부터다(2024-08 노르웨이 의회 확정).",
+  "viewpoints": [
+   {
+    "name": "Dalsnibba",
+    "lat": 62.04861,
+    "lon": 7.26917,
+    "kind": "ground",
+    "note_ko": "가장 높은 도로 전망대, 피오르 끝까지",
+    "coord_source": "Wikidata Q1158087"
+   },
+   {
+    "name": "Flydalsjuvet",
+    "lat": 62.08993,
+    "lon": 7.22286,
+    "kind": "ground",
+    "note_ko": "바위 턱 엽서 구도",
+    "coord_source": "OSM node 570059880 (Nominatim)"
+   },
+   {
+    "name": "Ørnesvingen",
+    "lat": 62.12625,
+    "lon": 7.16674,
+    "kind": "ground",
+    "note_ko": "독수리 길 굽이, 일곱 자매 폭포 방향",
+    "coord_source": "OSM node 276497630 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "5~9월 긴 저녁빛. 오전엔 피오르 안이 그늘진다.",
+  "data_notes_ko": "노르웨이 국가 지형 데이터(라이선스 미확인)와 Copernicus 30 m. 360 사진이 많다.",
+  "sensitivity_ko": "여름 크루즈 혼잡과 배출 규제가 쟁점이다. 송전선 계획으로 유산 지위가 논란이 된 적 있다.",
+  "korea_note_ko": "ko 조회 1,135회(관심 비율 1.5). 텐트 밖은 유럽 노르웨이 편(tvN, 2023-05~07)."
+ },
+ {
+  "id": "mount-everest",
+  "name_ko": "에베레스트(사가르마타·초모랑마)",
+  "name_en": "Mount Everest",
+  "country_ko": "네팔·중국(티베트)",
+  "continent": "asia",
+  "biome": "mountain",
+  "lat": 27.98833,
+  "lon": 86.92528,
+  "tier": "launch",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 5,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "CNN 1997",
+   "UNESCO 자연(사가르마타 국립공원)",
+   "en 조회 216만(목록 1위)"
+  ],
+  "why_ko": "세계 최고봉. 지형 데이터만으로 압도적인 높이 차가 나와 3D에서 가장 확실한 장면이다.",
+  "geology_hook_ko": "높이 8,848.86 m(2020 네팔·중국 공동 측량). 정상부는 삼엽충·바다나리 조각이 든 오르도비스기 바다 석회암이다.",
+  "history_hook_ko": "1865년 '피크 XV'에 측량국장 조지 에베레스트 이름이 붙었다. 1953년 텐징 노르가이와 에드먼드 힐러리가 첫 등정.",
+  "viewpoints": [
+   {
+    "name": "Kala Patthar",
+    "lat": 27.99583,
+    "lon": 86.82842,
+    "kind": "ground",
+    "note_ko": "남쪽에서 정상이 보이는 트레킹 최고점, 일몰",
+    "coord_source": "Wikidata Q1511454"
+   },
+   {
+    "name": "Hotel Everest View",
+    "lat": 27.81672,
+    "lon": 86.7236,
+    "kind": "ground",
+    "note_ko": "남체 위 호텔 테라스 원경",
+    "coord_source": "OSM way 539960397 (Nominatim)"
+   },
+   {
+    "name": "Rongbuk Monastery",
+    "lat": 28.19521,
+    "lon": 86.8279,
+    "kind": "ground",
+    "note_ko": "티베트 쪽 북벽 정면",
+    "coord_source": "Wikidata Q785488"
+   }
+  ],
+  "best_light_ko": "10~11월, 3~5월 맑은 날. 일몰에 정상만 붉게 남는다.",
+  "data_notes_ko": "큰 기복이라 Copernicus 30 m로도 충분하다. 더 고해상도 DEM은 라이선스 미확인. 정상부 360은 드물다.",
+  "sensitivity_ko": "사가르마타(네팔어)·초모랑마(티베트어)를 함께 쓴다. 사망자 340명(2024-05)과 남은 시신 이야기는 신중히.",
+  "korea_note_ko": "ko 조회 27,057회로 많지만 관심 비율은 0.6."
+ },
+ {
+  "id": "ha-long-bay",
+  "name_ko": "할롱베이",
+  "name_en": "Hạ Long Bay",
+  "country_ko": "베트남(꽝닌)",
+  "continent": "asia",
+  "biome": "karst",
+  "lat": 20.9,
+  "lon": 107.2,
+  "tier": "launch",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 5,
+   "data": 3,
+   "calm": 3
+  },
+  "canon": [
+   "N7W 2011",
+   "UNESCO 자연 1994(2000·2023 확장)",
+   "Tripadvisor 2026 세계 체험 10위(할롱·란하 크루즈)",
+   "ko 관심 비율 2.0"
+  ],
+  "why_ko": "바다에서 솟은 석회암 봉우리 수천 개. 천천히 흐르는 배 시점과 항공 시점 모두 강하고 한국인 관심도 높다.",
+  "geology_hook_ko": "면적 약 1,553 km²에 섬 1,969개. 석회암은 5억 년에 걸쳐 쌓였고 카르스트는 2,000만 년 동안 열대 습윤 기후에서 깎였다.",
+  "history_hook_ko": "이름은 '내려온 용'. 기원전 18,000년 무렵 소이뉴 문화부터 사람이 살았다. 응우옌짜이가 약 500년 전 시로 찬미했다.",
+  "viewpoints": [
+   {
+    "name": "Ti Top Island",
+    "lat": 20.859,
+    "lon": 107.08014,
+    "kind": "ground",
+    "note_ko": "섬 꼭대기 전망대, 만 전체",
+    "coord_source": "Wikidata Q16481033"
+   },
+   {
+    "name": "Sửng Sốt Cave",
+    "lat": 20.84475,
+    "lon": 107.09043,
+    "kind": "ground",
+    "note_ko": "만에서 가장 큰 동굴",
+    "coord_source": "Wikidata Q10765376 (vi Wikipedia)"
+   },
+   {
+    "name": "Bài Thơ Mountain",
+    "lat": 20.94798,
+    "lon": 107.07801,
+    "kind": "ground",
+    "note_ko": "도시 쪽 산에서 만을 내려다본다",
+    "coord_source": "Wikidata Q10802016 (vi Wikipedia)"
+   }
+  ],
+  "best_light_ko": "3~5월, 9~11월 맑은 날. 이른 아침 물안개.",
+  "data_notes_ko": "봉우리가 작고 가팔라 30 m DEM으론 뭉개진다. 사진측량·고해상도 지형이 필요하다(조달처 미확인). 크루즈 360이 많다.",
+  "sensitivity_ko": "크루즈 혼잡과 수질 문제가 있다. 수상 마을 주민 이야기는 사실 확인 후에.",
+  "korea_note_ko": "ko 조회 6,287회(관심 비율 2.0). 한국인 베트남 북부 여행의 단골 코스(수치 미확인)."
+ },
+ {
+  "id": "jeju-volcanic-island",
+  "name_ko": "제주 화산섬(성산일출봉·한라산·거문오름 용암동굴계)",
+  "name_en": "Jeju Volcanic Island and Lava Tubes",
+  "country_ko": "대한민국(제주)",
+  "continent": "asia",
+  "biome": "volcano",
+  "lat": 33.36139,
+  "lon": 126.5325,
+  "tier": "launch",
+  "scores": {
+   "iconic": 4,
+   "drama": 4,
+   "story": 5,
+   "data": 3,
+   "calm": 4
+  },
+  "canon": [
+   "N7W 2011",
+   "UNESCO 자연 2007",
+   "한라산 ko 관심 비율 14.0",
+   "2026 제48차 세계유산위원회 부산 개최(유네스코 뉴스 확인)"
+  ],
+  "why_ko": "한국에서 N7W와 유네스코 자연유산에 함께 오른 유일한 곳. 익숙한 곳에서 조작을 배우는 '출발 게이트'로 쓴다.",
+  "geology_hook_ko": "섬은 약 200만 년 전 해저 화산에서 시작했다. 거문오름 용암동굴계는 약 10만~30만 년 전 용암이 13 km 흘러 생겼고 만장굴은 7.4 km다. 한라산 1,947 m.",
+  "history_hook_ko": "한라산 이름은 '은하수를 끌어당긴다'는 뜻으로 전한다. 세조실록에 1464년 흰 사슴을 바쳤다는 기록이 있다. 2007년 유네스코 자연유산.",
+  "viewpoints": [
+   {
+    "name": "성산일출봉",
+    "lat": 33.45806,
+    "lon": 126.9425,
+    "kind": "ground",
+    "note_ko": "높이 182 m 응회구 꼭대기, 새해 첫 일출",
+    "coord_source": "Wikidata Q122225"
+   },
+   {
+    "name": "광치기해변",
+    "lat": 33.45377,
+    "lon": 126.92552,
+    "kind": "ground",
+    "note_ko": "성산 전체를 정면으로, 썰물 때 용암 바위",
+    "coord_source": "OSM way 580761402 (Nominatim)"
+   },
+   {
+    "name": "백록담",
+    "lat": 33.36213,
+    "lon": 126.53334,
+    "kind": "ground",
+    "note_ko": "한라산 정상 화구호",
+    "coord_source": "OSM way 199548046 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "성산은 일출. 한라산은 겨울 상고대와 봄 철쭉.",
+  "data_notes_ko": "구글 3D 타일의 한국 3D는 위에서 본 영상뿐이라는 보고가 있다(2024-10-15 Cesium 포럼, 서울 코엑스). 2026-02-27 정밀지도 반출 조건부 승인 뒤 반영 시점은 미확인. 승인은 길찾기에 필요한 최소 정보만이고 등고선은 빠진다. 국내 공공 DEM·3D의 상업 조건 확인 필요.",
+  "sensitivity_ko": "제주 4·3(1947~1954, 1만 4천~3만 명 희생)의 흔적이 섬 곳곳에 있다. 다룬다면 추모의 톤으로. N7W 선정은 무제한 중복 투표 논란이 있었다.",
+  "korea_note_ko": "국내 사용자의 크기 기준점이 된다. 성산일출봉 ko 조회 5,881회, 한라산 16,952회."
+ },
+ {
+  "id": "namib-sossusvlei",
+  "name_ko": "나미브 사막 소수스블레이·데드블레이",
+  "name_en": "Sossusvlei and Deadvlei, Namib",
+  "country_ko": "나미비아",
+  "continent": "africa",
+  "biome": "desert_dunes",
+  "lat": -24.73983,
+  "lon": 15.28765,
+  "tier": "launch",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "UNESCO 자연(나미브 모래바다)",
+   "한국 TV: 꽃보다 청춘 아프리카(2016, 나미비아·짐바브웨)",
+   "ko 관심 비율 1.3"
+  ],
+  "why_ko": "붉은 사구, 흰 점토 바닥, 검은 죽은 나무. 색 대비가 가장 강하고 사람이 거의 없는 장면이다.",
+  "geology_hook_ko": "5,500만~8,000만 년 건조했던, 가장 오래된 사막 후보. 사구는 300 m가 넘기도 한다. 듄 45의 모래는 500만 년 된 칼라하리 모래다.",
+  "history_hook_ko": "데드블레이의 낙타가시나무는 약 600~700년 전(1340~1430년 무렵) 물길이 막혀 죽었고 너무 건조해 썩지 않았다. '소수스'는 나마어로 '돌아올 수 없음'.",
+  "viewpoints": [
+   {
+    "name": "Dune 45",
+    "lat": -24.71667,
+    "lon": 15.46667,
+    "kind": "ground",
+    "note_ko": "170 m 넘는 사구 능선 일출",
+    "coord_source": "Wikidata Q5314935"
+   },
+   {
+    "name": "Deadvlei",
+    "lat": -24.76333,
+    "lon": 15.29472,
+    "kind": "ground",
+    "note_ko": "죽은 나무와 흰 바닥",
+    "coord_source": "Wikidata Q1180957"
+   },
+   {
+    "name": "Big Daddy Dune",
+    "lat": -24.76848,
+    "lon": 15.30304,
+    "kind": "ground",
+    "note_ko": "데드블레이를 내려다보는 높은 사구",
+    "coord_source": "OSM node 2810589630 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "일출 직후 1시간, 사구 그림자 대비. 5~9월 건기.",
+  "data_notes_ko": "사구 기복은 Copernicus 30 m로 표현된다. 나무와 점토 바닥은 직접 만든다. 360 사진은 보통.",
+  "sensitivity_ko": "큰 민감 사항은 없다. 나마어 지명 뜻을 함께 쓴다.",
+  "korea_note_ko": "꽃보다 청춘 아프리카 편(tvN, 2016, 최고 시청률 12.7%)이 나미비아를 다뤘다."
+ },
+ {
+  "id": "victoria-falls",
+  "name_ko": "빅토리아 폭포(모시오아툰야)",
+  "name_en": "Victoria Falls (Mosi-oa-Tunya)",
+  "country_ko": "잠비아·짐바브웨",
+  "continent": "africa",
+  "biome": "waterfall",
+  "lat": -17.92444,
+  "lon": 25.85667,
+  "tier": "launch",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 5,
+   "data": 3,
+   "calm": 3
+  },
+  "canon": [
+   "CNN 1997",
+   "UNESCO 자연",
+   "ko 조회 6,810회"
+  ],
+  "why_ko": "너비 1,708 m, 높이 108 m로 세계에서 가장 큰 '떨어지는 물의 막'. 아프리카 두 번째 자리를 맡는다.",
+  "geology_hook_ko": "잠베지강이 현무암 대지의 균열을 따라 협곡을 판다. 첫 협곡 깊이 80~108 m, 물보라는 400 m 넘게 솟아 50 km 밖에서 보인다.",
+  "history_hook_ko": "로지어 이름 모시오아툰야는 '천둥 치는 연기'. 1855년 리빙스턴이 여왕 이름을 붙였고, 물보라가 기차에 닿게 놓은 다리가 1905년 무렵 열렸다.",
+  "viewpoints": [
+   {
+    "name": "Danger Point",
+    "lat": -17.92697,
+    "lon": 25.85916,
+    "kind": "ground",
+    "note_ko": "짐바브웨 쪽 협곡 끝 절벽",
+    "coord_source": "OSM node 241502637 (Overpass)"
+   },
+   {
+    "name": "Knife Edge Bridge",
+    "lat": -17.92648,
+    "lon": 25.86162,
+    "kind": "ground",
+    "note_ko": "잠비아 쪽 물보라 속 다리",
+    "coord_source": "OSM node 241502973 (Nominatim)"
+   },
+   {
+    "name": "Victoria Falls Bridge",
+    "lat": -17.92833,
+    "lon": 25.85722,
+    "kind": "ground",
+    "note_ko": "국경 철교에서 보는 협곡",
+    "coord_source": "Wikidata Q317323"
+   }
+  ],
+  "best_light_ko": "2~5월 최대 수량(물보라가 시야를 가림), 건기엔 절벽이 드러난다. 보름달 밤 달무지개.",
+  "data_notes_ko": "협곡이 좁아 30 m DEM으론 부족하다. 물과 물보라는 VFX. 양국 산책로 360이 많다.",
+  "sensitivity_ko": "두 나라 이름(모시오아툰야/빅토리아폴스)을 함께 쓴다. 식민지 명명 역사를 설명한다.",
+  "korea_note_ko": "꽃보다 청춘 아프리카(2016) 짐바브웨 편(세부 장소 미확인). ko 관심 비율 1.0."
+ },
+ {
+  "id": "great-barrier-reef",
+  "name_ko": "그레이트배리어리프(휘트선데이)",
+  "name_en": "Great Barrier Reef (Whitsundays)",
+  "country_ko": "호주(퀸즐랜드)",
+  "continent": "oceania",
+  "biome": "reef_island",
+  "lat": -16.4,
+  "lon": 145.8,
+  "tier": "launch",
+  "scores": {
+   "iconic": 5,
+   "drama": 4,
+   "story": 5,
+   "data": 3,
+   "calm": 4
+  },
+  "canon": [
+   "CNN 1997",
+   "UNESCO 자연 1981",
+   "N7W 최종 14(2011)"
+  ],
+  "why_ko": "생물이 만든 지구 최대 구조물. 물속 대신 하늘에서 산호초 무늬와 흰 모래 소용돌이를 보는 장면으로 만든다.",
+  "geology_hook_ko": "산호초 2,900여 개와 섬 900개가 2,300 km 넘게 이어진다. 면적 약 344,400 km². 우주에서도 보인다.",
+  "history_hook_ko": "애버리지니·토레스 해협 사람들의 오랜 바다. 1770년 6월 11일 쿡의 인데버호가 초에 걸려 7주를 수리했다. 1985년 이후 산호 피복 절반 이상을 잃었다는 연구가 있다.",
+  "viewpoints": [
+   {
+    "name": "Hill Inlet Lookout",
+    "lat": -20.2459,
+    "lon": 149.02047,
+    "kind": "ground",
+    "note_ko": "흰 모래와 청록 물의 소용돌이",
+    "coord_source": "OSM node 2838865940 (Nominatim)"
+   },
+   {
+    "name": "Heart Reef",
+    "lat": -19.77799,
+    "lon": 149.24866,
+    "kind": "aerial",
+    "note_ko": "하트 모양 초, 경비행기·헬기로만 본다",
+    "coord_source": "OSM node 3502863694 (Nominatim)"
+   },
+   {
+    "name": "Whitehaven Beach",
+    "lat": -20.28268,
+    "lon": 149.03491,
+    "kind": "ground",
+    "note_ko": "규사 해변",
+    "coord_source": "Wikidata Q2123432"
+   }
+  ],
+  "best_light_ko": "5~10월 건기. 썰물 때 힐 인렛 무늬가 선명하다.",
+  "data_notes_ko": "수심 지형과 위성 영상으로 만든다(라이선스 미확인). 2014년 구글 수중 3D 스트리트뷰 이력. 물속 장면은 범위 밖.",
+  "sensitivity_ko": "전통 소유자들의 바다다. 백화 현상은 연도와 출처를 붙여 사실대로.",
+  "korea_note_ko": "ko 조회 9,702회(관심 비율 1.1)."
+ },
+ {
+  "id": "iguazu-falls",
+  "name_ko": "이구아수 폭포",
+  "name_en": "Iguazu Falls",
+  "country_ko": "아르헨티나·브라질",
+  "continent": "south_america",
+  "biome": "waterfall",
+  "lat": -25.68667,
+  "lon": -54.44472,
+  "tier": "next",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 4,
+   "data": 3,
+   "calm": 3
+  },
+  "canon": [
+   "N7W 2011",
+   "UNESCO 자연(아르헨티나 1984, 브라질 1986)",
+   "ko 조회 6,927회"
+  ],
+  "why_ko": "2.7 km 가장자리에 폭포 150~300개. '악마의 목구멍' 위 산책로는 서서 보는 뷰로 최강이다. 폭포 자리를 빅토리아에 내줘 다음 판 1순위.",
+  "geology_hook_ko": "높이 60~82 m. 강물 절반이 너비 80~90 m, 깊이 70~80 m인 '악마의 목구멍'으로 떨어진다.",
+  "history_hook_ko": "과라니어로 '큰 물'. 신이 나이피와 연인을 벌하려 강을 갈랐다는 전설이 있다. 1541년 카베사 데 바카가 처음 기록했다.",
+  "viewpoints": [
+   {
+    "name": "Garganta del Diablo 산책로",
+    "lat": -25.69559,
+    "lon": -54.43634,
+    "kind": "ground",
+    "note_ko": "아르헨티나 쪽 1 km 산책로 끝, 폭포 바로 위",
+    "coord_source": "OSM node 446408446 (Nominatim)"
+   },
+   {
+    "name": "Trilha das Cataratas",
+    "lat": -25.69079,
+    "lon": -54.43758,
+    "kind": "ground",
+    "note_ko": "브라질 쪽 정면 파노라마",
+    "coord_source": "OSM way 542167418 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "맑은 날 물보라 무지개. 수량은 강수에 따라 크게 달라진다.",
+  "data_notes_ko": "숲 덮인 저기복이라 지형보다 물 VFX가 핵심이다. 360 사진이 많다.",
+  "sensitivity_ko": "과라니 전설은 출처를 밝힌다. Iguazú(스페인어)·Iguaçu(포르투갈어)를 함께 쓴다.",
+  "korea_note_ko": "ko 관심 비율 1.0. 남미 일주 코스로 알려져 있다(수치 미확인)."
+ },
+ {
+  "id": "kilimanjaro",
+  "name_ko": "킬리만자로",
+  "name_en": "Mount Kilimanjaro",
+  "country_ko": "탄자니아",
+  "continent": "africa",
+  "biome": "mountain",
+  "lat": -3.06667,
+  "lon": 37.35917,
+  "tier": "next",
+  "scores": {
+   "iconic": 5,
+   "drama": 4,
+   "story": 5,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "N7W 최종 14(2011)",
+   "UNESCO 자연",
+   "en 조회 81만"
+  ],
+  "why_ko": "사바나 위에 홀로 선 아프리카 최고봉. 사라지는 만년설은 기후 이야기의 상징이다.",
+  "geology_hook_ko": "해발 5,895 m, 주변 고원에서 4,900 m 솟은 세계 최고 단독 산. 1912~2011년 사이 얼음 85%가 사라졌다.",
+  "history_hook_ko": "1848년 선교사 레브만이 유럽에 처음 알렸고 1889년 한스 마이어가 첫 등정했다. 1973년 국립공원.",
+  "viewpoints": [
+   {
+    "name": "Amboseli National Park",
+    "lat": -2.65,
+    "lon": 37.25,
+    "kind": "ground",
+    "note_ko": "케냐 쪽 평원, 코끼리와 킬리만자로 고전 구도",
+    "coord_source": "Wikidata Q458423"
+   },
+   {
+    "name": "Kibo 정상부",
+    "lat": -3.06667,
+    "lon": 37.35917,
+    "kind": "aerial",
+    "note_ko": "구름 위로 솟은 화구와 빙하",
+    "coord_source": "Wikidata Q7296"
+   }
+  ],
+  "best_light_ko": "1~2월, 6~10월 건기 이른 아침(구름 끼기 전).",
+  "data_notes_ko": "큰 기복이라 Copernicus 30 m로 충분하다. 정상 360은 등반객 사진 위주.",
+  "sensitivity_ko": "케냐 쪽에서 보는 구도라 국가 표기에 유의한다. 차가족 지명·전설은 확인 필요(미확인).",
+  "korea_note_ko": "조용필 '킬리만자로의 표범'(1985)으로 이름이 익숙하다. ko 조회 11,376회."
+ },
+ {
+  "id": "uluru-kata-tjuta",
+  "name_ko": "울루루-카타추타",
+  "name_en": "Uluṟu-Kata Tjuṯa",
+  "country_ko": "호주(노던 준주)",
+  "continent": "oceania",
+  "biome": "monolith_rock",
+  "lat": -25.345,
+  "lon": 131.03611,
+  "tier": "next",
+  "scores": {
+   "iconic": 5,
+   "drama": 4,
+   "story": 5,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "UNESCO 복합유산",
+   "en 조회 45만"
+  ],
+  "why_ko": "사막 한가운데 붉은 바위가 해 질 녘 색을 바꾼다. 점수는 런치급이지만 성지 촬영·상업 이용 조건을 확인한 뒤 연다.",
+  "geology_hook_ko": "높이 348 m, 둘레 9.4 km 사암(아르코스). 5억 5천만~5억 3천만 년 전 페테르만 조산 운동 무렵 쌓였고 대부분이 땅속에 있다.",
+  "history_hook_ko": "1873년 7월 19일 측량사 고스가 '에어즈 록'이라 불렀다. 1985년 10월 26일 아난구에게 반환됐고 등반용 쇠사슬은 2019년 철거됐다.",
+  "viewpoints": [
+   {
+    "name": "Talinguru Nyakunytjaku",
+    "lat": -25.36968,
+    "lon": 131.0629,
+    "kind": "ground",
+    "note_ko": "일출 전망대, 울루루와 카타추타를 함께",
+    "coord_source": "OSM node 2215174742 (Nominatim)"
+   },
+   {
+    "name": "Uluru Sunset Viewing Area",
+    "lat": -25.33005,
+    "lon": 130.99907,
+    "kind": "ground",
+    "note_ko": "일몰 전망대",
+    "coord_source": "OSM node 282219476 (Nominatim)"
+   },
+   {
+    "name": "Kata Tjuta Dune Viewing Area",
+    "lat": -25.35248,
+    "lon": 130.78696,
+    "kind": "ground",
+    "note_ko": "카타추타 사구 전망대",
+    "coord_source": "OSM node 306391804 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "일출·일몰. 공원은 해 지기 1~2시간 전 북동면을 멀리서 넓게 찍기를 권한다.",
+  "data_notes_ko": "Copernicus 30 m로 형태는 나온다. 공원 안 드론은 금지. 기존 사진 사용도 허가 조건 확인 필요.",
+  "sensitivity_ko": "상업·공개용 이미지는 미디어 허가가 필요하다. 문화적으로 민감한 성지는 촬영이 금지다. 성지 이미지는 원래 자리 밖에서 보이면 안 된다는 이유다. 북동면은 멀리서 넓게만 찍고 왼쪽 위 세부는 피해 달라고 요청한다.",
+  "korea_note_ko": "ko 조회 9,036회(관심 비율 0.9)."
+ },
+ {
+  "id": "milford-sound",
+  "name_ko": "밀퍼드 사운드(피오피오타히)",
+  "name_en": "Milford Sound / Piopiotahi",
+  "country_ko": "뉴질랜드(사우스랜드)",
+  "continent": "oceania",
+  "biome": "coast_cliff_fjord",
+  "lat": -44.64806,
+  "lon": 167.90556,
+  "tier": "next",
+  "scores": {
+   "iconic": 3,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연(테 와히포우나무)",
+   "Tripadvisor 2008 세계 1위 여행지",
+   "키플링 '세계 8번째 불가사의'"
+  ],
+  "why_ko": "비가 오면 절벽마다 임시 폭포가 생긴다. 날씨를 바꾸는 연출에 가장 잘 맞는다.",
+  "geology_hook_ko": "연평균 강수 6,412 mm로 사람이 사는 곳 중 가장 습한 축이다. 마이터 피크가 바다에서 바로 솟는다.",
+  "history_hook_ko": "마오리 이름은 마우이가 죽자 홀로 날아와 슬퍼한 새 피오피오 한 마리에서 왔다. 1823년 바다표범잡이가 영어 이름을 붙였다. 연 55만~100만 명.",
+  "viewpoints": [
+   {
+    "name": "Milford Foreshore Walk",
+    "lat": -44.67154,
+    "lon": 167.92505,
+    "kind": "ground",
+    "note_ko": "마이터 피크 정면 물가",
+    "coord_source": "OSM node 6225270724 (Nominatim)"
+   },
+   {
+    "name": "Mitre Peak",
+    "lat": -44.633,
+    "lon": 167.856,
+    "kind": "aerial",
+    "note_ko": "경비행기 고전 구도",
+    "coord_source": "Wikidata Q1049584"
+   }
+  ],
+  "best_light_ko": "비 온 직후(폭포) 또는 맑은 아침 수면 반사.",
+  "data_notes_ko": "뉴질랜드 공개 지형(라이선스 미확인)과 Copernicus 30 m.",
+  "sensitivity_ko": "공식 이중 지명(Milford Sound / Piopiotahi)을 함께 쓴다.",
+  "korea_note_ko": "ko 조회 1,492회(관심 비율 0.8)."
+ },
+ {
+  "id": "kilauea",
+  "name_ko": "킬라우에아",
+  "name_en": "Kīlauea",
+  "country_ko": "미국(하와이)",
+  "continent": "oceania",
+  "biome": "volcano",
+  "lat": 19.4211,
+  "lon": -155.28676,
+  "tier": "next",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 5,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연(하와이 화산 국립공원)",
+   "ko 관심 비율 1.4"
+  ],
+  "why_ko": "2024-12-23부터 할레마우마우에서 분수형 분출이 이어진다(54번째 분수 에피소드는 2026-08-25. 2026-10-12에도 경보 주황, 북쪽 화구 넘침이 이어진다). '지금 터지는' 화산은 다른 사이트에 없는 차별점이다.",
+  "geology_hook_ko": "나이 21만~28만 년, 약 10만 년 전 해수면 위로 오른 순상 화산. 1983~2018년 푸우오오 분출로 1990년 칼라파나 마을이 묻혔다.",
+  "history_hook_ko": "하와이 신화에서 할레마우마우는 불의 여신 펠레의 몸이자 집이다. 1912년 재거가 화산 관측소를 세웠고 1916년 국립공원이 됐다.",
+  "viewpoints": [
+   {
+    "name": "Uēkahuna",
+    "lat": 19.41939,
+    "lon": -155.28902,
+    "kind": "ground",
+    "note_ko": "할레마우마우 정면 절벽 전망대",
+    "coord_source": "OSM node 582340071 (Nominatim)"
+   },
+   {
+    "name": "Kīlauea Overlook",
+    "lat": 19.42319,
+    "lon": -155.28406,
+    "kind": "ground",
+    "note_ko": "칼데라 북쪽 전망대",
+    "coord_source": "OSM node 4357413492 (Nominatim)"
+   },
+   {
+    "name": "Keanakākoʻi Crater",
+    "lat": 19.40008,
+    "lon": -155.264,
+    "kind": "ground",
+    "note_ko": "칼데라 남동쪽 분화구",
+    "coord_source": "OSM node 11563538001 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "밤(용암빛)과 해 질 녘. 분출은 에피소드형이라 시각 예측이 어렵다.",
+  "data_notes_ko": "USGS 라이다·웹캠·라이브스트림(이용 조건 미확인). USGS 공지로 분출 상태를 갱신할 수 있다.",
+  "sensitivity_ko": "원주민 하와이 문화에서 펠레와 화산은 신성하다. 분출 구역은 폐쇄 구역이다.",
+  "korea_note_ko": "ko 조회 8,989회로 한국 관심이 의외로 높다(분출 뉴스 효과로 추정)."
+ },
+ {
+  "id": "amazon-rainforest",
+  "name_ko": "아마존 열대우림(마나우스 두 강 합류점)",
+  "name_en": "Amazon Rainforest (Meeting of Waters, Manaus)",
+  "country_ko": "브라질(아마조나스)",
+  "continent": "south_america",
+  "biome": "forest",
+  "lat": -3.16,
+  "lon": -60.03,
+  "tier": "next",
+  "scores": {
+   "iconic": 5,
+   "drama": 3,
+   "story": 5,
+   "data": 2,
+   "calm": 4
+  },
+  "canon": [
+   "N7W 2011",
+   "UNESCO 자연(중앙 아마존 보전 복합지역 2000, 2003 확장. 두 강 합류점은 범위 밖)",
+   "en 조회 71만"
+  ],
+  "why_ko": "숲 생물군의 대표. 높이가 아니라 색(검은 강과 황토 강의 경계)으로 보여 주는 장면으로 만든다.",
+  "geology_hook_ko": "유역 700만 km² 중 600만 km²가 숲. 네그루강(28°C, 시속 약 2 km)과 솔리몽이스강(22°C, 시속 4~6 km)이 6 km를 섞이지 않고 나란히 흐른다.",
+  "history_hook_ko": "9개 나라에 걸치고 공인된 원주민 영역이 3,344곳이다. 대규모 벌채가 진행 중이다.",
+  "viewpoints": [
+   {
+    "name": "Meeting of Waters",
+    "lat": -3.13667,
+    "lon": -59.90472,
+    "kind": "water",
+    "note_ko": "두 강의 경계선, 배 위",
+    "coord_source": "Wikidata Q656597"
+   },
+   {
+    "name": "MUSA 관측탑",
+    "lat": -3.00719,
+    "lon": -59.93988,
+    "kind": "ground",
+    "note_ko": "숲 지붕 위 관측탑(아마존 박물관)",
+    "coord_source": "OSM way 666764458 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "맑은 오전 항공. 계절별 수위 차는 확인 필요(미확인).",
+  "data_notes_ko": "저기복이라 DEM 효과가 작고 숲 지붕은 직접 만든다. 360 사진이 적다.",
+  "sensitivity_ko": "고립 원주민 60개 집단이 있다. 원주민 영역 장면은 이름과 출처를 확인한 뒤.",
+  "korea_note_ko": "ko 조회 7,895회(관심 비율 0.5)."
+ },
+ {
+  "id": "antarctic-peninsula",
+  "name_ko": "남극반도 르메르 해협",
+  "name_en": "Antarctic Peninsula (Lemaire Channel)",
+  "country_ko": "남극(조약 지역)",
+  "continent": "antarctica",
+  "biome": "glacier_ice",
+  "lat": -65.075,
+  "lon": -63.96667,
+  "tier": "next",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 5,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "캐논 목록 밖",
+   "남극 en 조회 135만",
+   "남극 크루즈 방문객 연 12.4만(2025)"
+  ],
+  "why_ko": "일곱 번째 대륙이자 '집에서만 갈 수 있는' 곳. 런치 직후 1순위로 7대륙을 채운다.",
+  "geology_hook_ko": "르메르 해협은 길이 11 km, 가장 좁은 곳 600 m(영어 위키백과. 독일어판은 약 6 km·720 m라 출처마다 다르다). 남극반도는 면적 522,000 km²의 80%가 얼음이다.",
+  "history_hook_ko": "1898년 12월 벨기카호가 처음 통과했다. 별명은 '코닥 갭'. 2025년 남극 크루즈 방문객은 연 12만 4천 명.",
+  "viewpoints": [
+   {
+    "name": "Lemaire Channel",
+    "lat": -65.075,
+    "lon": -63.96667,
+    "kind": "water",
+    "note_ko": "절벽 사이 빙산 수로",
+    "coord_source": "dewiki Lemaire-Kanal 65°04′30″S 63°58′W (2026-01-06 판, OSM way 1537950632 중심과 1.3 km). Wikidata Q837233 값 -65.133, -64.0은 해협 남쪽 밖이라 2026-10-13 검증에서 바꿈"
+   },
+   {
+    "name": "Neko Harbour",
+    "lat": -64.8333,
+    "lon": -62.55,
+    "kind": "ground",
+    "note_ko": "빙하가 바다로 무너지는 만",
+    "coord_source": "Wikidata Q3347017"
+   },
+   {
+    "name": "Paradise Harbour",
+    "lat": -64.85,
+    "lon": -62.9,
+    "kind": "water",
+    "note_ko": "잔잔한 만",
+    "coord_source": "Wikidata Q141643"
+   }
+  ],
+  "best_light_ko": "11~3월 여름. 밤이 짧아 황금빛이 길다.",
+  "data_notes_ko": "남극 고해상도 지형(REMA 등, 라이선스 미확인). 극지 좌표계 처리가 필요하다. 360 사진이 적다.",
+  "sensitivity_ko": "남극조약 지역이다. 그레이엄랜드·오히긴스랜드 등 영유권 이름이 겹치므로 중립 표기.",
+  "korea_note_ko": "세종과학기지(1988-02-17 설립)가 남극반도 북쪽 남셰틀랜드 제도의 킹조지섬에 있다."
+ },
+ {
+  "id": "yosemite-valley",
+  "name_ko": "요세미티 계곡",
+  "name_en": "Yosemite Valley",
+  "country_ko": "미국(캘리포니아)",
+  "continent": "north_america",
+  "biome": "mountain",
+  "lat": 37.72169,
+  "lon": -119.646,
+  "tier": "next",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 5,
+   "data": 5,
+   "calm": 3
+  },
+  "canon": [
+   "UNESCO 자연 1984",
+   "NPS 2025 5위(약 430만)",
+   "Instagram 2020 1위(검색 요약)"
+  ],
+  "why_ko": "터널 뷰 한 장에 엘캐피탄·하프돔·브라이들베일 폭포가 다 들어온다. 점수는 최상위지만 북미가 이미 셋이라 다음 판.",
+  "geology_hook_ko": "길이 12 km, 깊이 910~1,070 m 빙하 계곡. 약 1,000만 년 전 시에라네바다가 솟고 기울며 화강암이 드러났다.",
+  "history_hook_ko": "1851년 마리포사 대대가 원주민 아와니치를 공격하며 들어왔다. 1864년 링컨의 요세미티 그랜트가 보호 첫 사례, 1890년 국립공원. 터널 뷰는 1933년 열렸다.",
+  "viewpoints": [
+   {
+    "name": "Tunnel View",
+    "lat": 37.71555,
+    "lon": -119.67686,
+    "kind": "ground",
+    "note_ko": "엘캐피탄·하프돔·폭포 고전 구도",
+    "coord_source": "Wikidata Q2433474"
+   },
+   {
+    "name": "Glacier Point",
+    "lat": 37.7308,
+    "lon": -119.573,
+    "kind": "ground",
+    "note_ko": "하프돔 정면 위 전망",
+    "coord_source": "Wikidata Q3108318"
+   }
+  ],
+  "best_light_ko": "늦은 오후 서쪽 빛. 봄 폭포 최대 수량.",
+  "data_notes_ko": "USGS 3DEP 라이다(이용 조건 미확인)와 Copernicus 30 m. 360 사진이 매우 많다.",
+  "sensitivity_ko": "'요세미티'는 미워크어로 '그들은 살인자'라는 타칭이었다. 원래 이름은 아와니(큰 입).",
+  "korea_note_ko": "ko 조회 5,052회(관심 비율 0.6)."
+ },
+ {
+  "id": "cappadocia",
+  "name_ko": "카파도키아(괴레메)",
+  "name_en": "Cappadocia (Göreme)",
+  "country_ko": "튀르키예(네브셰히르)",
+  "continent": "asia",
+  "biome": "monolith_rock",
+  "lat": 38.61833,
+  "lon": 34.86722,
+  "tier": "next",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 5,
+   "data": 4,
+   "calm": 3
+  },
+  "canon": [
+   "UNESCO 복합유산(괴레메)",
+   "Tripadvisor 2025 세계 버킷리스트 체험 1위(열기구)",
+   "ko 조회 9,805회"
+  ],
+  "why_ko": "새벽 열기구 수백 개 사이를 떠가는 시점은 '느린 항공 뷰'의 교과서다. 바위 교회와 지하 도시까지 이야기가 겹친다.",
+  "geology_hook_ko": "화산재가 굳은 무른 암석이 깎여 '요정 굴뚝'이 됐다(형성 연대 미확인).",
+  "history_hook_ko": "초기 기독교 배움터로 괴레메·으흘라라에 바위 교회와 수도원이 수백 곳 있다. 박해를 피해 데린쿠유 같은 지하 도시를 팠다.",
+  "viewpoints": [
+   {
+    "name": "Göreme Sunset Point",
+    "lat": 38.6398,
+    "lon": 34.83105,
+    "kind": "ground",
+    "note_ko": "마을 위 언덕, 열기구 일출",
+    "coord_source": "OSM node 3040944527 (Nominatim)"
+   },
+   {
+    "name": "Uçhisar Castle",
+    "lat": 38.63054,
+    "lon": 34.80543,
+    "kind": "ground",
+    "note_ko": "바위 성 꼭대기",
+    "coord_source": "OSM node 306877923 (Nominatim)"
+   },
+   {
+    "name": "Red Valley viewpoint",
+    "lat": 38.65588,
+    "lon": 34.86172,
+    "kind": "ground",
+    "note_ko": "붉은 계곡 일몰",
+    "coord_source": "OSM node 6724901885 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "일출(열기구), 일몰(레드 밸리).",
+  "data_notes_ko": "굴뚝이 가늘어 Copernicus 30 m로는 안 나온다. 사진측량이 필요하다. 360 사진이 매우 많다.",
+  "sensitivity_ko": "바위 교회는 종교 유산이다. 열기구 사고·운항 정보는 연도와 함께.",
+  "korea_note_ko": "ko 관심 비율 1.1. 장자제(1,282회)보다 한국어 조회가 7배 많아 같은 암석 자리에서 앞섰다."
+ },
+ {
+  "id": "mount-fuji",
+  "name_ko": "후지산",
+  "name_en": "Mount Fuji",
+  "country_ko": "일본(시즈오카·야마나시)",
+  "continent": "asia",
+  "biome": "volcano",
+  "lat": 35.36083,
+  "lon": 138.7275,
+  "tier": "next",
+  "scores": {
+   "iconic": 5,
+   "drama": 5,
+   "story": 5,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 문화유산 2013(자연유산 아님)",
+   "ko 조회 3.46만(목록 1위)",
+   "ko 관심 비율 2.2"
+  ],
+  "why_ko": "한국어 조회가 목록 전체 1위다. 점수도 최상위지만 런치의 화산 자리는 제주가 맡아 다음 판 첫 순서로 둔다.",
+  "geology_hook_ko": "해발 3,776.24 m 성층화산. 마지막 분화는 1707~1708년. 측화산 100개 넘게 줄지어 있다.",
+  "history_hook_ko": "일본 3대 영산. 1830년대 호쿠사이 '후가쿠 36경'. 2024년 야마나시현이 요시다 등산로에 2,000엔 통행료와 하루 4,000명 제한을 도입했다. 2025년 여름부터는 네 등산로 모두 4,000엔이다.",
+  "viewpoints": [
+   {
+    "name": "Chureito Pagoda",
+    "lat": 35.50129,
+    "lon": 138.80136,
+    "kind": "ground",
+    "note_ko": "오층탑·벚꽃·후지 고전 구도",
+    "coord_source": "OSM way 242668128 (Nominatim)"
+   },
+   {
+    "name": "Oishi Park",
+    "lat": 35.52329,
+    "lon": 138.74654,
+    "kind": "ground",
+    "note_ko": "가와구치호 북쪽 물가",
+    "coord_source": "OSM way 1220560079 (Nominatim)"
+   },
+   {
+    "name": "Nakanokura Pass View Point",
+    "lat": 35.47568,
+    "lon": 138.57299,
+    "kind": "ground",
+    "note_ko": "모토스호 너머 후지(지폐 도안 구도로 알려짐, 미확인)",
+    "coord_source": "OSM node 7828166585 (Nominatim)"
+   }
+  ],
+  "best_light_ko": "11~2월 맑은 아침. 4월 벚꽃. 7~8월 등산철.",
+  "data_notes_ko": "일본 공공 지형(이용 조건 미확인)과 Copernicus 30 m. 360 사진이 매우 많다.",
+  "sensitivity_ko": "신앙의 산이다. 과잉관광 규제가 해마다 바뀌므로 연도를 붙인다.",
+  "korea_note_ko": "ko 조회 34,561회. 한국어 관심이 세계 평균의 2.2배."
+ },
+ {
+  "id": "plitvice-lakes",
+  "name_ko": "플리트비체 호수",
+  "name_en": "Plitvice Lakes National Park",
+  "country_ko": "크로아티아",
+  "continent": "europe",
+  "biome": "lake_river",
+  "lat": 44.88045,
+  "lon": 15.61604,
+  "tier": "next",
+  "scores": {
+   "iconic": 3,
+   "drama": 4,
+   "story": 5,
+   "data": 3,
+   "calm": 3
+  },
+  "canon": [
+   "UNESCO 자연 1979",
+   "한국 TV: 꽃보다 누나(2013)",
+   "ko 관심 비율 3.6(외국 장소 1위)"
+  ],
+  "why_ko": "석회 침전물(투파)이 둑을 쌓아 호수가 계단처럼 이어진다. 한국인 관심 비율이 외국 장소 중 가장 높다.",
+  "geology_hook_ko": "투파는 홍적세부터 쌓였고, 지금 호수를 막는 투파 둑은 빙하기가 끝난 약 1만 2천~1만 5천 년 전 이후 자랐다. 호수 사이를 폭포가 잇는다.",
+  "history_hook_ko": "1949년 국립공원, 1979년 유네스코. 1991년 3월 '피의 부활절'이 크로아티아 독립전쟁 첫 사망 충돌이었다. 2019년부터 여름 하루 12,000명 제한.",
+  "viewpoints": [
+   {
+    "name": "하부 호수 전망대",
+    "lat": 44.90239,
+    "lon": 15.60875,
+    "kind": "ground",
+    "note_ko": "1번 입구 쪽 협곡 위, 하부 호수 조망",
+    "coord_source": "OSM node 565668370 (Overpass, 이름 없음)"
+   },
+   {
+    "name": "Tomićevo pogledalo",
+    "lat": 44.87372,
+    "lon": 15.59676,
+    "kind": "ground",
+    "note_ko": "공원 남쪽 전망대(구도 미확인)",
+    "coord_source": "OSM node 2533265826 (Overpass)"
+   }
+  ],
+  "best_light_ko": "10월 단풍, 5~6월 수량. 인파 전 이른 아침.",
+  "data_notes_ko": "폭포와 나무다리 규모가 작아 30 m DEM은 의미가 없다. 사진측량이 필요하다. 360 사진이 많다.",
+  "sensitivity_ko": "1991년 전쟁사는 정확한 표현으로. 연 약 150만 명 방문(2024)과 수질 문제가 지적됐다.",
+  "korea_note_ko": "꽃보다 누나(tvN, 2013-12-27 방송분)가 다뤘다. ko 조회 4,695회."
+ },
+ {
+  "id": "dolomites",
+  "name_ko": "돌로미티",
+  "name_en": "Dolomites",
+  "country_ko": "이탈리아",
+  "continent": "europe",
+  "biome": "mountain",
+  "lat": 46.43333,
+  "lon": 11.85,
+  "tier": "next",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 5,
+   "data": 5,
+   "calm": 3
+  },
+  "canon": [
+   "UNESCO 자연 2009",
+   "en 조회 55만",
+   "ko 조회 1.04만"
+  ],
+  "why_ko": "회색 봉우리가 초원 위에 성벽처럼 선다. 지질과 1차 세계대전 전선 이야기가 함께 있다.",
+  "geology_hook_ko": "이름은 광물 돌로마이트에서 왔고, 광물 이름은 처음 기술한 프랑스 광물학자 돌로미외(1750~1801)에서 왔다.",
+  "history_hook_ko": "1차 세계대전 때 이탈리아와 오스트리아-헝가리의 전선이 산맥을 지났다. 2009-06-26 유네스코 등재.",
+  "viewpoints": [
+   {
+    "name": "Tre Cime di Lavaredo",
+    "lat": 46.61861,
+    "lon": 12.30556,
+    "kind": "ground",
+    "note_ko": "세 봉우리",
+    "coord_source": "Wikidata Q1257207"
+   },
+   {
+    "name": "Lago di Braies",
+    "lat": 46.69361,
+    "lon": 12.085,
+    "kind": "ground",
+    "note_ko": "호수와 절벽 반영",
+    "coord_source": "Wikidata Q445369"
+   },
+   {
+    "name": "Alpe di Siusi",
+    "lat": 46.54111,
+    "lon": 11.64472,
+    "kind": "ground",
+    "note_ko": "고원 초지 너머 산군",
+    "coord_source": "Wikidata Q1261451"
+   }
+  ],
+  "best_light_ko": "6~9월 일출·일몰에 봉우리가 붉게 물든다. 9월 말 단풍.",
+  "data_notes_ko": "지역 공개 라이다(라이선스 미확인)와 Copernicus 30 m. 360 사진이 매우 많다.",
+  "sensitivity_ko": "인기 지점 과잉관광과 통행 제한이 이슈다(세부 미확인).",
+  "korea_note_ko": "ko 조회 10,420회(관심 비율 0.9)."
+ },
+ {
+  "id": "table-mountain",
+  "name_ko": "테이블산",
+  "name_en": "Table Mountain",
+  "country_ko": "남아프리카공화국(케이프타운)",
+  "continent": "africa",
+  "biome": "mountain",
+  "lat": -33.96218,
+  "lon": 18.409883,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 4,
+   "story": 4,
+   "data": 4,
+   "calm": 2
+  },
+  "canon": [
+   "N7W 2011"
+  ],
+  "why_ko": "N7W이지만 도시를 내려다보는 산이라 고요 점수가 낮다.",
+  "geology_hook_ko": "정상부 '테이블산 사암'은 오르도비스기 암석. 식물 2,285종 중 약 80%가 핀보스.",
+  "history_hook_ko": "코이코이어 이름 후리오악사는 '바다에서 솟은'. 국립공원 연 420만 명.",
+  "viewpoints": [],
+  "best_light_ko": "늦은 오후, 정상을 덮는 '테이블보' 구름.",
+  "data_notes_ko": "도시라 3D 데이터가 많다.",
+  "sensitivity_ko": "코이 원주민 역사를 함께 쓴다.",
+  "korea_note_ko": "ko 조회 778회."
+ },
+ {
+  "id": "perito-moreno",
+  "name_ko": "페리토 모레노 빙하",
+  "name_en": "Perito Moreno Glacier",
+  "country_ko": "아르헨티나(산타크루스)",
+  "continent": "south_america",
+  "biome": "glacier_ice",
+  "lat": -50.49322,
+  "lon": -73.12798,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연(로스 글라시아레스, 미확인)"
+  ],
+  "why_ko": "빙하 정면 붕괴를 가까이서 본다. 빙하 자리는 알레치·남극이 맡았다.",
+  "geology_hook_ko": "길이 30 km, 면적 250 km². 정면 너비 5 km, 수면 위 평균 74 m. 브라소 리코 쪽 물이 30 m까지 차오르면 얼음 둑이 터진다.",
+  "history_hook_ko": "1879년 후안 토마스 로저스 선장이 원주민 아닌 사람으로 처음 보았다. 이름은 탐험가 프란시스코 모레노.",
+  "viewpoints": [],
+  "best_light_ko": "남반구 여름(11~3월).",
+  "data_notes_ko": "Copernicus 30 m. 360 사진 많음.",
+  "sensitivity_ko": "칠레·아르헨티나 국경 역사.",
+  "korea_note_ko": "ko 문서 없음."
+ },
+ {
+  "id": "torres-del-paine",
+  "name_ko": "토레스 델 파이네",
+  "name_en": "Torres del Paine National Park",
+  "country_ko": "칠레(마가야네스)",
+  "continent": "south_america",
+  "biome": "mountain",
+  "lat": -50.98306,
+  "lon": -72.96639,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "캐논 목록 밖"
+  ],
+  "why_ko": "파타고니아 화강암 세 탑. 남미 산악 대표 후보.",
+  "geology_hook_ko": "세 개의 화강암 봉우리 '파이네의 탑'.",
+  "history_hook_ko": "1959년 국립공원. '파이네'는 테우엘체어로 '파랑'.",
+  "viewpoints": [],
+  "best_light_ko": "일출에 탑이 붉게 물든다.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "산불 이력(미확인).",
+  "korea_note_ko": "ko 조회 950회."
+ },
+ {
+  "id": "galapagos",
+  "name_ko": "갈라파고스 제도",
+  "name_en": "Galápagos Islands",
+  "country_ko": "에콰도르",
+  "continent": "south_america",
+  "biome": "reef_island",
+  "lat": -0.5,
+  "lon": -90.5,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 3,
+   "story": 5,
+   "data": 3,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연 1978"
+  ],
+  "why_ko": "이야기는 최고지만 항공 경관의 극적인 맛은 약하다.",
+  "geology_hook_ko": "화산섬 군도.",
+  "history_hook_ko": "1835-09-15 비글호가 도착해 다윈의 진화론에 영감을 줬다. 1978년 유네스코.",
+  "viewpoints": [],
+  "best_light_ko": "연중.",
+  "data_notes_ko": "수중·생물 중심이라 지형 3D 효과가 작다.",
+  "sensitivity_ko": "생태 보호 규정.",
+  "korea_note_ko": "ko 조회 15,844회로 한국 관심이 높다."
+ },
+ {
+  "id": "rio-guanabara-bay",
+  "name_ko": "리우데자네이루 과나바라만",
+  "name_en": "Guanabara Bay (Harbor of Rio de Janeiro)",
+  "country_ko": "브라질",
+  "continent": "south_america",
+  "biome": "coast_cliff_fjord",
+  "lat": -22.79043,
+  "lon": -43.15567,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 4,
+   "story": 5,
+   "data": 5,
+   "calm": 2
+  },
+  "canon": [
+   "CNN 1997"
+  ],
+  "why_ko": "CNN 목록이지만 대도시 항구라 자연 경관의 결이 다르다.",
+  "geology_hook_ko": "화강암 봉우리에 둘러싸인 만.",
+  "history_hook_ko": "1502-01-01 포르투갈 탐험대가 만나 '1월의 강'이라 불렀다.",
+  "viewpoints": [],
+  "best_light_ko": "일몰.",
+  "data_notes_ko": "도시라 3D 데이터가 많다.",
+  "sensitivity_ko": "도시 치안·빈민가 묘사 주의.",
+  "korea_note_ko": "ko 조회 115회."
+ },
+ {
+  "id": "angel-falls",
+  "name_ko": "앙헬 폭포(케레파쿠파이 메루)",
+  "name_en": "Angel Falls",
+  "country_ko": "베네수엘라",
+  "continent": "south_america",
+  "biome": "waterfall",
+  "lat": 5.9675,
+  "lon": -62.53556,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 4,
+   "data": 2,
+   "calm": 5
+  },
+  "canon": [
+   "UNESCO 자연(카나이마 국립공원)"
+  ],
+  "why_ko": "세계에서 가장 높은 폭포. 현지 접근이 어려워 '집에서' 가치가 크지만 데이터가 약하다.",
+  "geology_hook_ko": "높이 979 m, 단일 낙차 807 m. 아우얀테푸이 가장자리에서 떨어진다.",
+  "history_hook_ko": "1933-11-16 미국 조종사 지미 에인절이 처음 비행했다. 페몬어 이름 케레파쿠파이 메루.",
+  "viewpoints": [],
+  "best_light_ko": "우기에 수량이 많다(미확인).",
+  "data_notes_ko": "Copernicus 30 m. 360 사진 적음.",
+  "sensitivity_ko": "원주민 이름 병기. 베네수엘라 정세(미확인).",
+  "korea_note_ko": "ko 조회 2,224회."
+ },
+ {
+  "id": "paricutin",
+  "name_ko": "파리쿠틴 화산",
+  "name_en": "Parícutin",
+  "country_ko": "멕시코(미초아칸)",
+  "continent": "north_america",
+  "biome": "volcano",
+  "lat": 19.493,
+  "lon": -102.251,
+  "tier": "long",
+  "scores": {
+   "iconic": 2,
+   "drama": 3,
+   "story": 5,
+   "data": 3,
+   "calm": 4
+  },
+  "canon": [
+   "CNN 1997"
+  ],
+  "why_ko": "이야기는 최고지만 지금 모습은 평범한 분석구다.",
+  "geology_hook_ko": "1943~1952년 분출한 분석구.",
+  "history_hook_ko": "1943년 농부 디오니시오 풀리도의 옥수수밭에서 솟았다. 화산의 탄생을 현대 과학이 처음 지켜본 사례.",
+  "viewpoints": [],
+  "best_light_ko": "건기.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "묻힌 마을 주민 이야기.",
+  "korea_note_ko": "ko 조회 265회."
+ },
+ {
+  "id": "niagara-falls",
+  "name_ko": "나이아가라 폭포",
+  "name_en": "Niagara Falls",
+  "country_ko": "미국·캐나다",
+  "continent": "north_america",
+  "biome": "waterfall",
+  "lat": 43.0799,
+  "lon": -79.0747,
+  "tier": "long",
+  "scores": {
+   "iconic": 5,
+   "drama": 4,
+   "story": 4,
+   "data": 5,
+   "calm": 1
+  },
+  "canon": [
+   "Instagram 2020 2위(검색 요약)",
+   "Tripadvisor 2026 미국 체험 10위"
+  ],
+  "why_ko": "인기는 최상위지만 도시·조명 속 폭포라 고요 점수가 가장 낮다.",
+  "geology_hook_ko": "이번 조사에서 지질 수치는 확인하지 않았다.",
+  "history_hook_ko": "Instagram 해시태그 약 460만(2020, 검색 요약), Tripadvisor 2026 미국 체험 10위.",
+  "viewpoints": [],
+  "best_light_ko": "겨울 결빙, 밤 조명.",
+  "data_notes_ko": "도시라 3D 데이터가 많다.",
+  "sensitivity_ko": "두 나라 표기.",
+  "korea_note_ko": "ko 조회 6,573회."
+ },
+ {
+  "id": "yellowstone",
+  "name_ko": "옐로스톤",
+  "name_en": "Yellowstone National Park",
+  "country_ko": "미국(와이오밍 등)",
+  "continent": "north_america",
+  "biome": "volcano",
+  "lat": 44.6,
+  "lon": -110.5,
+  "tier": "long",
+  "scores": {
+   "iconic": 5,
+   "drama": 4,
+   "story": 5,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연",
+   "NPS 2025 3위(약 480만)"
+  ],
+  "why_ko": "점수는 높지만 화산 자리가 셋(제주·킬라우에아·후지)이고 미국 국립공원이 이미 둘이라 롱.",
+  "geology_hook_ko": "북미 최대 초화산 칼데라. 강들이 64만 년 동안 응회암을 깎아 협곡을 냈다.",
+  "history_hook_ko": "1872-03-01 그랜트 대통령이 서명한 세계 첫 국립공원.",
+  "viewpoints": [],
+  "best_light_ko": "이른 아침 온천 김.",
+  "data_notes_ko": "USGS 라이다(조건 미확인).",
+  "sensitivity_ko": "원주민 부족 이야기.",
+  "korea_note_ko": "ko 조회 6,019회."
+ },
+ {
+  "id": "monument-valley",
+  "name_ko": "모뉴먼트 밸리",
+  "name_en": "Monument Valley",
+  "country_ko": "미국(나바호 네이션)",
+  "continent": "north_america",
+  "biome": "monolith_rock",
+  "lat": 36.98333,
+  "lon": -110.1,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "존 포드 서부극 촬영지"
+  ],
+  "why_ko": "서부극의 상징. 부족 공원이라 허가 확인이 먼저다.",
+  "geology_hook_ko": "평원에 남은 사암 뷰트.",
+  "history_hook_ko": "존 포드 '역마차'(1939) 등 서부극 촬영지.",
+  "viewpoints": [],
+  "best_light_ko": "일출·일몰.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "나바호 네이션 부족 공원. 촬영·드론 규정은 부족 허가(미확인).",
+  "korea_note_ko": "ko 조회 2,550회."
+ },
+ {
+  "id": "denali",
+  "name_ko": "데날리(연방 공식 이름 Mount McKinley)",
+  "name_en": "Denali",
+  "country_ko": "미국(알래스카)",
+  "continent": "north_america",
+  "biome": "mountain",
+  "lat": 63.06917,
+  "lon": -151.00639,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "북미 최고봉"
+  ],
+  "why_ko": "기복은 최고급이지만 이름이 정치 쟁점이다.",
+  "geology_hook_ko": "해발 6,190 m, 북미 최고봉.",
+  "history_hook_ko": "2025-02-14 내무부 명령 3424로 연방 공식 이름이 Mount McKinley로 돌아갔다. 국립공원 이름은 Denali 유지.",
+  "viewpoints": [],
+  "best_light_ko": "여름 맑은 날.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "코유콘어 Deenaalee('높은 것'). 두 이름을 함께 쓴다.",
+  "korea_note_ko": "ko 조회 2,229회."
+ },
+ {
+  "id": "puerto-princesa-underground-river",
+  "name_ko": "푸에르토프린세사 지하강",
+  "name_en": "Puerto Princesa Subterranean River",
+  "country_ko": "필리핀(팔라완)",
+  "continent": "asia",
+  "biome": "karst",
+  "lat": 10.16667,
+  "lon": 118.91667,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 3,
+   "story": 3,
+   "data": 2,
+   "calm": 4
+  },
+  "canon": [
+   "N7W 2011",
+   "UNESCO 자연 1999"
+  ],
+  "why_ko": "N7W지만 볼거리가 동굴 안이라 지형 경관으로는 약하다.",
+  "geology_hook_ko": "지하 구간 8.2 km, 동굴계 32 km 이상.",
+  "history_hook_ko": "1999-12-04 유네스코.",
+  "viewpoints": [],
+  "best_light_ko": "건기.",
+  "data_notes_ko": "동굴 내부 스캔 필요.",
+  "sensitivity_ko": "보호구역 입장 제한.",
+  "korea_note_ko": "ko 조회 194회."
+ },
+ {
+  "id": "komodo",
+  "name_ko": "코모도 국립공원",
+  "name_en": "Komodo National Park",
+  "country_ko": "인도네시아",
+  "continent": "asia",
+  "biome": "reef_island",
+  "lat": -8.65162,
+  "lon": 119.57657,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 4,
+   "story": 4,
+   "data": 3,
+   "calm": 4
+  },
+  "canon": [
+   "N7W 2011",
+   "UNESCO 자연 1991"
+  ],
+  "why_ko": "파다르섬 능선 전망이 강하다. 산호·섬 자리는 그레이트배리어리프가 맡았다.",
+  "geology_hook_ko": "섬 29개, 면적 1,733 km².",
+  "history_hook_ko": "1980년 코모도왕도마뱀 보호를 위해 국립공원.",
+  "viewpoints": [],
+  "best_light_ko": "건기.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "입장 제한 정책 변화.",
+  "korea_note_ko": "ko 조회 420회."
+ },
+ {
+  "id": "zhangjiajie",
+  "name_ko": "장자제(장가계) 국가삼림공원",
+  "name_en": "Zhangjiajie National Forest Park",
+  "country_ko": "중국(후난)",
+  "continent": "asia",
+  "biome": "monolith_rock",
+  "lat": 29.3274,
+  "lon": 110.416,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 4,
+   "data": 3,
+   "calm": 3
+  },
+  "canon": [
+   "UNESCO 자연 1992(우링위안)"
+  ],
+  "why_ko": "아바타 바위기둥. 한국어 조회가 낮아 카파도키아에 다음 판 자리를 내줬다.",
+  "geology_hook_ko": "규암질 사암 기둥이 물리적 풍화로 깎였다. 1,080 m '남천일주'는 2010-01 '아바타 할렐루야산'으로 개명.",
+  "history_hook_ko": "1992년 우링위안 유네스코 등재.",
+  "viewpoints": [],
+  "best_light_ko": "비 갠 뒤 운해.",
+  "data_notes_ko": "기둥이 가늘어 30 m DEM 불가. 구글 서비스 제한 지역.",
+  "sensitivity_ko": "중국 지명 표기.",
+  "korea_note_ko": "ko 위키는 한국인이 관광에 가장 큰 영향이라 적지만 조회는 1,282회."
+ },
+ {
+  "id": "lake-baikal",
+  "name_ko": "바이칼호",
+  "name_en": "Lake Baikal",
+  "country_ko": "러시아(시베리아)",
+  "continent": "asia",
+  "biome": "lake_river",
+  "lat": 53.5,
+  "lon": 108.0,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 4,
+   "story": 5,
+   "data": 3,
+   "calm": 5
+  },
+  "canon": [
+   "UNESCO 자연",
+   "en 조회 81만"
+  ],
+  "why_ko": "점수는 높지만 러시아 관련 정치·여행 제약 때문에 롱.",
+  "geology_hook_ko": "최대 수심 1,642 m, 2,500만~3,000만 년 된 가장 오래된 호수. 지표 담수의 22~23%.",
+  "history_hook_ko": "가장 큰 섬 올혼은 길이 72 km.",
+  "viewpoints": [],
+  "best_light_ko": "2~3월 투명한 얼음.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "러시아 여행 제약(미확인). 한민족 기원설은 학설이 갈린다.",
+  "korea_note_ko": "ko 조회 14,029회."
+ },
+ {
+  "id": "baekdusan",
+  "name_ko": "백두산(창바이산)",
+  "name_en": "Mount Paektu",
+  "country_ko": "북한·중국 국경",
+  "continent": "asia",
+  "biome": "volcano",
+  "lat": 41.99278,
+  "lon": 128.07722,
+  "tier": "long",
+  "scores": {
+   "iconic": 4,
+   "drama": 5,
+   "story": 5,
+   "data": 3,
+   "calm": 5
+  },
+  "canon": [
+   "ko 조회 3.16만(목록 2위)"
+  ],
+  "why_ko": "한국 관심은 압도적이지만 국경·명칭 문제로 롱.",
+  "geology_hook_ko": "946년 '천년 분화'로 100~120 km³를 뿜어 칼데라와 천지가 생겼다. 해발 2,744 m.",
+  "history_hook_ko": "단군 신화의 탄생지로 여겨진다.",
+  "viewpoints": [],
+  "best_light_ko": "7~9월.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "최고봉은 북한, 관광은 대부분 중국 쪽. 백두산/창바이산 명칭 문제.",
+  "korea_note_ko": "한국/세계 관심 비율 14.2로 목록 최고(한라산 14.0과 비슷). en 문서가 2026-04에 Paektu Mountain에서 Mount Paektu로 옮겨져 두 제목의 원 문서 조회 104,023회를 합쳐 셌다."
+ },
+ {
+  "id": "korean-tidal-flats",
+  "name_ko": "한국의 갯벌",
+  "name_en": "Getbol, Korean Tidal Flats",
+  "country_ko": "대한민국(서남해안)",
+  "continent": "asia",
+  "biome": "coast_cliff_fjord",
+  "lat": 34.82882,
+  "lon": 126.10444,
+  "tier": "long",
+  "scores": {
+   "iconic": 2,
+   "drama": 3,
+   "story": 4,
+   "data": 3,
+   "calm": 5
+  },
+  "canon": [
+   "UNESCO 자연 2021"
+  ],
+  "why_ko": "한국 두 번째 자연유산. 물때와 철새를 시간 슬라이더로 보여 주기 좋다.",
+  "geology_hook_ko": "조석이 만든 넓은 펄 갯벌.",
+  "history_hook_ko": "2021년 갯벌 4곳이 유네스코 자연유산이 됐다.",
+  "viewpoints": [],
+  "best_light_ko": "철새 이동기(봄·가을).",
+  "data_notes_ko": "국내 DEM 확인 필요.",
+  "sensitivity_ko": "어민 생활권.",
+  "korea_note_ko": "관심 비율 20.4."
+ },
+ {
+  "id": "jokulsarlon",
+  "name_ko": "요쿨살론 빙하 석호",
+  "name_en": "Jökulsárlón",
+  "country_ko": "아이슬란드",
+  "continent": "europe",
+  "biome": "glacier_ice",
+  "lat": 64.07028,
+  "lon": -16.21167,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 5,
+   "story": 4,
+   "data": 4,
+   "calm": 4
+  },
+  "canon": [
+   "UNESCO 자연(바트나요쿨, 미확인)"
+  ],
+  "why_ko": "빙산이 떠다니는 석호. 빙하 자리는 알레치가 맡았다.",
+  "geology_hook_ko": "1934~35년 빙하가 물러나며 석호가 생겼고 깊이는 200 m가 넘는다.",
+  "history_hook_ko": "1985년 007 '뷰 투 어 킬' 개봉과 함께 보트 투어가 시작됐다.",
+  "viewpoints": [],
+  "best_light_ko": "겨울 오로라, 여름 백야.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "큰 민감 사항 없음.",
+  "korea_note_ko": "꽃보다 청춘 아이슬란드(2016) 방영(세부 장소 미확인)."
+ },
+ {
+  "id": "atacama",
+  "name_ko": "아타카마 사막 밤하늘",
+  "name_en": "Atacama Desert",
+  "country_ko": "칠레",
+  "continent": "south_america",
+  "biome": "sky",
+  "lat": -24.5,
+  "lon": -69.25,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 4,
+   "story": 4,
+   "data": 4,
+   "calm": 5
+  },
+  "canon": [
+   "ALMA·VLT 천문대 입지"
+  ],
+  "why_ko": "은하수 하늘의 대표. 같은 역할을 우유니 밤 장면이 맡아 롱.",
+  "geology_hook_ko": "극지를 뺀 세계에서 가장 건조한 사막.",
+  "history_hook_ko": "높은 고도와 빛 공해 없음으로 ALMA·VLT가 들어섰다.",
+  "viewpoints": [],
+  "best_light_ko": "달 없는 밤.",
+  "data_notes_ko": "Copernicus 30 m.",
+  "sensitivity_ko": "원주민 공동체 물 문제(미확인).",
+  "korea_note_ko": "ko 조회 5,294회."
+ },
+ {
+  "id": "great-smoky-mountains",
+  "name_ko": "그레이트스모키산맥",
+  "name_en": "Great Smoky Mountains National Park",
+  "country_ko": "미국(테네시·노스캐롤라이나)",
+  "continent": "north_america",
+  "biome": "forest",
+  "lat": 35.61111,
+  "lon": -83.425,
+  "tier": "long",
+  "scores": {
+   "iconic": 3,
+   "drama": 3,
+   "story": 4,
+   "data": 5,
+   "calm": 4
+  },
+  "canon": [
+   "NPS 2025 1위(약 1,153만)"
+  ],
+  "why_ko": "미국에서 가장 붐비는 국립공원이지만 세계 인지도는 낮다. '방문객 수 ≠ 보고 싶은 곳'의 예.",
+  "geology_hook_ko": "안개 낀 숲 능선.",
+  "history_hook_ko": "1934-06-15 의회가 설립, 1940년 루스벨트가 헌정.",
+  "viewpoints": [],
+  "best_light_ko": "가을 단풍.",
+  "data_notes_ko": "USGS 데이터(조건 미확인).",
+  "sensitivity_ko": "체로키 땅의 역사.",
+  "korea_note_ko": "ko 조회 402회."
+ }
+]
