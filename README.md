@@ -58,6 +58,8 @@
 ## 1단계 시제품 (2026-10-13~14)
 
 - 아티팩트: https://claude.ai/artifact/DyiDov5tYmNKwMCcURHpqs (v2, 검토 39건 반영)
+- 저장소: git@github.com:JiHoon777/armchair-travel.git (이 맥에서는 SSH 별칭 `git@github-777:JiHoon777/armchair-travel.git`로 푸시)
+- Vercel: https://armchair-travel.vercel.app (프로젝트 jihoon777s-projects/armchair-travel). `vercel.json`이 빌드 없이 `site/`를 내보내고, `.vercelignore`가 `site/`와 `vercel.json`만 올린다. 지금은 `npx vercel@latest deploy --prod --yes`로 올린다. GitHub 앱 권한을 주면 main 푸시마다 자동 배포된다.
 - 로컬: `armchair/tools/serve.sh` → http://localhost:8077 . 정적 파일만 있다(빌드 없음, three@0.170.0은 jsDelivr import map). 키·URL 매개변수는 `site/README.md`.
 - 흐름: 지구본 → 내려가기 30초 → 크게 보기 → 다가가기 → 그 자리에 서기(그랜저 포인트 360 사진) → 하루 빨리 감기 → 지구본(틀어 두기면 반복). 한 바퀴 약 12분 50초.
 - 데이터(모두 상업 이용 가능): 지형 AWS Terrain Tiles(USGS 3DEP 공공 영역), 항공 사진 USGS The National Map(NAIP, 공공 영역, 코어 3.3 m/px), 360 사진 Grand Canyon NPS, 지구본 NASA 블루·블랙 마블(+ 남서부 500 m 지역 패치), 소리 NPS 공공 영역 + Freesound CC0. 설명 글은 직접 썼고 사실 76개·출처 27곳을 반박 검증했다.
